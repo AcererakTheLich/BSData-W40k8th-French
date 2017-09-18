@@ -2014,13 +2014,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="45f3-1792-1bdb-72fb" name="Defence Line" hidden="false" targetId="bf23-9a02-99b4-5709" type="profile">
+        <infoLink id="45f3-1792-1bdb-72fb" name="Ligne de Défence" hidden="false" targetId="bf23-9a02-99b4-5709" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="238a-f756-6edf-3af8" name="Static Defence Network" hidden="false" targetId="c60f-7b10-88fd-9eba" type="profile">
+        <infoLink id="238a-f756-6edf-3af8" name="Réseau de Défence Fixe" hidden="false" targetId="c60f-7b10-88fd-9eba" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2046,7 +2046,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="73d3-f95c-d744-bb3f" name="4x Large Shield Section" hidden="false" collective="false" type="model">
+        <selectionEntry id="73d3-f95c-d744-bb3f" name="4x Grande section de rempart" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2064,7 +2064,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3a15-deb8-1b5e-3626" name="4x Small Shield Section" hidden="false" collective="false" type="model">
+        <selectionEntry id="3a15-deb8-1b5e-3626" name="4x Petite section de rempart" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2082,9 +2082,9 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8c46-154f-6513-afdd" name="Gun Emplacement" hidden="false" collective="false" type="model">
+        <selectionEntry id="8c46-154f-6513-afdd" name="Emplacement d&apos;arme" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="e1ed-6018-b84a-3200" name="Gun Emplacement" book="Index: Imperium 2" page="129" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+            <profile id="e1ed-6018-b84a-3200" name="Emplacement d&apos;arme" book="Index: Imperium 2" page="129" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2104,7 +2104,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="e1b5-aeea-1332-2ba6" name="Automated Weapons (Gun Emplacement)" hidden="false" targetId="57f6-edd9-6170-5c91" type="profile">
+            <infoLink id="e1b5-aeea-1332-2ba6" name="Armes Automatisées (Emplacement d&apos;arme)" hidden="false" targetId="57f6-edd9-6170-5c91" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2139,7 +2139,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="143e-c847-95e7-8941" name="Icarus Lascannon" hidden="false" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry">
+                <entryLink id="143e-c847-95e7-8941" name="Canon laser Icarus" hidden="false" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2147,7 +2147,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="3f88-b691-eea1-9a21" name="Quad-gun" hidden="false" targetId="e4c2-0571-1de7-02e1" type="selectionEntry">
+                <entryLink id="3f88-b691-eea1-9a21" name="Quadritube" hidden="false" targetId="e4c2-0571-1de7-02e1" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6162,11 +6162,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0a2-9100-e1e5-8bc0" name="Icarus Lascannon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c0a2-9100-e1e5-8bc0" name="Canon laser Icarus" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="5768-a1a7-3cf6-ebfe" name="Icarus Lascannon" hidden="false" targetId="cb26-27b4-9393-a768" type="profile">
+        <infoLink id="5768-a1a7-3cf6-ebfe" name="Canon laser Icarus" hidden="false" targetId="cb26-27b4-9393-a768" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6228,11 +6228,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e4c2-0571-1de7-02e1" name="Quad-gun" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e4c2-0571-1de7-02e1" name="Quadritube" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="1b8e-6544-9049-edf1" name="Quad-gun" hidden="false" targetId="3922-981d-ccb7-c169" type="profile">
+        <infoLink id="1b8e-6544-9049-edf1" name="Quadritube" hidden="false" targetId="3922-981d-ccb7-c169" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9224,18 +9224,18 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="cb26-27b4-9393-a768" name="Icarus Lascannon" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="cb26-27b4-9393-a768" name="Canon laser Icarus" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Lourde 1"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Ajouter 1 aux jets de touche pour cette arme contre les cibles avec le mot-clé Vol. Soustrayez 1 aux jets de touche pour cette arme contre les autres cibles."/>
       </characteristics>
     </profile>
     <profile id="8161-3b0e-8048-0e83" name="Missile launcher, Krak missile" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9582,18 +9582,18 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="3922-981d-ccb7-c169" name="Quad-gun" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="3922-981d-ccb7-c169" name="Quadritube" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 8"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Lourde 8"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Ajoutez 1 aux jets de touche pour cette arme contre les cibles avec le mot-clé Vol. Soustrayez 1 aux jets de touche pour cette arme contre les autres cibles."/>
       </characteristics>
     </profile>
     <profile id="3d4b-95ea-f860-dd22" name="Boltgun" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -11211,7 +11211,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model cannot move for any reason, nor can it fight in the Fight phase. Enemy models automatically hit this model in the Fight phase - do not make hit rolls. However, this model can still shoot if there are enemy models within 1&quot; of it, and friendly unit can still target enemy units that are within 1&quot; of this model."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Cette figurine ne peut se déplcer sous aucun prétexte, et ne peut pas combattre à la phase de Combat. Les figurines ennemies la touchent automatiquement à la phase de Combat - ne faites pas de jets de touche. Néanmoins, elle peut tirer même s&apos;il y a des figurines ennemies à 1&quot; ou moins d&apos;elle, et les unités amies peuvent cibler les unités ennemies à 1&quot; ou moins de cette figurine."/>
       </characteristics>
     </profile>
     <profile id="a179-f592-3224-72c9" name="Automated Weapons" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -11259,31 +11259,33 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="15 models embarked in this model can shoot in their Shooting phase, measuring and drawing line of sight from any point on this model. They can do this even if enemy models are within 1&quot; of this model."/>
       </characteristics>
     </profile>
-    <profile id="57f6-edd9-6170-5c91" name="Automated Weapons (Gun Emplacement)" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="57f6-edd9-6170-5c91" name="Armes Automatisées (Emplacement d&apos;arme)" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Unless a friendly INFANTRY model is within 1&quot; of a gun emplacement, it can only target the nearest visible enemy. If two units are equally close, you may choose which is targeted."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A moins qu&apos;une figurine Infanterie amie soit à 1&quot; ou moins d&apos;un emplacement d&apos;arme, celui-ci peut seulement cibler l&apos;unité ennemie visible la plus proche. Si plusieurs unités sont aussi proches, choisissez celle qui est ciblée."/>
       </characteristics>
     </profile>
-    <profile id="bf23-9a02-99b4-5709" name="Defence Line" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="bf23-9a02-99b4-5709" name="Ligne de Défence" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY units within 1&quot; of a defence line, and behind it from the point of view of the firing unit, receive the benefit of cover.  When charging a unit of the opposite side of a defence line, the charge is successful if the charging unit can move within 2&quot; of that unit. When resolving fights between units on two opposite sides of a defence line, unit can be chosen to fight and make their attacks if the enemy is within 2&quot; instead of the normal 1&quot;."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités Infanterie à 1&quot; ou moins d&apos;une Aegis Defence Line, et situées derrière elle du point de vue de l&apos;unité qui tire bénéficient d&apos;un couvert.
+
+Lorsqu&apos;on charge une unité située de l&apos;autre côté d&apos;une Aegis Defence Line, la charge réussi si l&apos;unité qui charge peut se déplacer à 2&quot; ou moins de l&apos;unité ciblée. Quand on résout les combats entre des unités situées de part et d&apos;autre d&apos;une Aegis Defence Line, les unités peuvent être choisies pour combattre et effectuer leurs attaques si l&apos;ennemi est à 2&quot; ou moins au lieu de 1&quot;. "/>
       </characteristics>
     </profile>
-    <profile id="c60f-7b10-88fd-9eba" name="Static Defence Network" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="c60f-7b10-88fd-9eba" name="Réseau de Défence Fixe" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="After it is set up, a defence line (excluding its gun emplacement, if any) is treated as a terrain feature. It cannot move for any reason, it is not treated as a friendly or enemy model, and cannot be targeted or affected by any attacks or abilities."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Après avoir été placée, une Aegis Defence Line (à l&apos;exception de son éventuel emplacement d&apos;arme) est traitée comme un élément de terrain. Elle ne peut se déplacer sous aucun prétexte, n&apos;est pas considérée comme une figurine amie ou ennemie, et ne peut pas être ciblée ni affectée par des attaques ou des aptitudes."/>
       </characteristics>
     </profile>
     <profile id="9446-1148-da70-4028" name="Explodes" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">

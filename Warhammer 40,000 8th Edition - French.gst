@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 8th Edition" revision="24" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 8th Edition - French" revision="24" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0"/>
-    <costType id="e356-c769-5920-6e14" name=" PL" defaultCostLimit="-1.0"/>
+    <costType id="e356-c769-5920-6e14" name="RP" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Weapon">
+    <profileType id="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arme">
       <characteristicTypes>
-        <characteristicType id="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range"/>
+        <characteristicType id="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Portée"/>
         <characteristicType id="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type"/>
-        <characteristicType id="59b1-319e-ec13-d466" name="S"/>
-        <characteristicType id="75aa-a838-b675-6484" name="AP"/>
+        <characteristicType id="59b1-319e-ec13-d466" name="F"/>
+        <characteristicType id="75aa-a838-b675-6484" name="PA"/>
         <characteristicType id="ae8a-3137-d65b-4ca7" name="D"/>
-        <characteristicType id="837d-5e63-aeb7-1410" name="Abilities"/>
+        <characteristicType id="837d-5e63-aeb7-1410" name="Aptitudes"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Abilities">
+    <profileType id="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Aptitudes">
       <characteristicTypes>
         <characteristicType id="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
       </characteristicTypes>
     </profileType>
     <profileType id="b3a8-0452-7436-44d1" name="Transport">
       <characteristicTypes>
-        <characteristicType id="15aa-1916-a38b-d223" name="Capacity"/>
+        <characteristicType id="15aa-1916-a38b-d223" name="Capacité"/>
       </characteristicTypes>
     </profileType>
     <profileType id="bc97-dea9-9e88-bb7d" name="Psyker">
       <characteristicTypes>
-        <characteristicType id="5afb-9914-904b-d3b3" name="Cast"/>
-        <characteristicType id="b5ac-9c20-5d5a-6f9b" name="Deny"/>
-        <characteristicType id="69d7-b45e-00a2-7e46" name="Powers Known"/>
-        <characteristicType id="c2e2-f115-0003-5d7b" name="Other"/>
+        <characteristicType id="5afb-9914-904b-d3b3" name="Manifester"/>
+        <characteristicType id="b5ac-9c20-5d5a-6f9b" name="Abjurer"/>
+        <characteristicType id="69d7-b45e-00a2-7e46" name="Pouvoirs connus"/>
+        <characteristicType id="c2e2-f115-0003-5d7b" name="Autre"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ae70-4738-0161-bec0" name="Psychic Power">
+    <profileType id="ae70-4738-0161-bec0" name="Pouvoir psychique">
       <characteristicTypes>
-        <characteristicType id="5ffd-b800-c317-532a" name="Warp Charge"/>
-        <characteristicType id="fd64-cbc4-94de-24cc" name="Range"/>
-        <characteristicType id="ad96-dfa4-b4ed-656d" name="Details"/>
+        <characteristicType id="5ffd-b800-c317-532a" name="Charge Warp"/>
+        <characteristicType id="fd64-cbc4-94de-24cc" name="Portée"/>
+        <characteristicType id="ad96-dfa4-b4ed-656d" name="Détails"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5f4f-ea74-0630-4afe" name="Wound Track">
+    <profileType id="5f4f-ea74-0630-4afe" name="Dégâts">
       <characteristicTypes>
-        <characteristicType id="8e45-c866-b2d4-c9ab" name="Remaining W"/>
-        <characteristicType id="bf41-c860-50bc-2a7e" name="Characteristic 1"/>
-        <characteristicType id="dc18-e51f-309b-8efa" name="Characteristic 2"/>
-        <characteristicType id="df06-8eca-150f-90ba" name="Characteristic 3"/>
+        <characteristicType id="8e45-c866-b2d4-c9ab" name="Pv restants"/>
+        <characteristicType id="bf41-c860-50bc-2a7e" name="Caractéristique 1"/>
+        <characteristicType id="dc18-e51f-309b-8efa" name="Caractéristique 2"/>
+        <characteristicType id="df06-8eca-150f-90ba" name="Caractéristique 3"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="800f-21d0-4387-c943" name="Unit">
+    <profileType id="800f-21d0-4387-c943" name="Unité">
       <characteristicTypes>
         <characteristicType id="0bdf-a96e-9e38-7779" name="M"/>
-        <characteristicType id="e7f0-1278-0250-df0c" name="WS"/>
-        <characteristicType id="381b-eb28-74c3-df5f" name="BS"/>
-        <characteristicType id="2218-aa3c-265f-2939" name="S"/>
-        <characteristicType id="9c9f-9774-a358-3a39" name="T"/>
-        <characteristicType id="f330-5e6e-4110-0978" name="W"/>
+        <characteristicType id="e7f0-1278-0250-df0c" name="CC"/>
+        <characteristicType id="381b-eb28-74c3-df5f" name="CT"/>
+        <characteristicType id="2218-aa3c-265f-2939" name="F"/>
+        <characteristicType id="9c9f-9774-a358-3a39" name="E"/>
+        <characteristicType id="f330-5e6e-4110-0978" name="Pv"/>
         <characteristicType id="13fc-b29b-31f2-ab9f" name="A"/>
-        <characteristicType id="00ca-f8b8-876d-b705" name="Ld"/>
-        <characteristicType id="c0df-df94-abd7-e8d3" name="Save"/>
+        <characteristicType id="00ca-f8b8-876d-b705" name="Cd"/>
+        <characteristicType id="c0df-df94-abd7-e8d3" name="Sv"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="50ea-3b64-d9ae-0e3f" name="Stat Damage - BS">
+    <profileType id="50ea-3b64-d9ae-0e3f" name="Dégâts Stat - CT">
       <characteristicTypes>
-        <characteristicType id="ada9-1c1d-fa2a-3803" name="Remaining W"/>
-        <characteristicType id="b7a6-b64d-4339-eb87" name="BS"/>
+        <characteristicType id="ada9-1c1d-fa2a-3803" name="Pv restants"/>
+        <characteristicType id="b7a6-b64d-4339-eb87" name="CT"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b900-0afb-e411-2cbb" name="Keywords">
+    <profileType id="b900-0afb-e411-2cbb" name="Mots-clés">
       <characteristicTypes>
-        <characteristicType id="6b92-2d97-5144-62bc" name="Keywords (Faction)"/>
-        <characteristicType id="ce6c-4765-4bb8-bd49" name="Keywords (Basic)"/>
+        <characteristicType id="6b92-2d97-5144-62bc" name="Mots-clés de faction"/>
+        <characteristicType id="ce6c-4765-4bb8-bd49" name="Mots-clés"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -85,42 +85,42 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ" hidden="false">
+    <categoryEntry id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="QG" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false">
+    <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elite" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false">
+    <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troupes" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false">
+    <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Att. Rapide" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support" hidden="false">
+    <categoryEntry id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Soutien" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false">
+    <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="Seigneur des batailles" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -176,14 +176,14 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="e888-1504-aa61-95ff" name="Flyer" hidden="false">
+    <categoryEntry id="e888-1504-aa61-95ff" name="Aéronef" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="1b66-3f5f-6705-079a" name="Dedicated Transport" hidden="false">
+    <categoryEntry id="1b66-3f5f-6705-079a" name="Transport assigné" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -339,14 +339,14 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="a0c7-2a71-bae0-215d" name="Patrol Detachment" hidden="false">
+    <forceEntry id="a0c7-2a71-bae0-215d" name="Détachement de patrouille" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="22fe-e36f-71e2-b796" name="Patrol Detachment" hidden="false">
+        <forceEntry id="22fe-e36f-71e2-b796" name="Détachement de patrouille" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -501,14 +501,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="564e-55d5-79bc-a4d7" name="Battalion Detachment +3CP" hidden="false">
+    <forceEntry id="564e-55d5-79bc-a4d7" name="Détachement de bataillon +3PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="c7fc-1172-cd53-2dae" name="Battalion Detachment" hidden="false">
+        <forceEntry id="c7fc-1172-cd53-2dae" name="Détachement de bataillon" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -565,7 +565,7 @@
               <modifiers/>
               <constraints/>
             </categoryLink>
-            <categoryLink id="1153-a2ee-cd37-9992" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+            <categoryLink id="1153-a2ee-cd37-9992" name="Att. Rapide" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -663,14 +663,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="cccd-3d99-d4af-d668" name="Brigade Detachment +9CP" hidden="false">
+    <forceEntry id="cccd-3d99-d4af-d668" name="Détachement de brigade +9PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="daea-75d3-1073-2ba0" name="Brigade Detachment" hidden="false">
+        <forceEntry id="daea-75d3-1073-2ba0" name="Détachement de brigade" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -828,14 +828,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="41af-75ce-79d2-ddff" name="Vanguard Detachment +1CP" hidden="false">
+    <forceEntry id="41af-75ce-79d2-ddff" name="Détachement d&apos;avant-garde +1PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="780c-2ab9-34f4-7c30" name="Vanguard Detachment" hidden="false">
+        <forceEntry id="780c-2ab9-34f4-7c30" name="Détachement d&apos;avant-garde" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -871,7 +871,7 @@
               <modifiers/>
               <constraints/>
             </categoryLink>
-            <categoryLink id="3ef6-bbd6-4973-b0cc" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+            <categoryLink id="3ef6-bbd6-4973-b0cc" name="Att. Rapide" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -990,14 +990,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="120c-9e15-1d3f-637e" name="Spearhead Detachment +1CP" hidden="false">
+    <forceEntry id="120c-9e15-1d3f-637e" name="Détachement de fer de lance +1PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="c50f-184b-1482-8ce7" name="Spearhead Detachment" hidden="false">
+        <forceEntry id="c50f-184b-1482-8ce7" name="Détachement de fer de lance" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1152,14 +1152,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="3c85-9649-d2da-9bde" name="Outrider Detachment +1CP" hidden="false">
+    <forceEntry id="3c85-9649-d2da-9bde" name="Détachement d&apos;éclaireurs +1PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="6fb7-031b-0276-59c9" name="Outrider Detachment" hidden="false">
+        <forceEntry id="6fb7-031b-0276-59c9" name="Détachement d&apos;éclaireurs" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1314,14 +1314,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="5baf-eed5-bb85-7325" name="Supreme Command Detachment +1CP" hidden="false">
+    <forceEntry id="5baf-eed5-bb85-7325" name="Détachement d&apos;état-major suprême +1PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="b0ab-9c0d-ff4b-c17e" name="Supreme Command Detachment" hidden="false">
+        <forceEntry id="b0ab-9c0d-ff4b-c17e" name="Détachement d&apos;état-major suprême" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1424,14 +1424,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="d513-cbf5-9bfc-7270" name="Super-Heavy Detachment +3CP" hidden="false">
+    <forceEntry id="d513-cbf5-9bfc-7270" name="Détachement super-lourd +3PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="6576-b25c-8ce9-8860" name="Super-Heavy Detachment" hidden="false">
+        <forceEntry id="6576-b25c-8ce9-8860" name="Détachement super-lourd" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1476,14 +1476,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="b7e3-6a38-7bbe-c7d2" name="Air Wing Detachment +1CP" hidden="false">
+    <forceEntry id="b7e3-6a38-7bbe-c7d2" name="Détachement d&apos;escadrille +1PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="444e-30c9-5181-aa6b" name="Air Wing Detachment" hidden="false">
+        <forceEntry id="444e-30c9-5181-aa6b" name="Détachement d&apos;escadrille" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1528,7 +1528,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="224b-1070-218f-fdf4" name="Super-Heavy Auxiliary Detachment" hidden="false">
+    <forceEntry id="224b-1070-218f-fdf4" name="Détachement auxiliaire super-lourd" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1543,7 +1543,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="fd86-521c-89cd-53b4" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="fd86-521c-89cd-53b4" name="Seigneur des batailles" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1555,14 +1555,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="dcee-07fa-ec14-7dec" name="Fortification Network" hidden="false">
+    <forceEntry id="dcee-07fa-ec14-7dec" name="Réseau de fortifications" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries>
-        <forceEntry id="a39c-5420-c141-262c" name="Fortification Network" hidden="false">
+        <forceEntry id="a39c-5420-c141-262c" name="Réseau de fortifications" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1607,7 +1607,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="8a87-f0e3-f2f2-ad1a" name="Auxiliary Support Detachment -1CP" hidden="false">
+    <forceEntry id="8a87-f0e3-f2f2-ad1a" name="Détachement d&apos;appui auxiliaire -1PC" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1632,49 +1632,49 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="765e-ebad-7cd0-d952" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="765e-ebad-7cd0-d952" name="QG" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4251-29e5-bb48-d668" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="4251-29e5-bb48-d668" name="Troupes" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="d2bf-84f3-f089-ae42" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="d2bf-84f3-f089-ae42" name="Elite" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="db20-7a0f-2a50-f1c7" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="db20-7a0f-2a50-f1c7" name="Att. Rapide" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="9153-b8bd-1f8a-9f1f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="9153-b8bd-1f8a-9f1f" name="Soutien" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="0960-9271-26d6-1831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="0960-9271-26d6-1831" name="Aéronef" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1d7c-3253-d90d-6e3a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="1d7c-3253-d90d-6e3a" name="Transport assigné" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1719,7 +1719,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="d486-01d8-2603-a869" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="d486-01d8-2603-a869" name="Att. Rapide" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1733,7 +1733,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="0ee9-f3b9-cc0c-40a8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="0ee9-f3b9-cc0c-40a8" name="Aéronef" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2060,7 +2060,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2078,7 +2078,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2091,14 +2091,14 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-                <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-                <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-                <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-                <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="7"/>
-                <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="3"/>
+                <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+                <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+                <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+                <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="7"/>
+                <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="3"/>
                 <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-                <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-                <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
+                <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+                <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2160,7 +2160,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2169,7 +2169,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="75.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16d6-25c4-af92-4329" name="Aquila Strongpoint" book="Planetary Onslaught" page="" hidden="false" collective="false" type="model">
@@ -2181,14 +2181,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="10"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="30"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="10"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="30"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2281,12 +2281,12 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+                    <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
                     <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="14"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+                    <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="14"/>
+                    <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                     <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Treat any damage rolls of 1 or 2 made for this weapon as 3 instead."/>
+                    <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Treat any damage rolls of 1 or 2 made for this weapon as 3 instead."/>
                   </characteristics>
                 </profile>
                 <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -2295,12 +2295,12 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180&quot;"/>
+                    <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180&quot;"/>
                     <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+                    <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+                    <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
                     <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                    <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
                   </characteristics>
                 </profile>
                 <profile id="14b1-1529-10dd-db95" name="Magazine Explosion (Macro-cannon)" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -2323,7 +2323,7 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="80.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1600-8ea4-6f3f-383f" name="Vortex Missile Battery" hidden="false" collective="false" type="upgrade">
@@ -2334,12 +2334,12 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180&quot;"/>
+                    <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180&quot;"/>
                     <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="-"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-"/>
+                    <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="-"/>
+                    <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-"/>
                     <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="-"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds."/>
+                    <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds."/>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -2362,7 +2362,7 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="100.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2390,7 +2390,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="330.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="20.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a172-78de-aaa6-2201" name="Firestorm Redoubt" book="Planetary Onslaught" page="85" hidden="false" collective="false" type="model">
@@ -2402,14 +2402,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -2418,7 +2418,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
+            <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2546,7 +2546,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="15.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8300-7ced-aafd-2a27" name="Fortress of Redemption" book="" page="" hidden="false" collective="false" type="model">
@@ -2558,14 +2558,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="0"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="*"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="0"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="10"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="30"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="*"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="0"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="10"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="30"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="0"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="6c91-1bed-eb98-ebba" name="Fortress of Redemption (1)" hidden="false" profileTypeId="50ea-3b64-d9ae-0e3f" profileTypeName="Stat Damage - BS">
@@ -2574,8 +2574,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining W" characteristicTypeId="ada9-1c1d-fa2a-3803" value="21-30+"/>
-            <characteristic name="BS" characteristicTypeId="b7a6-b64d-4339-eb87" value="5+"/>
+            <characteristic name="Pv restants" characteristicTypeId="ada9-1c1d-fa2a-3803" value="21-30+"/>
+            <characteristic name="CT" characteristicTypeId="b7a6-b64d-4339-eb87" value="5+"/>
           </characteristics>
         </profile>
         <profile id="9863-71f1-397f-a7ce" name="Fortress of Redemption (2)" hidden="false" profileTypeId="50ea-3b64-d9ae-0e3f" profileTypeName="Stat Damage - BS">
@@ -2584,8 +2584,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining W" characteristicTypeId="ada9-1c1d-fa2a-3803" value="11-20"/>
-            <characteristic name="BS" characteristicTypeId="b7a6-b64d-4339-eb87" value="6+"/>
+            <characteristic name="Pv restants" characteristicTypeId="ada9-1c1d-fa2a-3803" value="11-20"/>
+            <characteristic name="CT" characteristicTypeId="b7a6-b64d-4339-eb87" value="6+"/>
           </characteristics>
         </profile>
         <profile id="562b-8464-deb7-55ab" name="Fortress of Redemption (3)" hidden="false" profileTypeId="50ea-3b64-d9ae-0e3f" profileTypeName="Stat Damage - BS">
@@ -2594,8 +2594,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining W" characteristicTypeId="ada9-1c1d-fa2a-3803" value="1-10"/>
-            <characteristic name="BS" characteristicTypeId="b7a6-b64d-4339-eb87" value="7+"/>
+            <characteristic name="Pv restants" characteristicTypeId="ada9-1c1d-fa2a-3803" value="1-10"/>
+            <characteristic name="CT" characteristicTypeId="b7a6-b64d-4339-eb87" value="7+"/>
           </characteristics>
         </profile>
         <profile id="cf90-f8df-224e-6333" name="Fortress of Redemption" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -2604,7 +2604,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 30 models."/>
+            <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 30 models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2658,12 +2658,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18-96&quot;"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18-96&quot;"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
               </characteristics>
             </profile>
             <profile id="7068-6a6c-21c8-aebc" name="Fragstorm Missile" book="Index: Imperium 1" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -2672,12 +2672,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18-96&quot;"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18-96&quot;"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2693,7 +2693,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2724,7 +2724,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="400.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="20.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55c6-268b-357f-d070" name="Imperial Bastion" book="" page="" hidden="false" collective="false" type="model">
@@ -2736,14 +2736,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="9"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="9"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -2752,7 +2752,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
+            <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2876,7 +2876,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0116-c81b-1c0f-251c" name="Imperial Bunker" book="" page="" hidden="false" collective="false" type="model">
@@ -2888,14 +2888,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="12"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="12"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -2904,7 +2904,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 10 models."/>
+            <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 10 models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3017,7 +3017,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f73-97f2-b832-f6d0" name="Imperial Defence Line" book="" page="" hidden="false" collective="false" type="unit">
@@ -3103,7 +3103,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3131,7 +3131,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3146,7 +3146,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3158,7 +3158,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="80.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47e8-03be-a35b-8329" name="Plasma Obliterator" hidden="false" collective="false" type="model">
@@ -3170,14 +3170,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="9"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="9"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -3186,7 +3186,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
+            <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
           </characteristics>
         </profile>
         <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -3240,12 +3240,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6&quot;"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you roll a hit roll of 1 when firing this weapon, this model suffers a mortal wound after all of its shots have been resolved."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you roll a hit roll of 1 when firing this weapon, this model suffers a mortal wound after all of its shots have been resolved."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3270,7 +3270,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="40.0"/>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3278,7 +3278,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="150.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cdd-edbb-07c3-0ba5" name="Skyshield Landing Pad" book="Planetary Onslaught" page="101" hidden="false" collective="false" type="model">
@@ -3290,14 +3290,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="-"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="-"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
           </characteristics>
         </profile>
         <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -3365,7 +3365,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="110.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="04bf-6c22-19fb-4e46" name="Vengeance Weapon Batteries" book="" page="" hidden="false" collective="false" type="unit">
@@ -3386,14 +3386,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="10"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="10"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3515,7 +3515,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="80.0"/>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3523,7 +3523,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbd4-5f41-35d1-6c5f" name="Void Shield Generator" book="Planetary Onslaught" page="92" hidden="false" collective="false" type="model">
@@ -3535,14 +3535,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="-"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="18"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="-"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="18"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
           </characteristics>
         </profile>
         <profile id="c818-46ac-f5b8-cd39" name="Projected Void Shields" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -3601,7 +3601,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="190.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd22-6743-2d4c-dd62" name="Flamer" hidden="false" collective="false" type="upgrade">
@@ -3623,7 +3623,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05ab-e7cc-e856-c36f" name="Heavy bolter" hidden="false" collective="false" type="upgrade">
@@ -3645,7 +3645,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efc8-c51d-5b02-a3a2" name="Meltagun" hidden="false" collective="false" type="upgrade">
@@ -3667,7 +3667,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c14-22cc-93ce-b85a" name="Plasma gun" hidden="false" collective="false" type="upgrade">
@@ -3695,7 +3695,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="13.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83be-1ba9-c326-4760" name="Plasma pistol" hidden="false" collective="false" type="upgrade">
@@ -3723,7 +3723,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="7.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3292-34e6-f679-d5b9" name="Power axe" hidden="false" collective="false" type="upgrade">
@@ -3745,7 +3745,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ea7-1195-7144-438e" name="Power maul" hidden="false" collective="false" type="upgrade">
@@ -3767,7 +3767,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc9e-551d-9afb-78d5" name="Power sword" hidden="false" collective="false" type="upgrade">
@@ -3789,7 +3789,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09d8-7790-ed3f-4d6d" name="Twin heavy bolter" hidden="false" collective="false" type="upgrade">
@@ -3811,7 +3811,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f122-3720-fa32-4215" name="Power fist" hidden="false" collective="false" type="upgrade">
@@ -3833,7 +3833,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cddf-945e-1335-e681" name="Frag &amp; Krak grenades" hidden="false" collective="true" type="upgrade">
@@ -3861,7 +3861,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18bc-b335-29c2-2ae2" name="Heavy flamer" hidden="false" collective="false" type="upgrade">
@@ -3883,7 +3883,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1469-1964-7a91-94d4" name="Missile launcher" hidden="false" collective="false" type="upgrade">
@@ -3911,7 +3911,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a1-e0c4-c1b1-dce1" name="Combi-flamer" hidden="false" collective="false" type="upgrade">
@@ -3945,7 +3945,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="11.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdce-cdf7-21a9-f9ac" name="Combi-plasma" hidden="false" collective="false" type="upgrade">
@@ -3985,7 +3985,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c445-e211-f316-5d83" name="Combi-melta" hidden="false" collective="false" type="upgrade">
@@ -4019,7 +4019,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="19.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a908-4664-11cd-f8b2" name="Lascannon" hidden="false" collective="false" type="upgrade">
@@ -4041,7 +4041,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e464-77c1-12bb-e52f" name="Chainfist" hidden="false" collective="false" type="upgrade">
@@ -4063,7 +4063,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="22.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b37-65ee-9443-b4ef" name="Multi-melta" hidden="false" collective="false" type="upgrade">
@@ -4085,7 +4085,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="27.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90de-7b01-e401-888b" name="Lightning Claw" hidden="false" collective="false" type="upgrade">
@@ -4115,7 +4115,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5210-8cb2-b5a2-a04f" name="Autocannon" hidden="false" collective="false" type="upgrade">
@@ -4137,7 +4137,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5752-d165-5e03-d38c" name="Autogun" hidden="false" collective="false" type="upgrade">
@@ -4159,7 +4159,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0507-a97d-4f7f-83b4" name="Autopistol" hidden="false" collective="false" type="upgrade">
@@ -4181,7 +4181,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d7b-4f46-b77b-ead1" name="Battle cannon" hidden="false" collective="false" type="upgrade">
@@ -4203,7 +4203,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfa3-5fcd-af10-5520" name="Heavy stubber" hidden="false" collective="false" type="upgrade">
@@ -4225,7 +4225,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2094-c9a6-a426-0970" name="Shotgun" hidden="false" collective="false" type="upgrade">
@@ -4247,7 +4247,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a0e-0f13-63c2-9aae" name="Force axe" hidden="false" collective="false" type="upgrade">
@@ -4269,7 +4269,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="16.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f9a-c4fe-3132-d011" name="Force stave" hidden="false" collective="false" type="upgrade">
@@ -4291,7 +4291,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="14.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07e7-1f9b-4c1c-aad9" name="Force sword" hidden="false" collective="false" type="upgrade">
@@ -4313,7 +4313,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="12.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0334-f487-8229-0c1a" name="Bolt pistol" hidden="false" collective="false" type="upgrade">
@@ -4335,7 +4335,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b61f-a3c1-827d-c5b6" name="Boltgun" hidden="false" collective="false" type="upgrade">
@@ -4357,7 +4357,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dd1-2e2b-7dd1-5495" name="Chainsword" hidden="false" collective="false" type="upgrade">
@@ -4379,7 +4379,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3a8-4aab-77ee-956a" name="Assault bolter" hidden="false" collective="false" type="upgrade">
@@ -4401,7 +4401,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51b0-3d46-5af4-683e" name="Assault cannon" book="" hidden="false" collective="false" type="upgrade">
@@ -4423,7 +4423,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="21.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4dd-2ff1-9f8e-ab00" name="Astartes grenade launcher" book="" hidden="false" collective="false" type="upgrade">
@@ -4451,7 +4451,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="11.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce59-8ed4-4497-8a53" name="Astartes shotgun" hidden="false" collective="false" type="upgrade">
@@ -4472,7 +4472,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4494,7 +4494,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4523,7 +4523,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2b8-099c-9f60-0faf" name="Centurion missile launcher" hidden="false" collective="false" type="upgrade">
@@ -4545,7 +4545,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3846-568f-f410-946e" name="Cerberus launcher" hidden="false" collective="false" type="upgrade">
@@ -4567,7 +4567,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eba0-9fc6-5334-a390" name="Combi-bolter" hidden="false" collective="false" type="upgrade">
@@ -4589,7 +4589,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c027-24d6-7a3d-cf12" name="Combi-grav" hidden="false" collective="false" type="upgrade">
@@ -4623,7 +4623,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fbb1-9dd6-aefc-eba2" name="Conversion beamer" hidden="false" collective="false" type="upgrade">
@@ -4645,7 +4645,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25b3-79f7-73cd-9321" name="Cyclone missile launcher" hidden="false" collective="false" type="upgrade">
@@ -4673,7 +4673,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5342-99c6-bc9f-770a" name="Deathwind launcher" hidden="false" collective="false" type="upgrade">
@@ -4695,7 +4695,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f7e-32c4-61af-510f" name="Demolisher cannon" hidden="false" collective="false" type="upgrade">
@@ -4716,7 +4716,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4744,7 +4744,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4766,7 +4766,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4789,7 +4789,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f68e-9984-71fe-6bca" name="Frag grenade" hidden="false" collective="false" type="upgrade">
@@ -4810,7 +4810,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4833,7 +4833,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f3b-2b38-8060-efc7" name="Grav-cannon and grav-amp" hidden="false" collective="false" type="upgrade">
@@ -4855,7 +4855,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="28.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c300-04a5-d4eb-3f53" name="Grenade harness" hidden="false" collective="false" type="upgrade">
@@ -4877,7 +4877,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="221a-6109-61df-015e" name="Heavy plasma cannon" hidden="false" collective="false" type="upgrade">
@@ -4905,7 +4905,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32bf-b117-4ecf-5165" name="Hunter-killer missile" hidden="false" collective="false" type="upgrade">
@@ -4927,7 +4927,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="6.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b34a-b0c7-689d-d9a9" name="Hurricane bolter" hidden="false" collective="false" type="upgrade">
@@ -4949,7 +4949,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98bf-0664-0b1b-3e27" name="Icarus stormcannon" hidden="false" collective="false" type="upgrade">
@@ -4971,7 +4971,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db1d-3a08-13f2-72fa" name="Kheres pattern assault cannon" hidden="false" collective="false" type="upgrade">
@@ -4993,7 +4993,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f23-cd69-d106-371e" name="Krak grenade" hidden="false" collective="false" type="upgrade">
@@ -5014,7 +5014,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5037,7 +5037,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2f6-ed05-f2a9-f46f" name="Master-crafted auto bolt rifle" hidden="false" collective="false" type="upgrade">
@@ -5059,7 +5059,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c215-aaf9-77ef-27fb" name="Master-crafted boltgun" hidden="false" collective="false" type="upgrade">
@@ -5081,7 +5081,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="3.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ed2-3e2c-4d52-af79" name="Melta bombs" hidden="false" collective="false" type="upgrade">
@@ -5103,7 +5103,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f0c-0f8c-1a73-4052" name="Orbital array" hidden="false" collective="false" type="upgrade">
@@ -5125,7 +5125,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5aaf-d2e4-ec59-0407" name="Plasma blaster" hidden="false" collective="false" type="upgrade">
@@ -5153,7 +5153,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb15-db61-5d4f-b65e" name="Plasma cannon" hidden="false" collective="false" type="upgrade">
@@ -5181,7 +5181,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="21.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1e1-23e0-2777-dc7b" name="Plasma cutter" hidden="false" collective="false" type="upgrade">
@@ -5209,7 +5209,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="7.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8c6-5a0f-4e89-c05a" name="Plasma incinerator" hidden="false" collective="false" type="upgrade">
@@ -5237,7 +5237,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="18.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="974d-570e-66b3-e971" name="Predator autocannon" hidden="false" collective="false" type="upgrade">
@@ -5259,7 +5259,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="49.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ab4-1ee7-95ad-7e15" name="Reaper autocannon" hidden="false" collective="false" type="upgrade">
@@ -5281,7 +5281,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="18.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc9d-4795-4788-d6e6" name="Skyhammer missile launcher" hidden="false" collective="false" type="upgrade">
@@ -5303,7 +5303,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="24.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd63-9586-da03-ec49" name="Skyspear missile launcher" hidden="false" collective="false" type="upgrade">
@@ -5325,7 +5325,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba62-f2c3-d7bb-4f5d" name="Sniper rifle" hidden="false" collective="false" type="upgrade">
@@ -5347,7 +5347,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfc3-3735-a2e8-53cd" name="Special issue boltgun" hidden="false" collective="false" type="upgrade">
@@ -5369,7 +5369,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="3.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b03-8d64-3711-f300" name="Storm bolter" hidden="false" collective="false" type="upgrade">
@@ -5391,7 +5391,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38e3-37a8-42a3-e195" name="Stormstrike missile launcher" hidden="false" collective="false" type="upgrade">
@@ -5413,7 +5413,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="21.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68e5-3818-5a79-d82a" name="Thunderfire cannon" hidden="false" collective="false" type="upgrade">
@@ -5435,7 +5435,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f787-a3af-72b5-60d1" name="Twin assault cannon" hidden="false" collective="false" type="upgrade">
@@ -5457,7 +5457,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afe0-3771-1982-92b4" name="Twin autocannon" hidden="false" collective="false" type="upgrade">
@@ -5479,7 +5479,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="33.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c54-1c89-299c-05c5" name="Twin boltgun" hidden="false" collective="false" type="upgrade">
@@ -5501,7 +5501,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d70-a6af-cbad-f08c" name="Twin heavy flamer" hidden="false" collective="false" type="upgrade">
@@ -5523,7 +5523,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="34.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="353e-3e4d-a6ed-d25c" name="Twin heavy plasma cannon" hidden="false" collective="false" type="upgrade">
@@ -5551,7 +5551,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="34.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee18-b1cd-6b60-464d" name="Twin lascannon" hidden="false" collective="false" type="upgrade">
@@ -5573,7 +5573,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d496-bdd5-426e-3e80" name="Twin multi-melta" hidden="false" collective="false" type="upgrade">
@@ -5595,7 +5595,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="54.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f51-b8fa-86ce-7388" name="Twin plasma gun" hidden="false" collective="false" type="upgrade">
@@ -5623,7 +5623,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6027-7017-756a-600c" name="Typhoon missile launcher" hidden="false" collective="false" type="upgrade">
@@ -5651,7 +5651,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="250a-10f2-a1c6-36ff" name="Volkite charger" hidden="false" collective="false" type="upgrade">
@@ -5673,7 +5673,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="6.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e640-c148-5944-6874" name="Whirlwind castellan launcher" hidden="false" collective="false" type="upgrade">
@@ -5695,7 +5695,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79a5-23f2-b542-a73f" name="Whirlwind vengeance launcher" hidden="false" collective="false" type="upgrade">
@@ -5717,7 +5717,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="34.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f79f-74ef-e0a3-f967" name="Wrist-mounted grenade launcher" hidden="false" collective="false" type="upgrade">
@@ -5739,7 +5739,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02d5-5c02-db70-d933" name="Champion&apos;s blade" hidden="false" collective="false" type="upgrade">
@@ -5760,7 +5760,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5782,7 +5782,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5804,7 +5804,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5827,7 +5827,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="46.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a869-5624-fe55-fe95" name="Dreadnought combat weapon" hidden="false" collective="false" type="upgrade">
@@ -5857,7 +5857,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b993-57b7-93c6-9acb" name="Eviscerator" hidden="false" collective="false" type="upgrade">
@@ -5879,7 +5879,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="22.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d93-d63c-bfba-c879" name="Master-crafted power sword" hidden="false" collective="false" type="upgrade">
@@ -5900,7 +5900,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
@@ -5923,7 +5923,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0140-c9f2-0524-34cc" name="Relic blade" hidden="false" collective="false" type="upgrade">
@@ -5945,7 +5945,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="21.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d858-d958-0efe-edbc" name="Seismic hammer" hidden="false" collective="false" type="upgrade">
@@ -5967,7 +5967,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="48.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61ae-3901-0a79-4ec9" name="Servo-arm" hidden="false" collective="false" type="upgrade">
@@ -5989,7 +5989,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="12.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1898-a013-d489-c5cb" name="Siege drills" hidden="false" collective="false" type="upgrade">
@@ -6010,7 +6010,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6041,7 +6041,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0df-0e01-4e07-fdec" name="Camo cloak" hidden="false" collective="false" type="upgrade">
@@ -6063,7 +6063,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="3.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2792-c0fb-d72e-cee4" name="Combat shield" hidden="false" collective="false" type="upgrade">
@@ -6085,7 +6085,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38b5-ef30-f87f-5275" name="Storm shield" hidden="false" collective="false" type="upgrade">
@@ -6115,7 +6115,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="538c-b8cd-b452-2685" name="Grav-gun" hidden="false" collective="false" type="upgrade">
@@ -6137,7 +6137,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7603-6241-ab8b-4603" name="Lightning Claw (Pair)" hidden="false" collective="false" type="upgrade">
@@ -6159,7 +6159,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="13.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0a2-9100-e1e5-8bc0" name="Icarus Lascannon" hidden="false" collective="false" type="upgrade">
@@ -6181,7 +6181,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e50-f562-c0df-3e83" name="Twin Icarus Lascannon" hidden="false" collective="false" type="upgrade">
@@ -6202,7 +6202,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6225,7 +6225,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="70.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4c2-0571-1de7-02e1" name="Quad-gun" hidden="false" collective="false" type="upgrade">
@@ -6247,7 +6247,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ee3-74ec-d970-9b43" name="Punisher Gatling Cannon" hidden="false" collective="false" type="upgrade">
@@ -6269,7 +6269,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3371-814b-4320-12b6" name="Dreadnought combat weapon w/Storm Bolter" hidden="false" collective="false" type="upgrade">
@@ -6311,7 +6311,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1720-3d63-ee7e-b95e" name="Dreadnought combat weapon w/Heavy Flamer" hidden="false" collective="false" type="upgrade">
@@ -6353,7 +6353,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03fd-db47-5333-1e1f" name="Smite" hidden="false" collective="false" type="upgrade">
@@ -6374,7 +6374,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6397,7 +6397,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83f0-56d1-b852-f21c" name="Inferno pistol" book="Index: Imperium 2" page="157" hidden="false" collective="false" type="upgrade">
@@ -6419,7 +6419,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="12.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5188-4b26-73ac-1160" name="Hot-Shot Lasgun" hidden="false" collective="false" type="upgrade">
@@ -6440,7 +6440,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6463,7 +6463,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06fb-e44e-0fd7-e874" name="Nemesis Daemon Hammer" hidden="false" collective="true" type="upgrade">
@@ -6484,7 +6484,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
@@ -6510,7 +6510,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bc7-408c-e6c0-12d6" name="Psycannon" hidden="false" collective="false" type="upgrade">
@@ -6531,7 +6531,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
@@ -6544,14 +6544,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="7&quot;"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="2+"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="2+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="5"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="2+"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="2+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="5"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="4"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="5834-5a12-9a34-3f0b" name="Blazing Weapons" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6650,12 +6650,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="16&quot;"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="16&quot;"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6672,7 +6672,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="86e1-0668-1d16-dfa2" name="Cypher&apos;s plasma pistol" hidden="false" collective="false" type="upgrade">
@@ -6683,12 +6683,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 2"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6705,7 +6705,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6725,7 +6725,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="110.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca0c-1278-8f0d-1691" name="Fallen" page="" hidden="false" collective="false" type="unit">
@@ -6746,14 +6746,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="6&quot;"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="3+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="1"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="3+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="1"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="3"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
         <profile id="71e9-6d32-3ed3-0d23" name="Fallen" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -6763,14 +6763,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="6"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="3+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="1"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="3+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="1"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="2"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="8"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="8"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6902,7 +6902,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="14.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0efc-ecce-405c-0e5c" name="Fallen Champion" hidden="false" collective="false" type="model">
@@ -6942,7 +6942,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="14.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9b3-e89a-ee3c-8b82" name="Fallen w/Heavy or Special Weapon" hidden="false" collective="false" type="model">
@@ -7084,7 +7084,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="14.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7127,12 +7127,12 @@
                               <infoLinks/>
                               <modifiers/>
                               <characteristics>
-                                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+                                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
                                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
-                                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+                                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
+                                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
                                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-                                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7146,7 +7146,7 @@
                           <entryLinks/>
                           <costs>
                             <cost name="pts" costTypeId="points" value="1.0"/>
-                            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -7246,7 +7246,7 @@
                   </entryLinks>
                   <costs>
                     <cost name="pts" costTypeId="points" value="14.0"/>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8dd9-89ef-f81f-303d" name="Fallen w/Special or Combi Weapon" hidden="false" collective="false" type="model">
@@ -7386,7 +7386,7 @@
                   </entryLinks>
                   <costs>
                     <cost name="pts" costTypeId="points" value="14.0"/>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="589a-fa74-be77-cacb" name="Fallen w/Lightning Claws" hidden="false" collective="false" type="model">
@@ -7424,7 +7424,7 @@
                   </entryLinks>
                   <costs>
                     <cost name="pts" costTypeId="points" value="14.0"/>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="cf33-e39a-f212-45d0" name="Fallen w/Plasma Pistol" hidden="false" collective="false" type="model">
@@ -7498,7 +7498,7 @@
                   </entryLinks>
                   <costs>
                     <cost name="pts" costTypeId="points" value="14.0"/>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7512,7 +7512,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca06-ac13-d02f-6f9a" name="Boltgun" hidden="false" collective="true" type="upgrade">
@@ -7534,7 +7534,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd87-854b-d284-184a" name="Lasgun" hidden="false" collective="false" type="upgrade">
@@ -7555,7 +7555,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7577,7 +7577,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7600,7 +7600,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5907-c64e-703e-5778" name="Bolt rifle" hidden="false" collective="true" type="upgrade">
@@ -7621,7 +7621,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7643,7 +7643,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7665,7 +7665,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7688,7 +7688,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b514-74d2-1c95-4f8f" name="Lightning Claw" hidden="false" collective="true" type="upgrade">
@@ -7718,7 +7718,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4f6-2f81-153a-3060" name="Lightning Claw (Pair)" hidden="false" collective="true" type="upgrade">
@@ -7740,7 +7740,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="13.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a4da-e81d-f108-fbc2" name="Thunder hammer" hidden="false" collective="true" type="upgrade">
@@ -7770,7 +7770,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2ea-efee-e689-42df" name="Storm shield" hidden="false" collective="true" type="upgrade">
@@ -7800,7 +7800,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6b0-ca4c-c256-cdb0" name="Assault bolter" hidden="false" collective="true" type="upgrade">
@@ -7822,7 +7822,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a11f-8f20-5d2c-079a" name="Twin boltgun" hidden="false" collective="true" type="upgrade">
@@ -7844,7 +7844,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db90-b325-244d-3e35" name="Sniper rifle" hidden="false" collective="true" type="upgrade">
@@ -7866,7 +7866,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c532-64ab-c72a-b0bd" name="Astartes grenade launcher" book="" hidden="false" collective="true" type="upgrade">
@@ -7894,7 +7894,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="11.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="801b-d6b0-333f-bc49" name="Plasma incinerator" hidden="false" collective="true" type="upgrade">
@@ -7922,7 +7922,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="18.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6267-6959-b9ec-4a6b" name="Imperial Fortress Walls" hidden="false" collective="false" type="model">
@@ -7945,14 +7945,14 @@
           </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="4+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="10"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="5"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="4+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="10"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="5"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
           </characteristics>
         </profile>
         <profile id="7c71-893b-e33d-c857" name="Mighty Bulwark" book="Imperial Armour - Index: Astra Militarum" page="52" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8031,7 +8031,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
+                <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8046,7 +8046,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="5.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8076,7 +8076,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="5.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8088,7 +8088,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
+                <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8103,7 +8103,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="5.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8134,12 +8134,12 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+                    <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
                     <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+                    <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+                    <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
                     <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                    <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8156,14 +8156,14 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="35.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="5.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8236,7 +8236,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="400.0"/>
       </costs>
     </selectionEntry>
@@ -8249,14 +8249,14 @@
           <modifiers/>
           <characteristics>
             <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="4+"/>
-            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
-            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
+            <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+            <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="4+"/>
+            <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+            <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="8"/>
+            <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="20"/>
             <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+/5++"/>
+            <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+/5++"/>
           </characteristics>
         </profile>
         <profile id="51d4-df4c-ff22-356e" name="Battle Crew" book="Imperial Armour - Index: Astra Militarum" page="53" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8292,7 +8292,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
+            <characteristic name="Capacité" characteristicTypeId="15aa-1916-a38b-d223" value="Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -8353,12 +8353,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Macro 2D3"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="16"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="16"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2D6"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Any wound roll of 6 made with this attack automatically inflicts D3 mortal wounds on the target."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Any wound roll of 6 made with this attack automatically inflicts D3 mortal wounds on the target."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8374,7 +8374,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8398,12 +8398,12 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+                    <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
                     <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+                    <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+                    <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
                     <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this weapon against all other targets."/>
+                    <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this weapon against all other targets."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8417,7 +8417,7 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="10.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dc8e-4fdf-7ce1-2d52" name="Icarus Quad Lascannon" hidden="false" collective="false" type="upgrade">
@@ -8428,12 +8428,12 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
+                    <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
                     <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+                    <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+                    <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                     <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this weapon against all other targets."/>
+                    <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this weapon against all other targets."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8447,7 +8447,7 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="100.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8569,7 +8569,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="20.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="20.0"/>
         <cost name="pts" costTypeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
@@ -8592,7 +8592,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d309-0c16-de50-af5d" name="Power fist" hidden="false" collective="true" type="upgrade">
@@ -8614,7 +8614,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9b3-4b4e-714e-b467" name="Chainfist" hidden="false" collective="true" type="upgrade">
@@ -8636,7 +8636,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="22.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb78-534a-7b77-edbc" name="Frag &amp; Krak grenades" hidden="false" collective="false" type="upgrade">
@@ -8664,7 +8664,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -8687,12 +8687,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
                 <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
+                <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
               </characteristics>
             </profile>
           </profiles>
@@ -8708,7 +8708,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="1.0"/>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8880,60 +8880,60 @@
       <modifiers/>
       <description>During deployment, this unit can be set up anywhere on the battlefield that is not within your opponent&apos;s deployment zone and is more than 12&quot; from any enemy unit.</description>
     </rule>
-    <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
+    <rule id="15ea-860d-9eb6-21c3" name="Aéroporté" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the Fight phase by units that can FLY.</description>
+      <description>Cette figurine ne peut pas charger, peut être chargée et attaquée à la phase de combat uniquement par des unités avec le mot-clé VOL, et peut attaquer à la phase de combat uniquement des unités avec le mot-clé VOL.</description>
     </rule>
-    <rule id="9caa-ff00-a5bd-5f04" name="Hard to Hit" hidden="false">
+    <rule id="9caa-ff00-a5bd-5f04" name="Cible floue" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Your opponent must subtract 1 from hit rolls for attacks that target this model in the Shooting phase.</description>
+      <description>Votre adversaire doit soustraire 1 aux jets de touche pour les attaques qui ciblent cette figurine à la phase de Tir.</description>
     </rule>
-    <rule id="3541-94a7-a138-358b" name="Explodes" book="" hidden="false">
+    <rule id="3541-94a7-a138-358b" name="Explosion" book="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds.</description>
+      <description>Si cette figurine estréduite à 0PV, lancez un D6 avant de la retirer du champ de bataille et avant que ses passagers débarquent. sur un 6 elle explose, et chaque unité à 6&quot; ou moins subit D3 blessures mortelles.</description>
     </rule>
-    <rule id="60db-65f7-ca20-7874" name="Open-topped" book="" page="" hidden="false">
+    <rule id="60db-65f7-ca20-7874" name="Découvert" book="" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to this model also apply to its passenger; for example, the passengers cannot shoot if this model has Fallen Back in the same turn, cannot shoot (except with Pistols) if this model is within 1&quot; of an enemy unit, and so on.</description>
+      <description>Les figurines embarquées dans cette figurine peuvent attaquer en phase de Tir. Mesurez les portées et les lignes de vue depuis n&apos;importe quel point de cette figurine. Toutes les restrictions et les modificateurs qui s&apos;appliquent à cette figurine s&apos;appliquent aussi à ses passagers. Par exemple, ils ne peuvent pas tirer si cette figurine a battu en Retraite au même tour, ne peuvent pas tirer (sauf avec des pistolets) si cette figurine est à 1&quot; ou moins d&apos;une unité ennemie, etc.</description>
     </rule>
-    <rule id="51af-0fb9-3ca5-d307" name="Smoke Launchers" hidden="false">
+    <rule id="51af-0fb9-3ca5-d307" name="Fumigènes" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Once per game, instead of shooting any weapons in the Shooting phase, this models can use its smoke launchers; if it does so, until your next Shooting phase your opponent must subtract 1 from any hit rolls that target it.</description>
+      <description>Une fois par partie, au lieu d&apos;utiliser une ou des armes en phase de Tir, cette figurine peut utiliser ses fumigènes; jusqu&apos;à votre prochaine phase de Tir, votre adversaire doit soustraire 1 de tous les jets de touche des armes de tir qui visent ce véhicule.</description>
     </rule>
-    <rule id="4ea8-94d3-ba39-042f" name="And They Shall Know No Fear" hidden="false">
+    <rule id="4ea8-94d3-ba39-042f" name="Et ils ne connaîtront pas la peur" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>You can re-roll failed Morale tests for this unit.</description>
+      <description>Vou pouvez relancer les tests de Moral ratés de cette unité.</description>
     </rule>
-    <rule id="ce5a-0526-287b-4ff8" name="Warlord Traits" hidden="false">
+    <rule id="ce5a-0526-287b-4ff8" name="Traits de seigneur de guerre" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If your Warlord is a CHARACTER, it can use a Warlord Trait. Immediately before either player starts to deploy their army, you can roll a D3 on the Warlord Trait table here to determine what Warlord Trait your Warlord has. Alternatively, choose the trait that most suits your Warlord&apos;s temperament or style of war.
+      <description>Si votre seigneur de guerre est un PERSONNAGE, il peut utiliser un Trait de seigneur de guerre - une tactique de prédilection ou une aptitude personnelle qui le démarque de ses pairs. Juste avant que les joueurs déploient leurs armées, vous pouvez faire un jet sur le tableau de Traits de Seigneur de Guerre ci-contre pour déterminer celui que possède votre Seigneur de Guerre. Sinon, vous pouvez choisir le trait qui convient le mieux à son tempéramment ou à son style guerrier.
 
-1) Legendary Fighter: If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.
+1) Combatant légendaire : Si ce Seigneur de Guerre charge à la phase de Charge, ajoutez 1 à sa caractéristique d&apos;attaques jusqu&apos;à la fin de la phase de Combat suivante..
 
-2) Inspiring Leader: Friendly units within 6&quot; of this Warlord can add 1 to their Leadership characteristic.
+2) Chef Charismatique : Les unités amies à 6&quot; ou moins de ce Seigneur de Guerre peuvent ajouter 1 à leur caractéristique de Commandement.
 
-3) Tenacious Survivor: Roll a dice each time this Warlord loses a wound.  On a 6, the Warlord shrugs off the damage and does not lose the wound.</description>
+3) Survivant Tenace : Jetez un dé chaque fois que ce Seigneur de Guerre perd un Point de Vie. Sur un 6, le Seigneur de Guerre ignore le dégât et ne perd pas le Point de Vie.</description>
     </rule>
     <rule id="a269-b8d9-67c5-4009" name="Combi Weapon" hidden="false">
       <profiles/>
@@ -8950,12 +8950,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="2481-001b-00f9-501b" name="Autopistol" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -8964,12 +8964,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="fa99-0671-b31a-22d7" name="Autocannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -8978,12 +8978,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="9fac-07c9-3595-784e" name="Punisher Gatling Cannon" book="BRB" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8992,12 +8992,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 20"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="bc34-f1ec-56fa-2829" name="Battle Cannon" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9006,12 +9006,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="e6d5-677a-d8ed-f6a5" name="Bolt pistol" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9020,12 +9020,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="e2b0-b9f1-6c38-584c" name="Heavy bolter" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9034,12 +9034,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="ccc3-cffe-e84e-abd0" name="Vulcan Mega-bolter" book="BRB" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -9048,12 +9048,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 15"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="cdc3-3459-a28c-a9cf" name="Flamer" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9062,12 +9062,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
       </characteristics>
     </profile>
     <profile id="ec4c-1132-ddaf-db8e" name="Meltagun" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9076,12 +9076,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
       </characteristics>
     </profile>
     <profile id="03e5-60f2-4726-5cdd" name="Plasma gun, Standard" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9090,12 +9090,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="7b30-68a4-3745-c6fa" name="Grav-pistol" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9104,12 +9104,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
       </characteristics>
     </profile>
     <profile id="c76b-4051-dbf4-d5b8" name="Grav-cannon and grav-amp" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9118,12 +9118,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
       </characteristics>
     </profile>
     <profile id="4609-79eb-7505-68a5" name="Hot-shot Laspistol" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9132,12 +9132,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="f520-ae1d-d755-7ab9" name="Hot-shot Lasgun" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9146,12 +9146,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="f2b7-768f-a270-de64" name="Laspistol" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9160,12 +9160,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="d174-eb55-aaa6-d032" name="Lasgun" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9174,12 +9174,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="585f-2120-0288-93b5" name="Inferno Cannon" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9188,12 +9188,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12 + Template"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12 + Template"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Torrent"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="2608-8425-4f4f-7f41" name="Heavy flamer" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9202,12 +9202,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target"/>
       </characteristics>
     </profile>
     <profile id="92be-1bfc-f355-f214" name="Multi-laser" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9216,12 +9216,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="cb26-27b4-9393-a768" name="Icarus Lascannon" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9230,12 +9230,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
       </characteristics>
     </profile>
     <profile id="8161-3b0e-8048-0e83" name="Missile launcher, Krak missile" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9244,12 +9244,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="603d-3e82-38f6-c5c3" name="Missile launcher, Frag missile" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9258,12 +9258,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="1768-d7b9-37ba-f3bf" name="Multi-melta" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9272,12 +9272,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
       </characteristics>
     </profile>
     <profile id="fdd8-1a5f-5722-d6ee" name="Frag grenade" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9286,12 +9286,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Grenade D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="e294-a5c7-e01e-0a82" name="Close Combat Weapon" book="BRB" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9300,12 +9300,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="8194-4688-65b3-f996" name="Chainfist" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9314,12 +9314,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="07cb-70d7-15c3-5117" name="Shotgun" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9328,12 +9328,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range, add 1 to this weapon&apos;s Strength."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range, add 1 to this weapon&apos;s Strength."/>
       </characteristics>
     </profile>
     <profile id="0031-0314-5b36-a220" name="Heavy stubber" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9342,12 +9342,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="3b26-3098-155f-0e58" name="Dreadnought combat weapon" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9356,12 +9356,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="7584-238f-3174-4529" name="Lightning claw" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9370,12 +9370,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon. If a model is armed with two lightning claws, each time it fights it can make 1 additional attack with them."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon. If a model is armed with two lightning claws, each time it fights it can make 1 additional attack with them."/>
       </characteristics>
     </profile>
     <profile id="3520-0bb4-90f2-084b" name="Power fist" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9384,12 +9384,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="4635-64e7-2344-ea7c" name="Power axe" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9398,12 +9398,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="ca27-e5ee-f6eb-652d" name="Power maul" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9412,12 +9412,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="47df-8e01-d0cf-58e8" name="Power sword" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9426,12 +9426,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="de62-5c9a-e27d-3fa3" name="Power lance" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9440,12 +9440,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="87b3-3f6b-ada0-da8d" name="Thunder hammer" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9454,12 +9454,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="3bf6-b4f7-6b2f-bb7b" name="Krak grenade" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9468,12 +9468,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Grenade 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="df40-a3f4-91be-f0fe" name="Melta bomb" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9482,12 +9482,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="4&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="4&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Grenade 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon if the target is a &lt;b&gt;VEHICLE&lt;/b&gt;."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon if the target is a &lt;b&gt;VEHICLE&lt;/b&gt;."/>
       </characteristics>
     </profile>
     <profile id="ff12-161a-ca85-339f" name="Plasma pistol, Standard" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9496,12 +9496,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="7983-8451-cdc3-ce7e" name="Plasma cannon, Standard" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9510,12 +9510,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="f14a-07e5-5465-69cf" name="Lascannon" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9524,12 +9524,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="fbed-42ff-591d-13f3" name="Dozer Blade" book="BRB" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -9574,12 +9574,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="3922-981d-ccb7-c169" name="Quad-gun" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9588,12 +9588,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 8"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
       </characteristics>
     </profile>
     <profile id="3d4b-95ea-f860-dd22" name="Boltgun" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9602,12 +9602,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="a3d2-b0d7-70bc-695e" name="Grav-gun" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9616,12 +9616,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
       </characteristics>
     </profile>
     <profile id="505e-a5aa-edab-6d5b" name="Storm bolter" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9630,12 +9630,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="49ae-4451-9bc0-5238" name="Flamestorm cannon" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9644,12 +9644,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
       </characteristics>
     </profile>
     <profile id="e92d-1654-a3f9-f981" name="Space Marine Shotgun" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9658,12 +9658,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="45a4-5982-7f8b-fb33" name="Sniper rifle" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9672,12 +9672,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon may target a CHARACTER even if it is not the closest enemy unit. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon may target a CHARACTER even if it is not the closest enemy unit. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage."/>
       </characteristics>
     </profile>
     <profile id="4750-7eb0-ff1e-6257" name="Vulcan Mega-bolter" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9686,12 +9686,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 15"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="0964-678c-96c7-28af" name="Dragon&apos;s Breath Flamer" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9700,12 +9700,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="b309-2758-151b-e2f2" name="Heat Ray (Dispersed Beam)" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9714,12 +9714,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="ee62-0088-3ce1-8453" name="Flakk Missile" book="BRB" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9728,12 +9728,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Skyfire"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="bb9f-390b-3b92-197c" name="Eviscerator" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9742,12 +9742,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="e209-5038-fc25-4927" name="Heavy Chainsword" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9756,12 +9756,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Two-handed"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="c019-5c9a-c1f4-4b4f" name="Force axe" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9770,12 +9770,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="ed69-f85e-5982-9ab8" name="Force stave" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9784,12 +9784,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="29c5-cff6-7f7c-96d6" name="Force sword" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9798,12 +9798,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="3a00-c9d9-111e-037f" name="Witchblade" book="BRB" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9812,12 +9812,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Armourbane, Fleshbane"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="4b12-0de1-af1e-6ad3" name="Plasma grenade" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9826,12 +9826,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot; / -"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot; / -"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast / -"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="4a90-2615-6958-53cd" name="Defensive Grenade" book="BRB" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9840,12 +9840,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, Blind"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" book="Planetary Onslaught" page="110" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -9936,14 +9936,14 @@
       <modifiers/>
       <characteristics>
         <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="-"/>
-        <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
-        <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="-"/>
-        <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
-        <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="7"/>
-        <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="2"/>
+        <characteristic name="CC" characteristicTypeId="e7f0-1278-0250-df0c" value="-"/>
+        <characteristic name="CT" characteristicTypeId="381b-eb28-74c3-df5f" value="-"/>
+        <characteristic name="F" characteristicTypeId="2218-aa3c-265f-2939" value="-"/>
+        <characteristic name="E" characteristicTypeId="9c9f-9774-a358-3a39" value="7"/>
+        <characteristic name="Pv" characteristicTypeId="f330-5e6e-4110-0978" value="2"/>
         <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="-"/>
-        <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
-        <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+        <characteristic name="Cd" characteristicTypeId="00ca-f8b8-876d-b705" value="-"/>
+        <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
       </characteristics>
     </profile>
     <profile id="705c-91aa-6591-507b" name="Gun Emplacement (Details)" book="Stronghold Assault" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -9970,12 +9970,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 2, Large Blast"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="0293-567f-c305-724a" name="Quake Shell" book="Planetary Onslaught" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9984,12 +9984,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Apocalyptic Mega-blast, Sonic Boom"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="57e2-2b5e-5b21-32e8" name="Vortex Missile Battery" book="Planetary Onslaught" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -9998,12 +9998,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Infinite"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Infinite"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Ordnance 1, Large Blast, Vortex"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="d503-4001-e4b8-c804" name="Quad Icarus Lascannon" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10012,12 +10012,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
       </characteristics>
     </profile>
     <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" book="Stronghold Assault" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -10053,12 +10053,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Infinite"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Infinite"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Ordnance 1, Barrage, Large Blast, Orbital"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="e2a9-e8fc-3a6b-2eec" name="Hunter-killer missile" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10067,12 +10067,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="A model can only fire each of its hunter killer missiles once per battle."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A model can only fire each of its hunter killer missiles once per battle."/>
       </characteristics>
     </profile>
     <profile id="acb5-7b58-0d17-a33a" name="Plasma gun, Supercharge" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10081,12 +10081,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="5779-2931-fe17-2b27" name="Plasma pistol, Supercharge" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10095,12 +10095,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain."/>
       </characteristics>
     </profile>
     <profile id="6644-7150-c910-865d" name="Twin heavy bolter" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10109,12 +10109,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="fbb2-f4cb-e47d-1d10" name="Plasma cannon, Supercharge" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10123,12 +10123,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="9b1e-61f9-4a5b-0044" name="Chainsword" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10137,12 +10137,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make 1 additional attack with this weapon."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make 1 additional attack with this weapon."/>
       </characteristics>
     </profile>
     <profile id="21ef-7459-ad22-ece0" name="Assault bolter" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10151,12 +10151,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="3735-f76f-f06c-1d71" name="Astartes grenade launcher, Frag grenade" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10165,12 +10165,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="ac6d-bf1b-73d0-e6af" name="Astartes grenade launcher, Krak grenade" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10179,12 +10179,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="961a-afdd-b0a9-f43d" name="Astartes shotgun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10193,12 +10193,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range, add 1 to this weapon&apos;s Strength."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range, add 1 to this weapon&apos;s Strength."/>
       </characteristics>
     </profile>
     <profile id="cddb-d686-f7b9-ec39" name="Bolt rifle" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10207,12 +10207,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="eb60-1a3c-5699-dadb" name="Boltstorm gauntlet (shooting)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10221,12 +10221,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="19eb-bb51-72c6-7829" name="Centurion missile launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10235,12 +10235,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="418d-8293-8de6-7cac" name="Cerberus launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10249,12 +10249,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="0655-6c08-6402-46bf" name="Combi-bolter" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10263,12 +10263,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="60d6-1b2a-e2a8-5106" name="Conversion beamer" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10277,12 +10277,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="42&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="42&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Attacks from a conversion beamer that target enemies at over half its range are resolved at Strength 8, AP -1 and Damage 2."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Attacks from a conversion beamer that target enemies at over half its range are resolved at Strength 8, AP -1 and Damage 2."/>
       </characteristics>
     </profile>
     <profile id="5207-ef08-27f7-166d" name="Cyclone missile launcher, Frag missile" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10291,12 +10291,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="d9ac-d70c-de0b-1897" name="Cyclone missile launcher, Krak missile" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10305,12 +10305,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="b1a9-6785-fb1a-a5cb" name="Deathwind launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10319,12 +10319,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="d2d1-43d6-8c52-7a6a" name="Demolisher cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10333,12 +10333,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="10"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="10"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking units with 5 or more models, change this weapon&apos;s Type to Heavy D6."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking units with 5 or more models, change this weapon&apos;s Type to Heavy D6."/>
       </characteristics>
     </profile>
     <profile id="c86e-fd57-5a10-6b61" name="Disintegration gun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10347,12 +10347,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="d015-8e37-8b3f-59b9" name="Disintegration pistol" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10361,12 +10361,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="9&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="9&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="9272-c0bc-9bd7-e6e0" name="Heavy plasma cannon, Standard" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10375,12 +10375,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="691d-11e2-ebfb-d4ad" name="Heavy plasma cannon, Supercharge" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10389,12 +10389,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="0c32-fc5b-5235-f6ba" name="Hurricane bolter" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10403,12 +10403,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="b1d1-72ef-a807-dbbc" name="Icarus stormcannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10417,12 +10417,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to all hit rolls made for this weapon against targets that can FLY. Subtract 1 from the hit rolls made for this weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to all hit rolls made for this weapon against targets that can FLY. Subtract 1 from the hit rolls made for this weapon against all other targets."/>
       </characteristics>
     </profile>
     <profile id="10cf-9931-74ee-504e" name="Kheres pattern assault cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10431,12 +10431,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="e85f-43e2-24d3-f852" name="Las-talon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10445,12 +10445,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="1f2f-512e-9ca3-13f9" name="Master-crafted auto bolt rifle" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10459,12 +10459,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="d6e5-a8cf-4602-28e0" name="Master-crafted boltgun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10473,12 +10473,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="f434-6eb5-9a60-79cf" name="Orbital array" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10487,12 +10487,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="10"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="10"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can only be fired once per battle. This weapon can target units that are not visible to the bearer. When targeting units with 10 or more models, change this weapon&apos;s Type to Heavy D6."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can only be fired once per battle. This weapon can target units that are not visible to the bearer. When targeting units with 10 or more models, change this weapon&apos;s Type to Heavy D6."/>
       </characteristics>
     </profile>
     <profile id="3937-3d5e-da78-af96" name="Plasma blaster, Standard" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10501,12 +10501,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="ae8f-c03c-8929-bedc" name="Plasma blaster, Supercharge" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10515,12 +10515,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="614c-c09f-c4b4-504f" name="Plasma cutter, Standard" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10529,12 +10529,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="7eea-38c1-0f2c-ce0f" name="Plasma cutter, Supercharge" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10543,12 +10543,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain."/>
       </characteristics>
     </profile>
     <profile id="474e-aeec-1b23-c181" name="Plasma incinerator, Standard" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10557,12 +10557,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="bd7b-6edf-e450-9b4a" name="Plasma incinerator, Supercharge" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10571,12 +10571,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="2c56-ff56-a155-032d" name="Predator autocannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10585,12 +10585,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="9c2a-cd9e-dc44-ca31" name="Reaper autocannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10599,12 +10599,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="b808-ff6d-2ba3-cd8a" name="Skyhammer missile launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10613,12 +10613,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to all hit rolls made for this weapon against targets that can FLY. Subtract 1 from the hit rolls made for this weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to all hit rolls made for this weapon against targets that can FLY. Subtract 1 from the hit rolls made for this weapon against all other targets."/>
       </characteristics>
     </profile>
     <profile id="11e1-cbd0-5c56-dce9" name="Skyspear missile launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10627,12 +10627,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to all hit rolls made for this weapon against targets that can FLY. You can re-roll failed hit rolls for this weapon."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to all hit rolls made for this weapon against targets that can FLY. You can re-roll failed hit rolls for this weapon."/>
       </characteristics>
     </profile>
     <profile id="a57c-ff3f-49d4-f3b8" name="Special issue boltgun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10641,12 +10641,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="f465-e051-3946-f328" name="Stormstrike missile launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10655,12 +10655,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="e768-5449-ec9e-e9a5" name="Thunderfire cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10669,12 +10669,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="60&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target units that are not visible to the firing model."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target units that are not visible to the firing model."/>
       </characteristics>
     </profile>
     <profile id="acb8-7501-1f1b-b483" name="Twin assault cannon" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10683,12 +10683,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 12"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="3a89-dec9-f41d-7719" name="Twin autocannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10697,12 +10697,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="6471-9a1a-0f1d-acb1" name="Twin boltgun" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10711,12 +10711,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="1a79-9730-f078-07b6" name="Twin heavy flamer" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10725,12 +10725,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
       </characteristics>
     </profile>
     <profile id="3f51-8cbe-78c2-0b36" name="Twin heavy plasma cannon, Standard" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10739,12 +10739,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="f2db-d913-989b-2841" name="Twin heavy plasma cannon, Supercharge" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10753,12 +10753,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="1662-54b9-46da-fefc" name="Twin lascannon" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10767,12 +10767,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="c3c9-08d7-bfae-4ff7" name="Twin multi-melta" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10781,12 +10781,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
       </characteristics>
     </profile>
     <profile id="f7ba-88b9-c604-cd89" name="Twin plasma gun, Standard" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10795,12 +10795,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="840a-7f35-72ad-baef" name="Twin plasma gun, Supercharge" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10809,12 +10809,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved."/>
       </characteristics>
     </profile>
     <profile id="b1e6-7453-eb78-87c1" name="Typhoon missile launcher, Frag missile" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10823,12 +10823,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="aea5-27f0-dcde-06c1" name="Typhoon missile launcher, Krak missile" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10837,12 +10837,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="c943-413e-8c92-ae9b" name="Volkite charger" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10851,12 +10851,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="15&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="15&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="b4c9-cb72-ef2f-76cb" name="Whirlwind castellan launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10865,12 +10865,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target units that are not visible to the firing model."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target units that are not visible to the firing model."/>
       </characteristics>
     </profile>
     <profile id="f4df-b39c-08a7-5255" name="Whirlwind vengeance launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10879,12 +10879,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target units that are not visible to the firing model."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target units that are not visible to the firing model."/>
       </characteristics>
     </profile>
     <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10893,12 +10893,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="a795-7f46-c006-36f9" name="Boltstorm gauntlet (melee)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10907,12 +10907,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="cd4f-c27a-233f-0f55" name="Champion&apos;s blade" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10921,12 +10921,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make 1 additional attack with this weapon."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make 1 additional attack with this weapon."/>
       </characteristics>
     </profile>
     <profile id="397f-3a5d-7443-5144" name="Combat knife" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10935,12 +10935,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make 1 additional attack with this weapon."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make 1 additional attack with this weapon."/>
       </characteristics>
     </profile>
     <profile id="e854-e9be-4a79-d56d" name="Crozius arcanum" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10949,12 +10949,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="fd05-77af-571c-7f41" name="Dreadnought chainfist" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10963,12 +10963,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="4"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="4242-3014-c49c-9fe6" name="Master-crafted power sword" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10977,12 +10977,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="ea0a-a19e-1e9a-b830" name="Relic blade" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -10991,12 +10991,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="67f2-aac1-ece9-6115" name="Seismic hammer" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11005,12 +11005,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="5"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="9112-c49a-ee46-0f81" name="Servo-arm" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11019,12 +11019,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Each servo-arm can only be used to make one attack each time this model fights. When a model attacks with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each servo-arm can only be used to make one attack each time this model fights. When a model attacks with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="1f08-202d-3093-d4a2" name="Siege drills" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11033,12 +11033,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="b754-9672-4689-cefb" name="Camo cloaks" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -11074,12 +11074,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
     <profile id="2ea1-2be3-90c0-8d4c" name="Twin Icarus Lascannon" book="" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -11088,12 +11088,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
       </characteristics>
     </profile>
     <profile id="5821-6c45-8572-7e0e" name="Smite" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
@@ -11102,9 +11102,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Warp Charge" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
-        <characteristic name="Range" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
-        <characteristic name="Details" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead."/>
+        <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
+        <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead."/>
       </characteristics>
     </profile>
     <profile id="1797-9367-d9a5-1014" name="Condemnor Boltgun" book="Index: Imperium 2" page="157" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -11113,12 +11113,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking a PSYKER, this weapon has a Damage of D3"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking a PSYKER, this weapon has a Damage of D3"/>
       </characteristics>
     </profile>
     <profile id="6420-416a-af53-4b63" name="Inferno pistol" book="Index: Imperium 2" page="157" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11127,12 +11127,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."/>
       </characteristics>
     </profile>
     <profile id="74b1-313a-9041-dfd5" name="Hot-Shot Lasgun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11141,12 +11141,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
     <profile id="badf-b321-5a04-54d8" name="Needle Pistol" book="Index: Xenos 2" page="143" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11155,12 +11155,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="1"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="1"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon always wounds targets (other than VEHICLES) on a roll of 2+."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon always wounds targets (other than VEHICLES) on a roll of 2+."/>
       </characteristics>
     </profile>
     <profile id="e353-0508-4f8f-d305" name="Nemesis Daemon Hammer" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11169,12 +11169,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When a model attacks with this weapon, you must subtract 1 from the hit roll."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When a model attacks with this weapon, you must subtract 1 from the hit roll."/>
       </characteristics>
     </profile>
     <profile id="9873-9487-e878-7e93" name="Psyk-Out Grenades" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11183,12 +11183,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Grenade D3"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="2"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="2"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage."/>
       </characteristics>
     </profile>
     <profile id="d8c3-5b45-35a3-273d" name="Psycannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11197,12 +11197,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value=""/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value=""/>
       </characteristics>
     </profile>
     <profile id="c408-8555-a6df-257f" name="Immobile" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -11301,12 +11301,12 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
-        <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-        <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+        <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
   </sharedProfiles>

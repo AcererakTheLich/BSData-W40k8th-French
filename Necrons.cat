@@ -19,12 +19,12 @@
         <characteristicType id="6525-37fa-bd68-7f67" name="Flux Arc Shots"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="9b74-b72b-d6bc-194a" name="Unit Wound Track (Movement/BS/A)">
+    <profileType id="9b74-b72b-d6bc-194a" name="Dégâts (M/CT/A)">
       <characteristicTypes>
-        <characteristicType id="7b4c-c6b9-4725-d7e2" name="Remaining Wounds"/>
-        <characteristicType id="51f5-7e11-746d-e649" name="Movement"/>
-        <characteristicType id="aea4-93ca-2bcf-f3cb" name="Ballistic Skill"/>
-        <characteristicType id="919e-ec33-44ab-5051" name="Attacks"/>
+        <characteristicType id="7b4c-c6b9-4725-d7e2" name="PV Restants"/>
+        <characteristicType id="51f5-7e11-746d-e649" name="M"/>
+        <characteristicType id="aea4-93ca-2bcf-f3cb" name="CT"/>
+        <characteristicType id="919e-ec33-44ab-5051" name="A"/>
       </characteristicTypes>
     </profileType>
     <profileType id="7c4c-335c-5534-07fe" name="Unit Wound Track (Vault)">
@@ -1652,16 +1652,16 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d35-ef91-9949-0e39" name="Death Ray" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3d35-ef91-9949-0e39" name="Rayon de mort" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="7766-7f77-1e21-c983" name="Death Ray" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+        <profile id="7766-7f77-1e21-c983" name="Rayon de mort" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy D3"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Lourde D3"/>
             <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="10"/>
             <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
@@ -1800,11 +1800,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8ac-cd96-8f08-c74b" name="Gauss Blaster" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f8ac-cd96-8f08-c74b" name="Eclateur Gauss" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="5a90-301c-26ea-0bea" name="" book="Index: Xenos 1" hidden="false" targetId="e837-8e96-6423-5d20" type="profile">
+        <infoLink id="5a90-301c-26ea-0bea" name="Eclateur Gauss" book="Index: Xenos 1" hidden="false" targetId="e837-8e96-6423-5d20" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2320,20 +2320,20 @@
         <cost name="pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="271c-1bd0-bb90-cc69" name="Tesla Destructor" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="271c-1bd0-bb90-cc69" name="Destructeur Tesla" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="47db-3982-10b0-688e" name="Tesla Destructor" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+        <profile id="47db-3982-10b0-688e" name="Destructeur Tesla" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 4"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 4"/>
             <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
             <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-            <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each hit roll of 6+ with this weapon causes 3 hits instead of 1."/>
+            <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Chaque jet de touche de 6+ inflige 3 touches au lieu de 1."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2350,11 +2350,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa3e-6628-f176-979f" name="Tesla Carbine" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="aa3e-6628-f176-979f" name="Carabine Tesla" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="b579-5df0-7c4d-e847" name="Tesla Carbine" book="Index: Xenos 1" hidden="false" targetId="b94a-3d60-a973-f955" type="profile">
+        <infoLink id="b579-5df0-7c4d-e847" name="Carabine Tesla" book="Index: Xenos 1" hidden="false" targetId="b94a-3d60-a973-f955" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2424,20 +2424,20 @@
         <cost name="pts" costTypeId="points" value="64.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e44-a3a8-d58a-1f4b" name="Twin Tesla Destructor" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1e44-a3a8-d58a-1f4b" name="Destructeur Tesla jumelé" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="cad4-9764-5620-daa2" name="Twin Tesla Destructor" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+        <profile id="cad4-9764-5620-daa2" name="Destructeur Tesla jumelé" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 8"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 8"/>
             <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
             <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-            <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each hit roll of 6+ with this weapon causes 3 hits instead of 1."/>
+            <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Chaque jet de touche de 6+ inflige 3 touches au lieu de 1."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4403,10 +4403,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="8-14+"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="12&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="8-14+"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="12&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
           </characteristics>
         </profile>
         <profile id="674f-5224-ae47-9a92" name="Ghost Ark Track 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
@@ -4415,10 +4415,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-7"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="8&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-7"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="8&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
           </characteristics>
         </profile>
         <profile id="70ce-f424-b2c9-ea9f" name="Ghost Ark Track 3" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
@@ -4427,10 +4427,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="4&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="4&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
           </characteristics>
         </profile>
         <profile id="d05d-260a-e6d4-4cfd" name="Keywords" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -4556,80 +4556,80 @@
             <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="578c-632b-5bae-1dc0" name="Doom Scythe Track 1" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="578c-632b-5bae-1dc0" name="Doom Scythe état 1" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="7-12+"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-60&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="7-12+"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-60&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
           </characteristics>
         </profile>
-        <profile id="f3ae-1aea-75b9-92ce" name="Doom Scythe Track 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="f3ae-1aea-75b9-92ce" name="Doom Scythe état 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-6"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-40&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-6"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-40&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="abf9-8a90-43bd-7694" name="Doom Scythe Track 3" book="Index: Xenos 1" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="abf9-8a90-43bd-7694" name="Doom Scythe état 3" book="Index: Xenos 1" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-25&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-25&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
           </characteristics>
         </profile>
-        <profile id="f81f-5815-c416-443c" name="Keywords" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
+        <profile id="f81f-5815-c416-443c" name="Mots-clés" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Necrons, DYNASTY"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Vehicle, Fly, Doom Scythe"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Nécrons, DYNASTIE"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Véhicule, Vol, Doom Scythe"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="ea00-3d91-8e9d-1032" name="" book="Index: Xenos 1" hidden="false" targetId="601f-ad02-3e1f-fcc4" type="rule">
+        <infoLink id="ea00-3d91-8e9d-1032" name="Métal Organique" book="Index: Xenos 1" hidden="false" targetId="601f-ad02-3e1f-fcc4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cdb1-8d14-9619-2d06" name="Airborn" book="Index: Xenos 1" hidden="false" targetId="ca09-fcab-40ff-4f17" type="profile">
+        <infoLink id="cdb1-8d14-9619-2d06" name="Aéroporté" book="Index: Xenos 1" hidden="false" targetId="ca09-fcab-40ff-4f17" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9a29-71a6-508d-4af2" name="" book="Index: Xenos 1" hidden="false" targetId="a1ff-43d6-25fb-ee2b" type="profile">
+        <infoLink id="9a29-71a6-508d-4af2" name="Descendu en Flammes" book="Index: Xenos 1" hidden="false" targetId="a1ff-43d6-25fb-ee2b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f1d3-e1ed-5e16-f53b" name="" book="Index: Xenos 1" hidden="false" targetId="5f33-88e3-9d91-e594" type="profile">
+        <infoLink id="f1d3-e1ed-5e16-f53b" name="Cible Floue" book="Index: Xenos 1" hidden="false" targetId="5f33-88e3-9d91-e594" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3653-7529-908c-8e2b" name="" book="Index: Xenos 1" hidden="false" targetId="8d65-cff2-6269-ec62" type="profile">
+        <infoLink id="3653-7529-908c-8e2b" name="Supersonique" book="Index: Xenos 1" hidden="false" targetId="8d65-cff2-6269-ec62" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4678,7 +4678,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3be0-cc49-2135-e09b" name="" book="Index: Xenos 1" hidden="false" targetId="271c-1bd0-bb90-cc69" type="selectionEntry">
+        <entryLink id="3be0-cc49-2135-e09b" name="Destructeur Tesla" book="Index: Xenos 1" hidden="false" targetId="271c-1bd0-bb90-cc69" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4689,7 +4689,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ec05-0605-8060-3946" name="" book="Index: Xenos 1" hidden="false" targetId="3d35-ef91-9949-0e39" type="selectionEntry">
+        <entryLink id="ec05-0605-8060-3946" name="Rayon de mort" book="Index: Xenos 1" hidden="false" targetId="3d35-ef91-9949-0e39" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4708,13 +4708,13 @@
     </selectionEntry>
     <selectionEntry id="2400-5523-7510-a2b6" name="Night Scythe" book="Index: Xenos 1" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e2ba-2856-6082-62fc" name="Invasion Beams" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="e2ba-2856-6082-62fc" name="Rayons d&apos;Invasion" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When you set up this model, at the same time you can also set up any number of DYNASTY INFANTRY units on their tomb world rather than setting them up on the battlefield.  Before the Night Scythe moves in each of your Movement phases, a single unit that was set up on their tomb world can be beamed onto the battlefield by the Night Scythe.  To do so, set up the unit so that it is wholly within 3&quot; of the Night Scythe and more than 1&quot; from the enemy.  If all friendly Night Scythes and Monoliths are destroyed, any units still on the tomb world are considered to be slain."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Lorsque vous placez cette figurine, vous pouvez au même moment placer n&apos;importe quel nombre d&apos;unités d&apos;Infanterie DYNASTIE sur leur monde nécropole et non sur le champ de bataille. Avant que le Night Scythe se déplace à chacune de votre phase de Mouvement, une seule unité qui a été placée sur son monde nécropole peut être transférée sur le champ de bataille grâce aux rayons d&apos;invasion du Night Scythe. Pour ce faire, placez l&apos;unité entièrement à 3&quot; ou moins du Night Scythe et à plus de 1&quot; de l&apos;ennemi. Si tous les Night Scythe et les Monolith sont détruits, les unités qui se trouvent sur encore sur leur monde nécropole sont considérées comme détruites."/>
           </characteristics>
         </profile>
         <profile id="4398-b512-b101-42c5" name="Night Scythe" book="Index: Xenos 1" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -4734,80 +4734,80 @@
             <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="e121-d03c-7408-9494" name="Night Scythe Track 1" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="e121-d03c-7408-9494" name="Night Scythe état 1" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="7-12+"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-60&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="7-12+"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-60&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
           </characteristics>
         </profile>
-        <profile id="c71f-2063-f86b-0355" name="Night Scythe Track 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="c71f-2063-f86b-0355" name="Night Scythe état 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-6"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-40&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-6"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-40&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="45af-2507-8995-27ac" name="Night Scythe Track 3" book="Index: Xenos 1" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="45af-2507-8995-27ac" name="Night Scythe état 3" book="Index: Xenos 1" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-25&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-25&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
           </characteristics>
         </profile>
-        <profile id="c200-cac6-eeac-a931" name="Keywords" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
+        <profile id="c200-cac6-eeac-a931" name="Mots-clés" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Necrons, DYNASTY"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Vehicle, Fly, Night Scythe"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Nécrons, DYNASTY"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Véhicule, Vol, Night Scythe"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="902c-9c3c-1526-8d23" name="" book="Index: Xenos 1" hidden="false" targetId="5f33-88e3-9d91-e594" type="profile">
+        <infoLink id="902c-9c3c-1526-8d23" name="Cible Floue" book="Index: Xenos 1" hidden="false" targetId="5f33-88e3-9d91-e594" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e39f-4195-11fa-e28b" name="Crash and Burn" book="Index: Xenos 1" hidden="false" targetId="a1ff-43d6-25fb-ee2b" type="profile">
+        <infoLink id="e39f-4195-11fa-e28b" name="Descendu en Flammes" book="Index: Xenos 1" hidden="false" targetId="a1ff-43d6-25fb-ee2b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="354c-688d-39ef-517a" name="" book="Index: Xenos 1" hidden="false" targetId="601f-ad02-3e1f-fcc4" type="rule">
+        <infoLink id="354c-688d-39ef-517a" name="Métal Organique" book="Index: Xenos 1" hidden="false" targetId="601f-ad02-3e1f-fcc4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="645d-14bd-6923-c7b4" name="" book="Index: Xenos 1" hidden="false" targetId="8d65-cff2-6269-ec62" type="profile">
+        <infoLink id="645d-14bd-6923-c7b4" name="Supersonique" book="Index: Xenos 1" hidden="false" targetId="8d65-cff2-6269-ec62" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d03d-9fe0-b605-9737" name="Airborn" book="Index: Xenos 1" hidden="false" targetId="ca09-fcab-40ff-4f17" type="profile">
+        <infoLink id="d03d-9fe0-b605-9737" name="Aéroporté" book="Index: Xenos 1" hidden="false" targetId="ca09-fcab-40ff-4f17" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4856,7 +4856,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="96aa-bd13-210e-a80d" name="" book="Index: Xenos 1" hidden="false" targetId="271c-1bd0-bb90-cc69" type="selectionEntry">
+        <entryLink id="96aa-bd13-210e-a80d" name="Destructeur Tesla" book="Index: Xenos 1" hidden="false" targetId="271c-1bd0-bb90-cc69" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5650,14 +5650,14 @@
     </selectionEntry>
     <selectionEntry id="7b8e-775e-8a0f-4455" name="Immortals" book="Index: Xenos 1" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="c4a5-40c6-c2f5-5fa0" name="Keywords" book="Index: Xenos 1" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
+        <profile id="c4a5-40c6-c2f5-5fa0" name="Mots-clés" book="Index: Xenos 1" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Necrons, DYNASTY"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infantry, Immortals"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Nécrons, DYNASTIE"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infanterie, Immortals"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5705,7 +5705,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e306-eeaf-a28e-6c78" name="Unit Weapon Choice" book="Index: Xenos 1" hidden="false" collective="false" defaultSelectionEntryId="e196-f5d3-21bf-1bef">
+        <selectionEntryGroup id="e306-eeaf-a28e-6c78" name="Options d&apos;équipement" book="Index: Xenos 1" hidden="false" collective="false" defaultSelectionEntryId="e196-f5d3-21bf-1bef">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5718,7 +5718,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="e22b-eda7-4bd9-52aa" name="Tesla Carbine" book="Index: Xenos 1" hidden="false" targetId="aa3e-6628-f176-979f" type="selectionEntry">
+            <entryLink id="e22b-eda7-4bd9-52aa" name="Carabine Tesla" book="Index: Xenos 1" hidden="false" targetId="aa3e-6628-f176-979f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5739,7 +5739,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="e196-f5d3-21bf-1bef" name="Gauss Blaster" book="Index: Xenos 1" hidden="false" targetId="f8ac-cd96-8f08-c74b" type="selectionEntry">
+            <entryLink id="e196-f5d3-21bf-1bef" name="Eclateur Gauss" book="Index: Xenos 1" hidden="false" targetId="f8ac-cd96-8f08-c74b" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7980,7 +7980,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="8ed5-cd5d-eecd-574e" name="" book="Index: Xenos 1" hidden="false" targetId="cba7-3427-625e-eb99" type="rule">
+        <infoLink id="8ed5-cd5d-eecd-574e" name="Protocoles de Réanimation" book="Index: Xenos 1" hidden="false" targetId="cba7-3427-625e-eb99" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8286,10 +8286,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="8-14+"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="12&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="8-14+"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="12&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
           </characteristics>
         </profile>
         <profile id="433a-2beb-7e78-7055" name="Doomsday Ark Track 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
@@ -8298,10 +8298,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-7"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="8&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="4-7"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="8&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
           </characteristics>
         </profile>
         <profile id="aa8f-f9c7-82e3-5ba8" name="Doomsday Ark Track 3" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
@@ -8310,10 +8310,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="4&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-3"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="4&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
           </characteristics>
         </profile>
         <profile id="4ca2-e45c-bd8b-caa2" name="Keywords" book="Index: Xenos 1" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -8836,10 +8836,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="5-10+"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="12&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="5-10+"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="12&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
           </characteristics>
         </profile>
         <profile id="9bde-ed67-f00f-10e1" name="Tesseract Ark Track 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
@@ -8848,10 +8848,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="3-4"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="8&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="3-4"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="8&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
           </characteristics>
         </profile>
         <profile id="5caf-e6c4-91b7-220b" name="Tesseract Ark Track 3" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
@@ -8860,10 +8860,10 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-2"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="4&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-2"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="4&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
           </characteristics>
         </profile>
         <profile id="2e62-b4eb-6eab-3218" name="Keywords" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -9073,89 +9073,89 @@
             <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="3612-e1e1-145e-ee7a" name="Death Sphere Bombardment" book="IA: Xenos" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="3612-e1e1-145e-ee7a" name="Bombardement Death Sphere" book="IA: Xenos" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per battle, a Night Shroud can drop death spheres on an enemy unit it moves over during one of your Movement phases.  After the Night Shroud has moved, pick one enemy unit that it has passed over.  Then roll 3D6 for each VEHICLE or MONSTER in the unit, and roll a D6 for every other model in the unit, up to a maximum of 12D6.  For each roll of 3+, the target unit suffers a mortal wound."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Une fois par bataille, un Night Shroud peut larguer des death spheres sur une unité ennemie qu&apos;il a survolé lors d&apos;une de vos phases de mouvement. Après que le Night Shroud ait fait son mouvement, choisissez une unité ennemie qui a survolé. Jetez 3D6 pour chaque Véhicule ou Monstre dans l&apos;unité, et jetez un D6 pour chaque autre figurine dans l&apos;unité jusqu&apos;à un maximum de 12D6. Pour chaque jet de 3+, l&apos;unité ciblée subit une blessure mortelle."/>
           </characteristics>
         </profile>
-        <profile id="37ea-3b80-c7de-c3e1" name="Night Shroud Track 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="37ea-3b80-c7de-c3e1" name="Night Shroud état 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="3-5"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-40&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="3-5"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-40&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="4+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="3190-bd9b-f1b7-6b25" name="Night Shroud Track 1" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="3190-bd9b-f1b7-6b25" name="Night Shroud état 1" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="6-14+"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-60&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="6-14+"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-60&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="3+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="3"/>
           </characteristics>
         </profile>
-        <profile id="9859-1719-894d-94e0" name="Night Shroud Track 3" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
+        <profile id="9859-1719-894d-94e0" name="Night Shroud état 3" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining Wounds" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-2"/>
-            <characteristic name="Movement" characteristicTypeId="51f5-7e11-746d-e649" value="20-25&quot;"/>
-            <characteristic name="Ballistic Skill" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
-            <characteristic name="Attacks" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
+            <characteristic name="PV Restants" characteristicTypeId="7b4c-c6b9-4725-d7e2" value="1-2"/>
+            <characteristic name="M" characteristicTypeId="51f5-7e11-746d-e649" value="20-25&quot;"/>
+            <characteristic name="CT" characteristicTypeId="aea4-93ca-2bcf-f3cb" value="5+"/>
+            <characteristic name="A" characteristicTypeId="919e-ec33-44ab-5051" value="1"/>
           </characteristics>
         </profile>
-        <profile id="101b-c071-b6ff-2c9c" name="Keywords" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
+        <profile id="101b-c071-b6ff-2c9c" name="Mots-clés" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Necrons, DYNASTY"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Vehicle, Fly, Night Shroud"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Nécrons, DYNASTIE"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Véhicule, Vol, Night Shroud"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a5ec-1d49-f3b2-d379" name="Living Metal" hidden="false" targetId="601f-ad02-3e1f-fcc4" type="rule">
+        <infoLink id="a5ec-1d49-f3b2-d379" name="Métal Organique" hidden="false" targetId="601f-ad02-3e1f-fcc4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0c99-6357-7e83-ac48" name="Crash and Burn" hidden="false" targetId="a1ff-43d6-25fb-ee2b" type="profile">
+        <infoLink id="0c99-6357-7e83-ac48" name="Descendu en Flammes" hidden="false" targetId="a1ff-43d6-25fb-ee2b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b81d-68bb-4cf3-137d" name="Hard to Hit" hidden="false" targetId="5f33-88e3-9d91-e594" type="profile">
+        <infoLink id="b81d-68bb-4cf3-137d" name="Cible Floue" hidden="false" targetId="5f33-88e3-9d91-e594" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3723-1d91-6d01-3aed" name="Airborn" hidden="false" targetId="ca09-fcab-40ff-4f17" type="profile">
+        <infoLink id="3723-1d91-6d01-3aed" name="Aéroporté" hidden="false" targetId="ca09-fcab-40ff-4f17" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="02b0-496a-66bb-aba2" name="Supersonic" hidden="false" targetId="8d65-cff2-6269-ec62" type="profile">
+        <infoLink id="02b0-496a-66bb-aba2" name="Supersonique" hidden="false" targetId="8d65-cff2-6269-ec62" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9204,7 +9204,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3d94-e9be-eebf-ebe4" name="Twin Tesla Destructor" hidden="false" targetId="1e44-a3a8-d58a-1f4b" type="selectionEntry">
+        <entryLink id="3d94-e9be-eebf-ebe4" name="Destructeur Tesla jumelé" hidden="false" targetId="1e44-a3a8-d58a-1f4b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10915,7 +10915,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="007b-cb6b-034b-9204" name="Vicious Claws" book="Index: Xenos 1" hidden="false" targetId="d6a4-0539-7267-45d1" type="selectionEntry">
+        <entryLink id="007b-cb6b-034b-9204" name="Griffes acérées" book="Index: Xenos 1" hidden="false" targetId="d6a4-0539-7267-45d1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11188,28 +11188,28 @@
         <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
       </characteristics>
     </profile>
-    <profile id="b94a-3d60-a973-f955" name="Tesla Carbine" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="b94a-3d60-a973-f955" name="Carabine Tesla" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 2"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each hit roll of 6+ with this weapon causes 3 hits instead of 1."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Chaque jet de touche de 6+ inflige 3 touches au lieu de 1."/>
       </characteristics>
     </profile>
-    <profile id="e837-8e96-6423-5d20" name="Gauss Blaster" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="e837-8e96-6423-5d20" name="Eclateur Gauss" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Tir Rapide 1"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -11297,40 +11297,40 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model knows one Power of the C&apos;tan.  It can use its of Power of the C&apos;tan in each of your Shooting phases."/>
       </characteristics>
     </profile>
-    <profile id="ca09-fcab-40ff-4f17" name="Airborn" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="ca09-fcab-40ff-4f17" name="Aéroporté" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the Fight phase by units that can FLY."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Cette figurine ne peut pas charger, ne peut être chargée que par des unités avec le mot-clé Vol, et ne peut attaquer ou être attaquée que par des unités avec le mot-clé Vol."/>
       </characteristics>
     </profile>
-    <profile id="5f33-88e3-9d91-e594" name="Hard to Hit" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="5f33-88e3-9d91-e594" name="Cible Floue" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Your opponent must subtract 1 from hit rolls for attacks that target this model in the Shooting phase."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Votre adversaire doit soustraire 1 aux jets de touche des attaques qui ciblent cette figurine en phase de Tir."/>
       </characteristics>
     </profile>
-    <profile id="8d65-cff2-6269-ec62" name="Supersonic" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="8d65-cff2-6269-ec62" name="Supersonique" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time this model moves, first pivot it on the spot up to 90 degrees (this does not contribute to how far the model moves), and then move the model straight forwards.  Note that it cannot pivot again after the initial pivot.  When this model Advances, increase its Move characteristic by 20&quot; until the end of the phase - do not roll a dice."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Chaque fois que cette figurine se déplace, pivotez-la tout d&apos;abord sur son axe de jusqu&apos;à 90° (Cela ne contribue pas à la distance de déplacement de la figurine), puis déplacez la figurine droit devant. Elle ne peut pas pivoter après le pivot innitial. Lorsque cette figurine Avance, Augmentez sa caractéristique de Mouvement de 20&quot; jusqu&apos;à la fin de la phase - ne jetez pas de dé."/>
       </characteristics>
     </profile>
-    <profile id="a1ff-43d6-25fb-ee2b" name="Crash and Burn" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="a1ff-43d6-25fb-ee2b" name="Descendu en Flammes" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield.  On a 6 it crashes in a fiery explosion and each unit within 6&quot; suffers D3 mortal wounds."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Si cette figurine est réduite à 0 PV, jetez un D6 avant de la retirer du champ de bataille. Sur 6 elle s&apos;écrase dans une féroce explosion et chaque unité à 6&quot; ou moins subit D3 blessures mortelles."/>
       </characteristics>
     </profile>
     <profile id="9a08-f288-459a-78ac" name="Hovering" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">

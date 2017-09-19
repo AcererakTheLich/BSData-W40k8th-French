@@ -1986,16 +1986,16 @@
         <cost name="pts" costTypeId="points" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26ad-bf23-16f5-7f91" name="Particle Beamer" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="26ad-bf23-16f5-7f91" name="Faisceau de particules" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="af18-31d6-859d-6155" name="Particle Beamer" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+        <profile id="af18-31d6-859d-6155" name="Faisceau de particules" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 3"/>
             <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
             <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -2230,20 +2230,20 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a308-8b68-886d-3014" name="Synaptic Disintegrator" book="Index: Xenos 1" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="a308-8b68-886d-3014" name="Désintégrateur synaptique" book="Index: Xenos 1" hidden="false" collective="true" type="upgrade">
       <profiles>
-        <profile id="e2d6-fdd8-3a3d-d6ff" name="Synaptic Disintegrator" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+        <profile id="e2d6-fdd8-3a3d-d6ff" name="Désintégrateur synaptique" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Tir Rapide 1"/>
             <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
             <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-            <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon may target a CHARACTER even if it is not the closest enemy unit.  Each time you roll a wound roll of 6+ for this weapon, the target suffers a mortal wound in addition to any other damage."/>
+            <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Cette arme peut cibler un Personnage même s&apos;il n&apos;est pas l&apos;unité la plus proche. A chaque jet de blessure de 6+ pour cette arme, la cible subit une blessure mortelle en plus de tout autre dégât."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3156,14 +3156,14 @@
     </selectionEntry>
     <selectionEntry id="020f-7722-666a-dcef" name="Canoptek Spyders" book="Index: Xenos 1" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="fb11-06d7-7783-f733" name="Keywords" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
+        <profile id="fb11-06d7-7783-f733" name="Mots-clés" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Necrons, Canoptek, DYNASTY"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Monster, Canoptek Spyders"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Nécrons, Canoptek, DYNASTIE"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Monstre, Canoptek Spyders"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3247,13 +3247,13 @@
             <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="d92f-5dea-6280-4d5c" name="Scarab Hive" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="d92f-5dea-6280-4d5c" name="Ruche de Scarabées" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the beginning of your turn, you can roll a D6 for each friendly DYNASTY Canoptek Scarabs unit that is below its starting number of models and within 6&quot; of any Canoptek Spyders.  On a roll of 1, one of those Canoptek Spyders units suffers D3 mortal wounds.  On a 2+ one of the Canoptek Spyders units unleashes reinforcements: return a Canoptek Scarab Swarm to the depleted unit, in unit coherency and more than 1&quot; from enemy models.  If you cannot do this because there is no room to place the model, do not set it up."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Au début de votre tour, vous pouvez jeter un D6 pour chaque unité de Canoptek Scarabs DYNASTIE amie qui est en dessous de son objectif de départ et à 6&quot; ou moins d&apos;au moins un Canoptek Spyder. Sur 1, une de ces unités de Canoptek Spyders subit D3 blessures mortelles. Sur 2+, 1 des unités de Canoptek Spyders libère des renforts : faites revenir un Canoptek Scarab Swarm dans l&apos;unité en sous-effectif, en cohésion d&apos;unité et à plus de 1&quot; de toute figurine ennemie. Si vous ne pouvez pas le faire par manque de place pour la figurine, elle n&apos;est pas placée."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3263,17 +3263,17 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="8d26-f6ef-e356-a7ad" name="Automaton Claws" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8d26-f6ef-e356-a7ad" name="Pinces-automates" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="a881-fb2f-46ee-fd90" name="Automaton Claws" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="a881-fb2f-46ee-fd90" name="Pinces-automates" book="Index: Xenos 1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mele"/>
-                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
                 <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
                 <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
@@ -3296,7 +3296,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6625-370f-4830-0646" name="Two Particle Beamers" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6625-370f-4830-0646" name="Deux faisceaux de particules" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3308,7 +3308,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="bbe3-d01c-c9a9-dcc4" name="" book="Index: Xenos 1" hidden="false" targetId="26ad-bf23-16f5-7f91" type="selectionEntry">
+            <entryLink id="bbe3-d01c-c9a9-dcc4" name="Faisceau de particules" book="Index: Xenos 1" hidden="false" targetId="26ad-bf23-16f5-7f91" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3328,7 +3328,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="cd1c-56be-8d63-cd08" name="Fabricator Claw Array" book="Index: Xenos 1" hidden="false" targetId="edfc-6702-14c1-c861" type="selectionEntry">
+        <entryLink id="cd1c-56be-8d63-cd08" name="Panoplie de Pinces" book="Index: Xenos 1" hidden="false" targetId="edfc-6702-14c1-c861" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3338,7 +3338,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f456-15da-47b2-d56b" name="" book="Index: Xenos 1" hidden="false" targetId="e683-6baa-e13b-9375" type="selectionEntry">
+        <entryLink id="f456-15da-47b2-d56b" name="Prisme de Noirceur" book="Index: Xenos 1" hidden="false" targetId="e683-6baa-e13b-9375" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5911,14 +5911,14 @@
     </selectionEntry>
     <selectionEntry id="044b-987c-b28c-244f" name="Deathmarks" book="Index: Xenos 1" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e5cb-91a3-c750-6efa" name="Keywords" book="Index: Xenos 1" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
+        <profile id="e5cb-91a3-c750-6efa" name="Mots-clés" book="Index: Xenos 1" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Necrons, DYNASTY"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infantry, Deathmarks"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Nécrons, DYNASTIE"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infanterie, Deathmarks"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6003,28 +6003,28 @@
             <characteristic name="Sv" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="b1a5-0ca8-c8de-393d" name="Hunters from Hyperspace" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="b1a5-0ca8-c8de-393d" name="Chasseurs de l&apos;Hyperespace" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up a unit of Deathmarks in a hyperspace oubliette instead of placing them on the battlefield. At the end of any of your Movement phases the Deathmarks can slip back into reality - set them up anywhere on the battlefield that is more than 9&quot; away from any enemy models."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Lors du déploiement, vous pouvez placer une unité de Deathmarks dans une oubliette hyperspatiale et non sur le champ de bataille. A la fin d&apos;une de vos phases de Mouvement, les Deathmarks peuvent se glisser dans la réalité; placez-les n&apos;importe où sur le champ de bataille à plus de 9&quot; de toute figurine ennemie."/>
           </characteristics>
         </profile>
-        <profile id="3e35-325e-3866-b031" name="Ethereal Interception" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="3e35-325e-3866-b031" name="Interception Ethérique" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When an enemy unit is set up (other than during deployment or when disembarking)  you can immediately set up a unit of Deathmarks that was set up in a hyperspace oubliette on the battlefield, anywhere more than 9&quot; away from enemy models and within 12&quot; of the enemy unit that has just been set up.  You can then make a shooting attack with this unit as if it were your Shooting phase, but this attack must target the enemy unit that was just set up."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Lorsqu&apos;une unité ennemie est placée (autrement que lors du déploiement ou lorsqu&apos;elle débarque) vous pouvez aussitôt placer sur le champ de bataille une unité de Deathmarks placée dans une oubliette hyperspaciale, n&apos;importe où à plus de 9&quot; de toute figurine ennemie et à 12&quot; ou moins de l&apos;unité ennemie venant d&apos;être placée. Vous pouvez ensuite effectuer une attaque de tir avec cette unité comme s&apos;il s&apos;agissait de votre phase de Tir, mais vous devez cibler l&apos;unité venant juste d&apos;être placée."/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0aaf-da64-a434-c0ea" name="" book="Index: Xenos 1" hidden="false" targetId="cba7-3427-625e-eb99" type="rule">
+        <infoLink id="0aaf-da64-a434-c0ea" name="Protocoles de Réanimation" book="Index: Xenos 1" hidden="false" targetId="cba7-3427-625e-eb99" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6037,7 +6037,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="93b1-01b6-feb6-45b0" name="Synaptic Disintegrator" book="Index: Xenos 1" hidden="false" targetId="a308-8b68-886d-3014" type="selectionEntry">
+        <entryLink id="93b1-01b6-feb6-45b0" name="Désintégrateur synaptique" book="Index: Xenos 1" hidden="false" targetId="a308-8b68-886d-3014" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7767,15 +7767,15 @@
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="edfc-6702-14c1-c861" name="Fabricator Claw Array" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="edfc-6702-14c1-c861" name="Panoplie de Pinces" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="e774-f4d3-9e5c-8ebd" name="Fabricator Claw Array" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="e774-f4d3-9e5c-8ebd" name="Panoplie de Pinces" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase a model equipped with a fabricator claw array can repair a single DYNASTY VEHICLE within 1&quot;. That model regains D3 wounds lost earlier in the battle.  A model can only be repaired once per turn."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A la fin de votre phase de Mouvement, une figurine équipée d&apos;une panoplie de pinces peut réparer un seul Véhicule DYNASTIE à 1&quot; ou moins. Cette figurine récupère D3 PV perdu précédemment au cours de la bataille. Une figurine ne peut être réparée qu&apos;une fois par tour."/>
           </characteristics>
         </profile>
       </profiles>
@@ -7792,15 +7792,15 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e683-6baa-e13b-9375" name="Gloom Prism" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e683-6baa-e13b-9375" name="Prisme de Noirceur" book="Index: Xenos 1" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="0421-3d47-e763-3ebc" name="Gloom Prism" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="0421-3d47-e763-3ebc" name="Prisme de Noirceur" book="Index: Xenos 1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model equipped with a gloom prism can attempt to deny one psychic power in each enemy Psychic phase."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Une figurine équipée d&apos;un prisme de noirceur peut tenter d&apos;abjurer un pouvoir psychique à chaque phase Psychique ennemie."/>
           </characteristics>
         </profile>
       </profiles>
@@ -9079,7 +9079,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Une fois par bataille, un Night Shroud peut larguer des death spheres sur une unité ennemie qu&apos;il a survolé lors d&apos;une de vos phases de mouvement. Après que le Night Shroud ait fait son mouvement, choisissez une unité ennemie qui a survolé. Jetez 3D6 pour chaque Véhicule ou Monstre dans l&apos;unité, et jetez un D6 pour chaque autre figurine dans l&apos;unité jusqu&apos;à un maximum de 12D6. Pour chaque jet de 3+, l&apos;unité ciblée subit une blessure mortelle."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Une fois par bataille, un Night Shroud peut larguer ses death spheres sur une unité ennemie qu&apos;il a survolé lors d&apos;une de vos phases de Mouvement. Après que le Night Shroud se soit déplacé, choisissez une unité ennemie qu&apos;il a survolé. Jetez 3D6 pour chaque Véhicule ou Monstre dans l&apos;unité, et jetez un D6 pour chaque autre figurine dans l&apos;unité jusqu&apos;à un maximum de 12D6. Pour chaque jet de 3+, l&apos;unité ciblée subit une blessure mortelle."/>
           </characteristics>
         </profile>
         <profile id="37ea-3b80-c7de-c3e1" name="Night Shroud état 2" book="IA: Xenos" hidden="false" profileTypeId="9b74-b72b-d6bc-194a" profileTypeName="Unit Wound Track (Movement/BS/A)">

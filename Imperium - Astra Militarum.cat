@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="53e9d88f-7463-8c27-fe67-e1a0d1ed0287" name="Imperium - Astra Militarum" revision="73" battleScribeVersion="2.01" authorName="Alphalas, Joe Beddoe" authorContact="Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="53e9d88f-7463-8c27-fe67-e1a0d1ed0287" name="Imperium - Astra Militarum" revision="77" battleScribeVersion="2.01" authorName="Alphalas, Joe Beddoe" authorContact="Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1709,6 +1709,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="63c1-aea8-a119-934c" name="New CategoryLink" hidden="false" targetId="8c19-b62a-befd-4efa" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="32e6-1199-ff51-11d8" name="New CategoryLink" hidden="false" targetId="dd6e-7055-ca6b-b711" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7751,7 +7758,15 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="2556-c426-53a9-9140" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -26254,17 +26269,7 @@
       <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="9ee1-427b-a253-8c85" name="Leman Russ Conqueror" book="" page="" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="2e73-be71-2b1e-f593" name="Grinding Advance (Conqueror)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model does not suffer the penalty to its Conqueror battle cannon hit rolls for shooting a Heavy weapon on a turn in which it has moved."/>
-              </characteristics>
-            </profile>
-          </profiles>
+          <profiles/>
           <rules/>
           <infoLinks>
             <infoLink id="36df-3f64-0332-3edf" name="Leman Russ" hidden="false" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
@@ -26292,6 +26297,12 @@
               <modifiers/>
             </infoLink>
             <infoLink id="27ec-cf83-7d84-5cd5" name="Emergency Plasma Vents" hidden="false" targetId="fdc3-2a0f-e726-f47c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="980c-9057-61d8-35cb" name="Grinding Advance" hidden="false" targetId="d894-c3d2-278d-3678" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -26430,17 +26441,7 @@
       <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="0aaa-d0f5-0ada-f265" name="Leman Russ Annihilator" book="" page="" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="d142-7833-bb19-56d9" name="Grinding Advance (Annihilator)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model does not suffer the penalty to its twin lascannon hit rolls for shooting a Heavy weapon on a turn in which it has moved."/>
-              </characteristics>
-            </profile>
-          </profiles>
+          <profiles/>
           <rules/>
           <infoLinks>
             <infoLink id="36ff-3297-fc90-32da" name="Leman Russ" hidden="false" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
@@ -26467,7 +26468,13 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="3ca1-8efa-3f1c-defa" name="Improved Emergency Plasma Vents" hidden="false" targetId="fdc3-2a0f-e726-f47c" type="profile">
+            <infoLink id="3ca1-8efa-3f1c-defa" name="Emergency Plasma Vents" hidden="false" targetId="fdc3-2a0f-e726-f47c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0920-a3c5-2077-0a3c" name="Grinding Advance" hidden="false" targetId="d894-c3d2-278d-3678" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -28275,17 +28282,7 @@
       <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="b775-dae5-6f1e-1099" name="Leman Russ Stygies Vanquisher" book="" page="" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="c539-f082-915b-93fc" name="Grinding Advance (Stygies Vanquisher)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model does not suffer the penalty to its Stygies Vanquisher battle cannon hit rolls for shooting a Heavy weapon on a turn in which it has moved."/>
-              </characteristics>
-            </profile>
-          </profiles>
+          <profiles/>
           <rules/>
           <infoLinks>
             <infoLink id="cc6a-ff3c-8146-286f" name="Leman Russ" hidden="false" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
@@ -28312,7 +28309,13 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="0560-1b0d-e1df-2db9" name="Improved Emergency Plasma Vents" hidden="false" targetId="fdc3-2a0f-e726-f47c" type="profile">
+            <infoLink id="0560-1b0d-e1df-2db9" name="Emergency Plasma Vents" hidden="false" targetId="fdc3-2a0f-e726-f47c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9cde-5a2b-f673-cf7d" name="Grinding Advance" hidden="false" targetId="d894-c3d2-278d-3678" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -31136,7 +31139,36 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="86b5-7eee-98c5-f586" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="86b5-7eee-98c5-f586" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="86b5-7eee-98c5-f586" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="86b5-7eee-98c5-f586" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
@@ -31190,36 +31222,7 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers>
-            <modifier type="increment" field="e356-c769-5920-6e14" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ad7c-3e6d-39c5-83b7" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e356-c769-5920-6e14" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ad7c-3e6d-39c5-83b7" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e356-c769-5920-6e14" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ad7c-3e6d-39c5-83b7" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="e356-c769-5920-6e14" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ad7c-3e6d-39c5-83b7" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548f-bf8c-2615-7319" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de57-c4ae-ccfa-50b8" type="max"/>
@@ -34122,7 +34125,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Re-roll hit rolls of 1 in the Shooting phase for units with this doctrine if they did not move in the previous Movement phase. If an INFANTRYunit with this doctrine is issued the ‘Take Aim!’ order and it did not move in the previous Movement phase, re-roll all failed hit rolls for the unit until the end of the phase instead."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Re-roll hit rolls of 1 in the Shooting phase for units with this doctrine if they did not move in the previous Movement phase. If an INFANTRY unit with this doctrine is issued the ‘Take Aim!’ order and it did not move in the previous Movement phase, re-roll all failed hit rolls for the unit until the end of the phase instead."/>
               </characteristics>
             </profile>
           </profiles>
@@ -34149,7 +34152,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRYunits with this doctrine add 1 to their Strength characteristic. In addition, they can add 1 to their Leadership characteristic if they are within 6&quot; of a friendly CATACHAN OFFICER.Each time a VEHICLEwith this doctrine fires a ranged weapon that makes a random number of attacks (e.g. Heavy D6, Heavy 2D6 etc.) you can re-roll one of the dice used to determine the number of attacks made."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY units with this doctrine add 1 to their Strength characteristic. In addition, they can add 1 to their Leadership characteristic if they are within 6&quot; of a friendly CATACHAN OFFICER. Each time a VEHICLE with this doctrine fires a ranged weapon that makes a random number of attacks (e.g. Heavy D6, Heavy 2D6 etc.) you can re-roll one of the dice used to determine the number of attacks made."/>
               </characteristics>
             </profile>
           </profiles>
@@ -34176,7 +34179,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If the base of every model in an INFANTRYunit with this doctrine is touching the base of at least one other model from the same unit, the unit has +1 Leadership and you can add 1 to hit rolls made for models in that unit when firing Overwatch. You can add 1 to hit rolls made for Vehicleswith this doctrine when firing Overwatch if they are within 3&quot; of one or more other friendly MORDIAN VEHICLES. These modifers to hit rolls are an exception to the normal rules which do not allow modifers when making Overwatch shots – in such cases a result of 7 is also a successful hit."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If the base of every model in an INFANTRY unit with this doctrine is touching the base of at least one other model from the same unit, the unit has +1 Leadership and you can add 1 to hit rolls made for models in that unit when firing Overwatch. You can add 1 to hit rolls made for VEHICLES with this doctrine when firing Overwatch if they are within 3&quot; of one or more other friendly MORDIAN VEHICLES. These modifers to hit rolls are an exception to the normal rules which do not allow modifers when making Overwatch shots – in such cases a result of 7 is also a successful hit."/>
               </characteristics>
             </profile>
           </profiles>
@@ -34257,7 +34260,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY units with this doctrine may double the number of attacks they make with Rapid Fire weapons at a range of up to 18&quot;, rather than half the weapon’s range as normal. VEHICLESwith this doctrine treat attacks against them with an AP of -1 as having AP 0."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY units with this doctrine may double the number of attacks they make with Rapid Fire weapons at a range of up to 18&quot;, rather than half the weapon’s range as normal. VEHICLES with this doctrine treat attacks against them with an AP of -1 as having AP 0."/>
               </characteristics>
             </profile>
           </profiles>
@@ -34311,7 +34314,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRYunits with this doctrine can Advance and still shoot any weapon type (except Heavy weapons). When they do so, they do not suffer the usual penalties to hit rolls for Assault weapons. VEHICLESwith this doctrine do not suffer the penalty to their hit rolls for moving and firing Heavy weapons. If a TITANIC VEHICLEwith this doctrine Advances, it treats all Heavy weapons it is equipped with as Assault weapons until the end of the turn (e.g. a Heavy D6 weapon is treated as an Assault D6 weapon)."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY units with this doctrine can Advance and still shoot any weapon type (except Heavy weapons). When they do so, they do not suffer the usual penalties to hit rolls for Assault weapons. VEHICLES with this doctrine do not suffer the penalty to their hit rolls for moving and firing Heavy weapons. If a TITANIC VEHICLE with this doctrine Advances, it treats all Heavy weapons it is equipped with as Assault weapons until the end of the turn (e.g. a Heavy D6 weapon is treated as an Assault D6 weapon)."/>
               </characteristics>
             </profile>
           </profiles>

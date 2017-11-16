@@ -11274,9 +11274,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités Infanterie à 1&quot; ou moins d&apos;une Aegis Defence Line, et situées derrière elle du point de vue de l&apos;unité qui tire bénéficient d&apos;un couvert.
-
-Lorsqu&apos;on charge une unité située de l&apos;autre côté d&apos;une Aegis Defence Line, la charge réussi si l&apos;unité qui charge peut se déplacer à 2&quot; ou moins de l&apos;unité ciblée. Quand on résout les combats entre des unités situées de part et d&apos;autre d&apos;une Aegis Defence Line, les unités peuvent être choisies pour combattre et effectuer leurs attaques si l&apos;ennemi est à 2&quot; ou moins au lieu de 1&quot;. "/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités Infanterie à 1&quot; ou moins d&apos;une Aegis Defence Line, et situées derrière elle du point de vue de l&apos;unité qui tire bénéficient d&apos;un couvert.  Lorsqu&apos;on charge une unité située de l&apos;autre côté d&apos;une Aegis Defence Line, la charge réussi si l&apos;unité qui charge peut se déplacer à 2&quot; ou moins de l&apos;unité ciblée. Quand on résout les combats entre des unités situées de part et d&apos;autre d&apos;une Aegis Defence Line, les unités peuvent être choisies pour combattre et effectuer leurs attaques si l&apos;ennemi est à 2&quot; ou moins au lieu de 1&quot;. "/>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="Réseau de Défence Fixe" book="" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -11311,31 +11309,31 @@ Lorsqu&apos;on charge une unité située de l&apos;autre côté d&apos;une Aegis
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="589d-78cf-845c-2b65" name="Legendary Fighter" book="Warhammer 40,000" page="186" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="589d-78cf-845c-2b65" name="Combattant Légendaire" book="Warhammer 40,000" page="186" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Si ce Seigneur de Guerre charge à la phase de Charge, ajouter 1 à sa caractéristique d&apos;Attaques jusqu&apos;à la fin de la phase de Combat suivante."/>
       </characteristics>
     </profile>
-    <profile id="add7-15e6-fb9e-25e4" name="Inspiring Leader" book="Warhammer 40,000" page="186" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="add7-15e6-fb9e-25e4" name="Chef Charismatique" book="Warhammer 40,000" page="186" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Friendly units within 6&quot; of this Warlord can add 1 to their Leadership characteristic."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités amies à 6&quot; ou moins de ce Seigneur de Guerre peuvent ajouter 1 à leur caractéristique de Commandement."/>
       </characteristics>
     </profile>
-    <profile id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" book="Warhammer 40,000" page="186" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="7a19-046d-bf4e-bae3" name="Survivant Tenace" book="Warhammer 40,000" page="186" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a dice each time this Warlord loses a wound. On a 6, the Warlord shrugs off the damage and does not lose the wound."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Jetez un dé chaque fois que ce Seigneur de Guerre perd un point de Vie. Sur un 6, le Seigneur de Guerre ignore le dégât et ne perd pas le Point de Vie."/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -925,7 +925,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7d0e-6175-7bf1-6ad7" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="7d0e-6175-7bf1-6ad7" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3187,7 +3187,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c6a2-a2a3-d576-8000" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="c6a2-a2a3-d576-8000" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5900,7 +5900,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6754-2428-558b-beb3" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="6754-2428-558b-beb3" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6508,7 +6508,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9e35-5e47-8ffb-3ca5" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="9e35-5e47-8ffb-3ca5" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8183,7 +8183,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="51db-dbfb-bebf-e71b" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="51db-dbfb-bebf-e71b" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8374,7 +8374,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5cd6-1605-9d77-7ec7" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="5cd6-1605-9d77-7ec7" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8517,7 +8517,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4689-725e-03d1-ca96" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="4689-725e-03d1-ca96" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8771,7 +8771,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c951-2a06-e4be-f430" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="c951-2a06-e4be-f430" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9038,7 +9038,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b1fa-a78c-01e2-67f6" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="b1fa-a78c-01e2-67f6" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11659,7 +11659,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4712-205f-ccf6-7bde" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="4712-205f-ccf6-7bde" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13687,7 +13687,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c78f-6b1c-1b0a-70f6" name="Warlord Traits" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
+        <entryLink id="c78f-6b1c-1b0a-70f6" name="Traits de Seigneur de Guerre" hidden="false" targetId="25a0-b547-6079-03a1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14303,7 +14303,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1330-a88c-1350-6f71" name="1. The Horror" hidden="false" targetId="afd5-2e14-a36e-7887" type="selectionEntry">
+        <entryLink id="1330-a88c-1350-6f71" name="3. The Horror" hidden="false" targetId="afd5-2e14-a36e-7887" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14319,7 +14319,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="34e9-5d4b-7450-3bcd" name="3. Onslaught" hidden="false" targetId="6208-036c-2a57-caed" type="selectionEntry">
+        <entryLink id="34e9-5d4b-7450-3bcd" name="4. Onslaught" hidden="false" targetId="6208-036c-2a57-caed" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14732,9 +14732,9 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="acbe-148d-e7d1-85bb" name="Le Faucheur d'Obliterax" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="acbe-148d-e7d1-85bb" name="Le Faucheur d&apos;Obliterax" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="3fc7-0944-edae-b0f3" name="Le Faucheur d'Obliterax" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="3fc7-0944-edae-b0f3" name="Le Faucheur d&apos;Obliterax" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15011,7 +15011,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="25a0-b547-6079-03a1" name="Warlord Traits" hidden="false" collective="false">
+    <selectionEntryGroup id="25a0-b547-6079-03a1" name="Traits de Seigneur de Guerre" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15022,15 +15022,15 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="44d7-a6a8-d0db-f678" name="Kronos: Soul Hunger" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="44d7-a6a8-d0db-f678" name="Kronos: Faim d&apos;âmes" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="61ea-cfea-987c-3690" name="Soul Hunger" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="61ea-cfea-987c-3690" name="Faim d&apos;âmes" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Whenever an enemy Psyker fails a psychic test within 18&quot; of your Warlord, they suffer D3 mortal wounds."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Chaque fois qu&apos;un PSYKER ennemie rate un test Psychique à 18&quot; ou moins de votre Seigneur de Guerre, il subit D3 blessures mortelles."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15050,7 +15050,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: Soul Hunger">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Faim d&apos;âmes">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15081,22 +15081,22 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7647-ea87-0427-b47d" name="6. Adaptive Biology" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7647-ea87-0427-b47d" name="6. Physiologie Adaptative" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="17a4-64f2-2d1a-841a" name="Adaptive Biology" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="17a4-64f2-2d1a-841a" name="Physiologie Adaptative" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="From the end of the first phase in which this Warlord suffers any wounds, for the remainder of the battle when inflicting damage upon the Warlord, reduce the damage of the attack by 1 to a minimum of 1."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A partir de la fin de la première phase où ce Seigneur de Guerre perd au moins un PV et jusqu&apos;à la fin de la bataille, lorsque des dégâts sont infligés au Seigneur de Guerre, réduisez de 1 les dégâts de l&apos;attaque, jusqu&apos;à un minimum de 1."/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Adaptive Biology">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Physiologie Adaptative">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15126,22 +15126,22 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1ac1-fc4b-273a-173d" name="1. Alien Cunning" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1ac1-fc4b-273a-173d" name="1. Ruse d&apos;Extraterrestre" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="1137-9241-90b8-b484" name="Alien Cunning" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="1137-9241-90b8-b484" name="Ruse d&apos;Extraterrestre" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of the first battle round but before the first turn begins, you can remove your Warlord from the battlefield and set them up again. If both players have units that can do this, roll off. The player that wins the roll-off decides who sets up their unit(s) first."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Au début du premier round de bataille mais avant d&apos;entamer le premier tour, vous pouvez retirer votre Seigneur de Guerre du champ de bataille puis l&apos;y placer à nouveau. Si les deux joueurs ont des unités capable d&apos;agir ainsi, tirez au dé. Le gagnant du tir au dé décide qui place son/ses unité(s) le premier."/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Alien Cunning">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Ruse d&apos;Extraterrestre">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15171,22 +15171,22 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="942d-cb3d-b245-1450" name="2. Heightened Sensess" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="942d-cb3d-b245-1450" name="2. Sens Amplifiés" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="e708-975a-706c-cee4" name="Heightened Sensess" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="e708-975a-706c-cee4" name="Sens Amplifiés" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Your Warlord never suffers any penalties to their hit rolls (although they still only hit on rolls of 6 when firing Overwatch)."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Votre Seigneur de Guerre ne subit jamais aucune pénalité à ses jets de touche (bien qu&apos;il touche toujours sur des 6 lorsqu&apos;il tir en Etat d&apos;Alerte)."/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Heightened Sensess">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Sens Amplifiés">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15216,113 +15216,22 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="101e-24a3-ec94-9119" name="3. Synaptic Lynchpin" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="101e-24a3-ec94-9119" name="3. Pilier Synaptique" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="d2f4-9581-804f-8218" name="Synaptic Lynchpin" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="d2f4-9581-804f-8218" name="Pilier Synaptique" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 6&quot; to the range of the Warlord&apos;s Synapse ability."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Ajoutez 6&quot; à la portée de l&apos;aptitude Synapse du Seigneur de Guerre."/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Synaptic Lynchpin">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d83b-acf3-2677-40e1" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e09-72a3-df36-ebd8" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bad-120f-afa0-1745" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a85-738f-f138-2640" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9248-5937-3434-37a5" name="4. Mind Eater" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="1fb5-1c0b-7b3c-05db" name="Mind Eater" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time the Warlord slays an enemy CHARACTER in the Fight phase, choose a friendly &lt;HIVE FLEET&gt; unit within 3&quot;. At the end of the phase, that unit can move (and Advance if you wish) as if it was your Movement phase."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Mind Eater">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d83b-acf3-2677-40e1" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bad-120f-afa0-1745" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a85-738f-f138-2640" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9179-7949-c275-8568" name="5. Instinctive Killer" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="ce11-38a3-54be-461c" name="Instinctive Killer" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the beginning of the battle but before the first turn begins, choose an enemy unit. You can re-roll failed hit rolls for the Warlord for attacks that target that unit or any unit that has the same datasheet (for example, all Intercessor Squads or all units of Nobz etc.)."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Instinctive Killer">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Pilier Synaptique">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15353,15 +15262,106 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ce64-1747-81c9-716e" name="Behemoth: Monstrous Hunger" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9248-5937-3434-37a5" name="4. Psycophage" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="eb41-9b39-727f-6b54" name="Monstrous Hunger" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="1fb5-1c0b-7b3c-05db" name="Psycophage" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time you make a wound roll of 6+ for the Warlord in the Fight phase, that attack inflicts 1 additional damage."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Chaque fois que le Seigneur de Guerre tue un PERSONNAGE ennemie en phase de Combat, choisissez une unité &lt;FLOTTE-RUCHE&gt; amie à 3&quot; ou moins. A la fin de cette phase, cette unité peut se déplacer (et Avancer si vous le souhaitez) comme s&apos;il s&apos;agissait de votre phase de Mouvement."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Psycophage">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d83b-acf3-2677-40e1" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bad-120f-afa0-1745" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a85-738f-f138-2640" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9179-7949-c275-8568" name="5. Instinct du Tueur" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ce11-38a3-54be-461c" name="Instinct du Tueur" book="Codex: Tyranids" page="124" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Au début de la bataille, mais avant d&apos;entamer le premier tour, choisissez une unité ennemie. Vous pouvez relancer les jets de touche ratés pour le Seigneur de Guerre qui ciblent cette unité ou une unité issue de la même fiche technique (par exemple : toutes les Intercessor Squads, ou toutes les unités de Nobz, etc.)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Instinct du Tueur">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d83b-acf3-2677-40e1" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e09-72a3-df36-ebd8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bad-120f-afa0-1745" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a85-738f-f138-2640" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce64-1747-81c9-716e" name="Behemoth: Faim Dévorante" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="eb41-9b39-727f-6b54" name="Faim Dévorante" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A chaque jet de blessure de 6+ pour le Seigneur de Guerre en phase de Combat, cette attaque inflige 1 dégât supplémentaire."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15381,7 +15381,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: Monstrous Hunger">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Faim Dévorante">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15412,15 +15412,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7f79-a98b-9a40-762b" name="Kraken: One Step Ahead" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7f79-a98b-9a40-762b" name="Kraken: Anticipation" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="edd5-0604-f761-d232" name="One Step Ahead" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="edd5-0604-f761-d232" name="Anticipation" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="In each Fight phase, you can pick one friendly KRAKEN unit within 6&quot; of your Warlord. That unit can fight first in the Fight phase, even if it didn&apos;t charge. If the enemy has units that have charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A chaque phase de Combat, vous pouvez choisir une unité KRAKEN amie à 6&quot; ou moins de votre Seigneur de Guerre. Cette unité peut combrattre en premier en phase de Combat, même sans avoir chargé. Si l&apos;ennemie a des unités qui ont chargé, ou qui ont une aptitude similaire, choisissez à tour de rôle les unités qui combattent, en commençant par le joueur dont c&apos;est le tour."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15440,7 +15440,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: One Step Ahead">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Anticipation">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15471,15 +15471,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b6e9-4130-fd6a-78f3" name="Leviathan: Perfectly Adapted" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b6e9-4130-fd6a-78f3" name="Leviathan: Parfaite Adaptation" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="d7df-2880-eb8e-4ad4" name="Perfectly Adapted" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="d7df-2880-eb8e-4ad4" name="Parfaite Adaptation" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per battle round, you can re-roll a single hit roll, wound roll, damage roll, Advance roll, charge roll or saving throw made for your Warlord."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Une fois par round de bataille, vous pouvez relancer un seul jet de touche, de blessure, de dégâts, d&apos;Avance, de charge ou de sauvegarde effectué pour votre Seigneur de Guerre."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15499,7 +15499,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: Perfectly Adapted">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Parfaite Adaptation">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15530,15 +15530,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="955a-8fd9-c9aa-8761" name="Gorgon: Lethal Miasma" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="955a-8fd9-c9aa-8761" name="Gorgon: Miasmes Mortels" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="1e87-4c68-503d-99d2" name="Lethal Miasma" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="1e87-4c68-503d-99d2" name="Miasmes Mortels" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of the Fight phase, roll a D6 for each enemy unit within 1&quot; of the Warlord. On a 4+ that unit suffers a mortal wound."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A la fin de la phase de Combat, jetez un D6 pour chaque unité ennemie à 1&quot; ou moins du Seigneur de Guerre. Sur 4+ cette unité subit une blessure mortelle."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15558,7 +15558,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: Lethal Miasma">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Miasmes Mortels">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15589,15 +15589,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8054-4c09-990b-5fdb" name="Jormungandr: Insidious Threat" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8054-4c09-990b-5fdb" name="Jormungandr: Menace Insidieuse" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="9666-8c5c-889f-92d4" name="Insidious Threat" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="9666-8c5c-889f-92d4" name="Menace Insidieuse" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Enemy units never gain any bonus to their saving throws for being in cover for attacks made by the Warlord or friendly JORMUNGANDR units within 3&quot; of the Warlord."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités ennemies ne gagnent jamais de bonus dû au couvert à la sauvegarde contre les attaques du Seigneur de Guerre ou des unités JORMUNGANDR amies à 3&quot; ou moins de lui."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15617,7 +15617,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: Insidious Threat">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Menace Insidieuse">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15648,15 +15648,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="04dc-2179-9819-beaa" name="Hydra: Endless Regeneration" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="04dc-2179-9819-beaa" name="Hydra: Régénération sans Fin" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="2c03-d6e6-d2d0-1d6a" name="Endless Regeneration" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="2c03-d6e6-d2d0-1d6a" name="Régénération sans Fin" book="Codex: Tyranids" page="125" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the beginning of each of your turns, roll a dice for each wound that your Warlord has lost. For each roll of 6, your Warlord regains a wound lost earlier in the battle."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Au début de chacun de vos tours, jetez un dé pour chaque PV que votre Seigneur de Guerre aperdu. pour chaque 6, il récupère 1PV perdu précédemment au cours de la bataille."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15676,7 +15676,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="name" value="Warlord Trait: Endless Regeneration">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Régénération sans Fin">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15707,11 +15707,11 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9308-eb19-d979-55ce" name="Legendary Fighter" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9308-eb19-d979-55ce" name="Combattant Légendaire" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="4643-b8e3-8358-8478" name="Legendary Fighter" hidden="false" targetId="589d-78cf-845c-2b65" type="profile">
+            <infoLink id="4643-b8e3-8358-8478" name="Combattant Légendaire" hidden="false" targetId="589d-78cf-845c-2b65" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15719,7 +15719,7 @@
             </infoLink>
           </infoLinks>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Legendary Fighter">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Combattant Légendaire">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15750,11 +15750,11 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4579-efa1-9589-85a4" name="Inspiring Leader" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4579-efa1-9589-85a4" name="Chef Charismatique" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="11b8-e196-fb1f-dccd" name="Inspiring Leader" hidden="false" targetId="add7-15e6-fb9e-25e4" type="profile">
+            <infoLink id="11b8-e196-fb1f-dccd" name="Chef Charismatique" hidden="false" targetId="add7-15e6-fb9e-25e4" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15762,7 +15762,7 @@
             </infoLink>
           </infoLinks>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Inspiring Leader">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Chef Charismatique">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -15793,11 +15793,11 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="35ca-58dd-582c-96b0" name="Tenacious Survivor" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="35ca-58dd-582c-96b0" name="Survivant Tenace" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="971d-97ae-dbcd-2020" name="Tenacious Survivor" hidden="false" targetId="7a19-046d-bf4e-bae3" type="profile">
+            <infoLink id="971d-97ae-dbcd-2020" name="Survivant Tenace" hidden="false" targetId="7a19-046d-bf4e-bae3" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15805,7 +15805,7 @@
             </infoLink>
           </infoLinks>
           <modifiers>
-            <modifier type="set" field="name" value="Warlord Trait: Tenacious Survivor">
+            <modifier type="set" field="name" value="Trait de Seigneur de Guerre : Survivant Tenace">
               <repeats/>
               <conditions/>
               <conditionGroups/>

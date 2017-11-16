@@ -789,17 +789,17 @@
           <characteristics>
             <characteristic name="Manifester" characteristicTypeId="5afb-9914-904b-d3b3" value="1"/>
             <characteristic name="Abjurer" characteristicTypeId="b5ac-9c20-5d5a-6f9b" value="1"/>
-            <characteristic name="Pouvoirs connus" characteristicTypeId="69d7-b45e-00a2-7e46" value="Smite + 1 Hive Mind"/>
+            <characteristic name="Pouvoirs connus" characteristicTypeId="69d7-b45e-00a2-7e46" value="Châtiment + 1 Esprit-Ruche"/>
             <characteristic name="Autre" characteristicTypeId="c2e2-f115-0003-5d7b" value="-"/>
           </characteristics>
         </profile>
-        <profile id="16de-8e90-9574-508b" name="Brood Telepathy" book="Codex: Tyranids" page="84" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="16de-8e90-9574-508b" name="Télépathie du Couvain" book="Codex: Tyranids" page="84" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You can add 1 to hit rolls in the Fight phase for &lt;HIVE FLEET&gt; Genestealer units within 6&quot; of and friendly &lt;HIVE FLEET&gt; Broodlords."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Vous pouvez ajouter 1 aux jets de touche en phase de Combat pour les unités de Genestealer &lt;FLOTTE-RUCHE&gt; à 6&quot; ou moins d&apos;un Broodlord &lt;FLOTTE-RUCHE&gt; ami."/>
           </characteristics>
         </profile>
         <profile id="aad7-01b8-2160-d974" name="Broodlord" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -808,8 +808,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;Hive Fleet&gt;"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Character, Infantry, Genestealer, Psyker, Synapse, Broodlord"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;FLOTTE-RUCHE&gt;"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Personnage, Infanterie, Genestealer, Psyker, Synapse, Broodlord"/>
           </characteristics>
         </profile>
       </profiles>
@@ -827,13 +827,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="bbdb-7769-7cd6-41b4" name="Lightning Reflexes" hidden="false" targetId="91dd-d2c6-4db5-3bf1" type="profile">
+        <infoLink id="bbdb-7769-7cd6-41b4" name="Réflexes Foudroyants" hidden="false" targetId="91dd-d2c6-4db5-3bf1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d736-0079-8740-657f" name="Swift and Deadly" hidden="false" targetId="bc40-384b-8bf8-f27e" type="profile">
+        <infoLink id="d736-0079-8740-657f" name="Vif et Mortel" hidden="false" targetId="bc40-384b-8bf8-f27e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1760,13 +1760,13 @@
     </selectionEntry>
     <selectionEntry id="593d-594c-e42d-02f5" name="Genestealers" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="dce4-764a-b3bd-8e71" name="Flurry of Claws" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="dce4-764a-b3bd-8e71" name="Rafale de Griffes" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Genestealers have 4 Attacks instead of 3 whilst their unit has 10 or more models."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les genestealers ont 4 attaques au lieu de 3 tant que leur unité compte 10 figurines ou plus."/>
           </characteristics>
         </profile>
         <profile id="7927-fe05-4c32-200e" name="Genestealers" hidden="false" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -1775,8 +1775,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;Hive Fleet&gt;"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infantry, Genestealers"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;FLOTTE-RUCHE&gt;"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infanterie, Genestealers"/>
           </characteristics>
         </profile>
         <profile id="91fd-1b0d-e845-d4c8" name="Infestation" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1785,19 +1785,19 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If your army includes any units of Genestealers, you can place up to four infestation nodes anywhere in your deployment zone when your army deploys. You can then set up any Genestealers lurking, instead of placing them on the battlefield. If an enemy model is ever within 9&quot; of an infestation node, the node is destroyed and removed from the battlefield. Whilst there are any friendly infestation nodes on the battlefield, this unit can stop lurking: at the end of your Movement phase, set it up wholly within 6&quot; of a friendly infestation node. That infestation node is then removed from the battlefield. If this unit is still lurking when the last friendly infestation node is removed, the unit is destroyed."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Si votre armée contient au moins une unité de Genestealers, vous pouvez placer jusqu&apos;à quatre nodules d&apos;infestation n&apos;importe où dans votre zone de déploiement lorsque votre armée se déploie. Vous pouvez alors placer des unités de Genestealers cachées et non sur le champ de bataille. Si une figurine ennemie est à 9&quot; ou moins d&apos;un nodule d&apos;infestation, il est détruit et retiré du champ de bataille. Tant qu&apos;au moins un nodule d&apos;infestation ami est sur le champ de bataille, cette unité peut sortir de sa cachette : à la fin de votre phase de Mouvement, placez-là entièrement à 6&quot; ou moins d&apos;un nodule d&apos;infestation. Ce nodule est alors retiré du champ de bataille. Si cette unité est encore cachée lorsque le dernier nodule d&apos;infestation est retiré, elle est détuite."/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0472-7b0f-db60-fc6b" name="Lightning Reflexes" hidden="false" targetId="91dd-d2c6-4db5-3bf1" type="profile">
+        <infoLink id="0472-7b0f-db60-fc6b" name="Réflexes Foudroyants" hidden="false" targetId="91dd-d2c6-4db5-3bf1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="954a-6ac1-cf6b-b91d" name="Swift and Deadly" hidden="false" targetId="bc40-384b-8bf8-f27e" type="profile">
+        <infoLink id="954a-6ac1-cf6b-b91d" name="Vif et Mortel" hidden="false" targetId="bc40-384b-8bf8-f27e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1911,11 +1911,11 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="c818-f236-f5fd-6ac3" name="Rending Claws" hidden="false" collective="true" type="upgrade">
+            <selectionEntry id="c818-f236-f5fd-6ac3" name="Serres perforantes" hidden="false" collective="true" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="4400-dde3-d1db-5752" name="Rending Claws" hidden="false" targetId="0693-a634-e549-a0f7" type="profile">
+                <infoLink id="4400-dde3-d1db-5752" name="Serres perforantes" hidden="false" targetId="0693-a634-e549-a0f7" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1939,7 +1939,7 @@
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="5416-b052-f3c7-6502" name="Scything Talons" hidden="false" targetId="e552-a95b-c018-994d" type="selectionEntry">
+            <entryLink id="5416-b052-f3c7-6502" name="Griffes tranchantes" hidden="false" targetId="e552-a95b-c018-994d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1949,7 +1949,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="4034-9bf9-07f3-e9d3" name="Toxin Sacs" hidden="false" targetId="8191-100c-b4d2-9879" type="selectionEntry">
+            <entryLink id="4034-9bf9-07f3-e9d3" name="Sacs à toxines" hidden="false" targetId="8191-100c-b4d2-9879" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1959,7 +1959,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="2c65-43ea-a83c-2eeb" name="Extended Carapaces" hidden="false" targetId="29c0-c68e-5bdc-9b99" type="selectionEntry">
+            <entryLink id="2c65-43ea-a83c-2eeb" name="Carapace Rallongées" hidden="false" targetId="29c0-c68e-5bdc-9b99" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1987,7 +1987,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="b41d-ab0c-5178-68df" name="Acid Maw" hidden="false" targetId="c1e2-406a-e7c9-749c" type="selectionEntry">
+            <entryLink id="b41d-ab0c-5178-68df" name="Gueule acide" hidden="false" targetId="c1e2-406a-e7c9-749c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2006,7 +2006,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="a66b-53d0-b4a9-fa79" name="Flesh Hooks" hidden="false" targetId="e8ab-6677-781d-991b" type="selectionEntry">
+            <entryLink id="a66b-53d0-b4a9-fa79" name="Crochets" hidden="false" targetId="e8ab-6677-781d-991b" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6825,8 +6825,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;Hive Fleet&gt;"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infantry, Synapse, Tyranid Warriors"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;FLOTTE-RUCHE&gt;"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infanterie, Synapse, Tyranid Warriors"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6952,7 +6952,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="eba5-2dfa-3674-f6d5" name="Scything Talons" hidden="false" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry">
+                <entryLink id="eba5-2dfa-3674-f6d5" name="Griffes tranchantes" hidden="false" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7002,7 +7002,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="770e-8303-c64b-6490" name="Devourer" hidden="false" targetId="e730-b801-5c8e-9dfe" type="selectionEntry">
+                <entryLink id="770e-8303-c64b-6490" name="Dévoreur" hidden="false" targetId="e730-b801-5c8e-9dfe" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7022,7 +7022,7 @@
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="a4f2-e090-7fe5-a888" name="Basic Bio-cannons" hidden="false" targetId="b799-1f85-a8cc-cef0" type="selectionEntryGroup">
+                <entryLink id="a4f2-e090-7fe5-a888" name="Biocanons de base" hidden="false" targetId="b799-1f85-a8cc-cef0" type="selectionEntryGroup">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7045,7 +7045,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="e755-3caa-e7ec-4829" name="Toxin Sacs" hidden="false" targetId="8191-100c-b4d2-9879" type="selectionEntry">
+            <entryLink id="e755-3caa-e7ec-4829" name="Sacs à toxines" hidden="false" targetId="8191-100c-b4d2-9879" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7055,7 +7055,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="ac60-c502-4c1d-f7a1" name="Flesh Hooks" hidden="false" targetId="64fd-9b59-e4c3-a28a" type="selectionEntry">
+            <entryLink id="ac60-c502-4c1d-f7a1" name="Crochets" hidden="false" targetId="64fd-9b59-e4c3-a28a" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7065,7 +7065,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="855b-4f34-e7d5-ed49" name="Adrenal Glands" hidden="false" targetId="b9ad-3827-329a-0e6e" type="selectionEntry">
+            <entryLink id="855b-4f34-e7d5-ed49" name="Glandes surrénales" hidden="false" targetId="b9ad-3827-329a-0e6e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9082,11 +9082,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eaa6-717f-8aca-64fb" name="Barbed Strangler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eaa6-717f-8aca-64fb" name="Etrangleur" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="9aad-4787-16cd-103c" name="Barbed Strangler" hidden="false" targetId="6ca4-7747-675e-bdb2" type="profile">
+        <infoLink id="9aad-4787-16cd-103c" name="Etrangleur" hidden="false" targetId="6ca4-7747-675e-bdb2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9268,11 +9268,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e730-b801-5c8e-9dfe" name="Devourer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e730-b801-5c8e-9dfe" name="Dévoreur" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="d8c5-2104-a210-e7fe" name="Devourer" hidden="false" targetId="3491-c732-c485-8732" type="profile">
+        <infoLink id="d8c5-2104-a210-e7fe" name="Dévoreur" hidden="false" targetId="3491-c732-c485-8732" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9356,11 +9356,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8ab-6677-781d-991b" name="Flesh Hooks" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e8ab-6677-781d-991b" name="Crochets" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="ff8e-b73e-96e1-e175" name="Flesh Hooks" hidden="false" targetId="c831-57f4-c262-c123" type="profile">
+        <infoLink id="ff8e-b73e-96e1-e175" name="Crochets" hidden="false" targetId="c831-57f4-c262-c123" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9815,11 +9815,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ca0-202f-634d-67de" name="Venom Cannon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8ca0-202f-634d-67de" name="Canon venin" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="d49c-4c4f-9685-f581" name="Venom Cannon" hidden="false" targetId="c22e-4741-a1a3-4d48" type="profile">
+        <infoLink id="d49c-4c4f-9685-f581" name="Canon venin" hidden="false" targetId="c22e-4741-a1a3-4d48" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9837,11 +9837,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f571-04c9-570f-c924" name="Acid Maw" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="f571-04c9-570f-c924" name="Gueule acide" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="98bb-28a6-4b94-8f64" name="Acid Maw" hidden="false" targetId="1033-e326-6dc8-804f" type="profile">
+        <infoLink id="98bb-28a6-4b94-8f64" name="Gueule acide" hidden="false" targetId="1033-e326-6dc8-804f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10387,11 +10387,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b06-87d5-7b1e-8d82" name="Scything Talons" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2b06-87d5-7b1e-8d82" name="Griffes tranchantes" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="3fd9-a63e-b024-1d0e" name="Scything Talons" hidden="false" targetId="57c8-5ab6-1d28-8433" type="profile">
+        <infoLink id="3fd9-a63e-b024-1d0e" name="Griffes tranchantes" hidden="false" targetId="57c8-5ab6-1d28-8433" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10525,11 +10525,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9837-af87-3cfd-a48c" name="Adrenal Glands" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9837-af87-3cfd-a48c" name="Glandes surrénales" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="e764-8ec0-26ed-bb35" name="Adrenal Glands" hidden="false" targetId="2a37-1b16-c528-b30f" type="profile">
+        <infoLink id="e764-8ec0-26ed-bb35" name="Glandes surrénales" hidden="false" targetId="2a37-1b16-c528-b30f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10669,11 +10669,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b9ad-3827-329a-0e6e" name="Adrenal Glands" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="b9ad-3827-329a-0e6e" name="Glandes surrénales" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="e75e-342b-23aa-23ef" name="Adrenal Glands" hidden="false" targetId="2a37-1b16-c528-b30f" type="profile">
+        <infoLink id="e75e-342b-23aa-23ef" name="Glandes surrénales" hidden="false" targetId="2a37-1b16-c528-b30f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10699,7 +10699,7 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8191-100c-b4d2-9879" name="Toxin Sacs" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="8191-100c-b4d2-9879" name="Sacs à toxines" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -10775,11 +10775,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="64fd-9b59-e4c3-a28a" name="Flesh Hooks" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="64fd-9b59-e4c3-a28a" name="Crochets" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a55d-8ec4-a6d9-e79f" name="Flesh Hooks" hidden="false" targetId="c831-57f4-c262-c123" type="profile">
+        <infoLink id="a55d-8ec4-a6d9-e79f" name="Crochets" hidden="false" targetId="c831-57f4-c262-c123" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10797,11 +10797,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e552-a95b-c018-994d" name="Scything Talons" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="e552-a95b-c018-994d" name="Griffes tranchantes" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="f7b3-d56d-dda5-97e2" name="Scything Talons" hidden="false" targetId="57c8-5ab6-1d28-8433" type="profile">
+        <infoLink id="f7b3-d56d-dda5-97e2" name="Griffes tranchantes" hidden="false" targetId="57c8-5ab6-1d28-8433" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13701,15 +13701,15 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="29c0-c68e-5bdc-9b99" name="Extended Carapace" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="29c0-c68e-5bdc-9b99" name="Carapace Rallongées" hidden="false" collective="true" type="upgrade">
       <profiles>
-        <profile id="8a4c-6f38-aa5f-3617" name="Extended Carapaces" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+        <profile id="8a4c-6f38-aa5f-3617" name="Carapace Rallongées" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Genstealers with extended carapaces have a Save characterisic of 4+ but lose the Swift and Deadly ability."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les Genestealer avec carapaces rallongées ont une caractéristique de sauvegarde de 4+ mais perdent l&apos;aptitude Vifs et Mortels."/>
           </characteristics>
         </profile>
       </profiles>
@@ -14015,11 +14015,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1e2-406a-e7c9-749c" name="Acid Maw" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c1e2-406a-e7c9-749c" name="Gueule acide" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="7681-4544-7637-93fb" name="Acid Maw" hidden="false" targetId="1033-e326-6dc8-804f" type="profile">
+        <infoLink id="7681-4544-7637-93fb" name="Gueule acide" hidden="false" targetId="1033-e326-6dc8-804f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14090,7 +14090,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b799-1f85-a8cc-cef0" name="Basic Bio-cannons" hidden="false" collective="false">
+    <selectionEntryGroup id="b799-1f85-a8cc-cef0" name="Biocanons de base" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14100,7 +14100,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2443-546b-78a1-8045" name="Barbed Strangler" hidden="false" targetId="eaa6-717f-8aca-64fb" type="selectionEntry">
+        <entryLink id="2443-546b-78a1-8045" name="Etrangleur" hidden="false" targetId="eaa6-717f-8aca-64fb" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14108,7 +14108,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="fd7b-b3af-495f-e780" name="Venom Cannon" hidden="false" targetId="8ca0-202f-634d-67de" type="selectionEntry">
+        <entryLink id="fd7b-b3af-495f-e780" name="Canon venin" hidden="false" targetId="8ca0-202f-634d-67de" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15879,18 +15879,18 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
       </characteristics>
     </profile>
-    <profile id="6ca4-7747-675e-bdb2" name="Barbed Strangler" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="6ca4-7747-675e-bdb2" name="Etrangleur" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D6"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can add 1 to hit rolls for this weapon when attacking a unit with 10 or more models."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Vous pouvez ajouter 1 aux jets de touche de cette arme lorsqu&apos;elle attaque une unité de 10 figurines ou plus."/>
       </characteristics>
     </profile>
     <profile id="b45d-8d59-c4c8-256f" name="Bio-electric Pulse" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -15991,14 +15991,14 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="3491-c732-c485-8732" name="Devourer" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="3491-c732-c485-8732" name="Dévoreur" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16047,18 +16047,18 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits it target."/>
       </characteristics>
     </profile>
-    <profile id="c831-57f4-c262-c123" name="Flesh Hooks" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="c831-57f4-c262-c123" name="Crochets" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 2"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can be fired within 1&quot; of an enemy unit, and can target enemy units within 1&quot; of friendly units."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Cette arme peut tirer à 1&quot; ou moins d&apos;une unité ennemie, et cibler des unités ennemies à 1&quot; ou moins d&apos;unités amies."/>
       </characteristics>
     </profile>
     <profile id="13f1-8d6c-769e-fc63" name="Fleshborer" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16299,7 +16299,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can be fired within 1&quot; of an enemy unit, and can target enemy units within 1&quot; of friendly units. In addition, you can re-roll failed wound rolls for this weapon."/>
       </characteristics>
     </profile>
-    <profile id="c22e-4741-a1a3-4d48" name="Venom Cannon" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="c22e-4741-a1a3-4d48" name="Canon venin" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16327,7 +16327,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make one (and only one) attack with this weapon. This is in addition to the bearer&apos;s attacks."/>
       </characteristics>
     </profile>
-    <profile id="1033-e326-6dc8-804f" name="Acid Maw" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="1033-e326-6dc8-804f" name="Gueule acide" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16635,7 +16635,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Make D3 hit rolls for each attack made with this weapon, instead of 1."/>
       </characteristics>
     </profile>
-    <profile id="0693-a634-e549-a0f7" name="Rending Claws" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="0693-a634-e549-a0f7" name="Serres perforantes" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16646,7 +16646,7 @@
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A chaque jet de blessure de 6+ pour cette arme, la touche est résolue avec une PA de -4."/>
       </characteristics>
     </profile>
     <profile id="dfe2-833c-353d-3e27" name="Shovelling Claws" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16663,7 +16663,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="57c8-5ab6-1d28-8433" name="Scything Talons" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="57c8-5ab6-1d28-8433" name="Griffes tranchantes" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16674,7 +16674,7 @@
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll hit rolls of 1 when attacking with this weapon. If the bearer has more than one pair of scything talons, it can make 1 additional attack with this weapon each time it fights."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Vous pouvez relancer les jets de touche de 1 pour cette arme."/>
       </characteristics>
     </profile>
     <profile id="21e5-b5c6-6195-1413" name="Scything Wings" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16733,22 +16733,22 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make one (and only one) attack with this weapon. This is in addition to the bearer&apos;s attacks. This weapon always wounds targets (other than VEHICLES) on a 2+."/>
       </characteristics>
     </profile>
-    <profile id="2a37-1b16-c528-b30f" name="Adrenal Glands" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+    <profile id="2a37-1b16-c528-b30f" name="Glandes surrénales" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a unit has adrenal glands, add 1&quot; to the distance it can move when it Advances or charges."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Si une unité a des glades surrénales, ajoutez 1&quot; à la distance à laquelle elle se déplace lorsqu&apos;elle Avance ou Charge."/>
       </characteristics>
     </profile>
-    <profile id="b36f-7549-f9e1-336c" name="Toxin Sacs" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+    <profile id="b36f-7549-f9e1-336c" name="Sacs à toxines" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Any wound rolls of 6+ in the Fight phase for a model with toxin sacs cause 1 additional damage."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les jets de blessure de 6+ en phase de Combat pour une figurine avec des sacs à toxines infligent 1 dégât supplémentaire."/>
       </characteristics>
     </profile>
     <profile id="3e97-1173-dc2a-49e6" name="Termagant" book="Codex: Tyranids" page="90" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -16795,22 +16795,22 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a dice before removing it from the battlefield; on a 6, it lashes out in its death throes, and each unit within 3&quot; suffers D3 mortal wounds."/>
       </characteristics>
     </profile>
-    <profile id="91dd-d2c6-4db5-3bf1" name="Lightning Reflexes" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="91dd-d2c6-4db5-3bf1" name="Réflexes Foudroyants" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models in this unit have a 5+ invulnerable save."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Cette figurine a une sauvegarde invulnérable de 5+."/>
       </characteristics>
     </profile>
-    <profile id="bc40-384b-8bf8-f27e" name="Swift and Deadly" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="bc40-384b-8bf8-f27e" name="Vif et Mortel" book="Codex: Tyranids" page="89" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models in this unit can charge even if they Advanced during its turn."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Cette figurine peut charger même si elle a Avancé durant son tour."/>
       </characteristics>
     </profile>
     <profile id="8e0e-7a56-28ca-18a3" name="Subterranean Assault" book="Codex: Tyranids" page="106" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -17177,7 +17177,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="&lt;HIVE FLEET&gt; units automatically pass Morale tests if they are within 12&quot; of any friendly &lt;HIVE FLEET&gt; uints with this ability."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités &lt;FLOTTE-RUCHE&gt; réussissent automatiquement leurs tests de moral si elles se trouvent à 12&quot; ou moins d&apos;au moins une unité &lt;FLOTTE-RUCHE&gt; amie avec cette aptitude."/>
       </characteristics>
     </profile>
     <profile id="b830-920a-231b-073d" name="Instinctive Behaviour" book="Codex: Tyranids" page="82" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -17211,7 +17211,7 @@
         <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choisissez une unité TYRANID amie à 36&quot; ou moins du Psyker et qui a l&apos;aptitude Comportement Instinctif. jusqu&apos;à la fin de votre prochaine phase Psychique, cette unité ignore son aptitude Comportement Instinctif et réussit automatiquement les tests de moral."/>
       </characteristics>
     </profile>
-    <profile id="7191-24ff-9f78-8bca" name="     " book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="7191-24ff-9f78-8bca" name="Paroxysme" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>

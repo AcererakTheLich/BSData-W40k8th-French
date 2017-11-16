@@ -92,7 +92,7 @@
         <characteristicType id="a3af-9fee-a89e-025f" name="Attacks"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="597c-6571-0e33-dcbe" name="The Ymgarl Factor">
+    <profileType id="597c-6571-0e33-dcbe" name="Le Facteur Ymgarl">
       <characteristicTypes>
         <characteristicType id="17d1-6099-341f-fd3d" name="Result"/>
       </characteristicTypes>
@@ -821,7 +821,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5e0e-02ed-67f8-7871" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="5e0e-02ed-67f8-7871" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -917,7 +917,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3c88-86f9-51b4-6e81" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="3c88-86f9-51b4-6e81" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2880,7 +2880,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="3643-33bf-e230-4fad" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="3643-33bf-e230-4fad" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3179,7 +3179,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3638-387b-7ce1-c21b" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="3638-387b-7ce1-c21b" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3686,7 +3686,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="6df4-7069-19d7-09ad" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="6df4-7069-19d7-09ad" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5757,7 +5757,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="c6a9-62a7-2d47-4883" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="c6a9-62a7-2d47-4883" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5892,7 +5892,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="33e1-3ce2-9845-29d9" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="33e1-3ce2-9845-29d9" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6360,7 +6360,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="da23-ea40-528d-6a71" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="da23-ea40-528d-6a71" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6516,7 +6516,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b9d6-175e-9816-ca1f" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="b9d6-175e-9816-ca1f" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6551,7 +6551,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="42d9-4148-fe5e-a02b" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="42d9-4148-fe5e-a02b" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6838,7 +6838,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6c9d-d6e4-7df6-0339" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="6c9d-d6e4-7df6-0339" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7897,7 +7897,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="4aec-9cb1-b382-9531" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="4aec-9cb1-b382-9531" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8635,7 +8635,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="68ea-b0b9-2c06-8c35" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="68ea-b0b9-2c06-8c35" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8851,7 +8851,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d1c8-e20d-1782-afcd" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="d1c8-e20d-1782-afcd" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9046,7 +9046,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6146-d124-b979-a079" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="6146-d124-b979-a079" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11531,7 +11531,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9147-ac58-3786-bb70" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="9147-ac58-3786-bb70" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11651,7 +11651,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="32e1-9a2b-de36-d6e7" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="32e1-9a2b-de36-d6e7" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13589,7 +13589,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5852-40a3-fe8a-be4a" name="Shadow in the Warp" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
+        <infoLink id="5852-40a3-fe8a-be4a" name="L&apos;Ombre dans le WARP" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13679,7 +13679,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="dc7a-39e8-7da0-a97c" name="Bio-artefacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
+        <entryLink id="dc7a-39e8-7da0-a97c" name="Bio-artéfacts" hidden="false" targetId="6bd6-d28a-87ce-355e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14353,7 +14353,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6bd6-d28a-87ce-355e" name="Bio-artefacts" hidden="false" collective="false">
+    <selectionEntryGroup id="6bd6-d28a-87ce-355e" name="Bio-artéfacts" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14363,29 +14363,29 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="1c3b-69a1-17d2-dc56" name="Balethorn Cannon" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1c3b-69a1-17d2-dc56" name="Canon constricteur" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="fcce-1716-eec4-9ceb" name="Balethorn Cannon" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="fcce-1716-eec4-9ceb" name="Canon constricteur" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D6"/>
                 <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
                 <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can add 1 to hit rolls for this weapon when attacking a unit with 10 or more models. Invulnerable save cannot be taken against this weapon."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Vous pouvez ajouter 1 aux jets de Touche pour cette arme quand elle attaque une unité de 10 figurines ou plus. Aucune sauvegarde invulnérable ne peut être tentée contre cette arme."/>
               </characteristics>
             </profile>
-            <profile id="edd1-d75f-68cc-273d" name="Balethorn Cannon" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="edd1-d75f-68cc-273d" name="Canon constricteur" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="KRONOS model with stranglethorn cannon only. The Balethorn Cannon replaces the model&apos;s stranglethorn cannon."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine KRONOS avec canon étrangleur uniquement. Le Canon Constricteur remplace le canon étrangleur de la figurine et a le profil suivant :"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14435,29 +14435,29 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3949-786e-c9fd-140f" name="Slimer Maggot Infestation" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3949-786e-c9fd-140f" name="Infestation de Visco-Larves" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="ec92-83b4-2198-c008" name="Slimer Maggot Infestation" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="ec92-83b4-2198-c008" name="Infestation de Visco-Larves" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 6"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 6"/>
                 <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
                 <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Vous pouvez relancer les jets de blessure ratés pour cette arme."/>
               </characteristics>
             </profile>
-            <profile id="f42f-e548-f8fb-9829" name="Slimer Maggot Infestation" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="f42f-e548-f8fb-9829" name="Infestation de Visco-Larves" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="HYDRA model with two deathspitters with slimer maggots only. The Slimer Maggot Infestation replaces the model&apos;s two deathspitters with slimer maggots."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine HYDRA avec deux crache-mort à visco-larves uniquement. L&apos;infestation de visco-larves remplace les deux crache-mort à visco-larves de la figurine et a le profil suivant :"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14507,29 +14507,29 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="39cc-9246-635b-460c" name="The Miasma Cannon" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="39cc-9246-635b-460c" name="Le Canon à Miasmes" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="243d-e75b-4f2e-3f6c" name="The Miasma Cannon" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="243d-e75b-4f2e-3f6c" name="Le Canon à Miasmes" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D3"/>
                 <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
                 <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon hits automatically if the target is within 8&quot;, and it always wounds targets (other than VEHICLES) on a 2+."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Cette arme touche automatiquement si la cible est à 8&quot; ou moins, et blesse toujours ses cibles (sauf les VEHICULES) sur 2+."/>
               </characteristics>
             </profile>
-            <profile id="60e9-805b-da96-0fdd" name="The Miasma Cannon" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="60e9-805b-da96-0fdd" name="Le Canon à Miasmes" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with heavy venom cannon only. The Miasma Cannon replaces the model&apos;s heavy venom cannon."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine avec canon venin lourd uniquement. Le canon à miasmes remplace le canon venin lourd de la figurine et a le profil suivant :"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14566,15 +14566,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0dc7-b755-cb9a-b78b" name="Hyper-adaptive Biology" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0dc7-b755-cb9a-b78b" name="Physiologie Hyper-Adaptative" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="c8f2-5a68-33f3-469c" name="Hyper-adaptive Biology" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="c8f2-5a68-33f3-469c" name="Physiologie Hyper-Adaptative" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="GORGON model only. From the end of the first phase in which this model suffers any wounds, add 1 to its Toughness for the remainder of the battle."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine GORGON uniquement. A partir de la fin de la première phase lors de laquelle cette figurine a subi au moins une blessure, ajouter 1 à son Endurance pour le restant de la bataille."/>
               </characteristics>
             </profile>
           </profiles>
@@ -14607,29 +14607,29 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="92b0-89f7-d021-e23e" name="Scythes of Tyran" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="92b0-89f7-d021-e23e" name="Faux de Tyrant" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="531c-c0d1-9199-ef04" name="Scythes of Tyran" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="531c-c0d1-9199-ef04" name="Faux de Tyrant" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
                 <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="+1"/>
                 <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This model can make 1 additional attack with this weapon each time it fights. In addition, each time you make a hit roll of 6+ for this weapon, you can make an additional hit roll. These additional hit rolls cannot generate further additional hit rolls."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Cette figurine peut effectuer 1 attaque supplémentaire avec cette arme chaque fois qu&apos;elle combat. De plus, à chaque jet de touche de 6+ pour cette arme, vous pouvez effectuer un jet de touche supplémentaire.Ces jets de touche supplémentaires n&apos;en génèrent pas d&apos;autres à leur tour."/>
               </characteristics>
             </profile>
-            <profile id="4dcd-3dd1-c364-ada4" name="Scythes of Tyran" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="4dcd-3dd1-c364-ada4" name="Faux de Tyrant" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="BEHEMOTH model with monstrous scything talons only. The Scythes of Tyran replaces the model&apos;s monstrous scything talons."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine BEHEMOTH avec griffes tranchantes monstrueuses uniquement. Les Faux de Tyrant remplacent les griffes tranchantes monstrueuses de la figurine et ont le profil suivant :"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14678,42 +14678,42 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cd0f-7a40-e768-0175" name="The Ymgarl Factor" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="cd0f-7a40-e768-0175" name="Le Facteur Ymgarl" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="54fa-48b9-2854-b601" name="The Ymgarl Factor" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="54fa-48b9-2854-b601" name="Le Facteur Ymgarl" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the beginning of each Fight phase, roll a D3 for this model and apply the following effect for the duration of the phase."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Au début de chaque phase de Combat, jetez un D3 pour cette figurine et appliquez l&apos;effet suivant pour la durée de la phase."/>
               </characteristics>
             </profile>
-            <profile id="013f-dbe7-24f4-16eb" name="1" hidden="false" profileTypeId="597c-6571-0e33-dcbe" profileTypeName="The Ymgarl Factor">
+            <profile id="013f-dbe7-24f4-16eb" name="1" hidden="false" profileTypeId="597c-6571-0e33-dcbe" profileTypeName="Le Facteur Ymgarl">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Result" characteristicTypeId="17d1-6099-341f-fd3d" value="+1 Strength"/>
+                <characteristic name="Result" characteristicTypeId="17d1-6099-341f-fd3d" value="+1 en Force"/>
               </characteristics>
             </profile>
-            <profile id="73d0-87fd-8ae2-934d" name="2" hidden="false" profileTypeId="597c-6571-0e33-dcbe" profileTypeName="The Ymgarl Factor">
+            <profile id="73d0-87fd-8ae2-934d" name="2" hidden="false" profileTypeId="597c-6571-0e33-dcbe" profileTypeName="Le Facteur Ymgarl">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Result" characteristicTypeId="17d1-6099-341f-fd3d" value="+1 Attack"/>
+                <characteristic name="Result" characteristicTypeId="17d1-6099-341f-fd3d" value="+1 Attaque"/>
               </characteristics>
             </profile>
-            <profile id="606c-96fd-5230-3c3f" name="3" hidden="false" profileTypeId="597c-6571-0e33-dcbe" profileTypeName="The Ymgarl Factor">
+            <profile id="606c-96fd-5230-3c3f" name="3" hidden="false" profileTypeId="597c-6571-0e33-dcbe" profileTypeName="Le Facteur Ymgarl">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Result" characteristicTypeId="17d1-6099-341f-fd3d" value="+1 Toughness"/>
+                <characteristic name="Result" characteristicTypeId="17d1-6099-341f-fd3d" value="+1 en Endurance"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14732,15 +14732,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="acbe-148d-e7d1-85bb" name="The Reaper of Obilterax" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="acbe-148d-e7d1-85bb" name="Le Faucheur d'Obliterax" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="3fc7-0944-edae-b0f3" name="The Reaper of Obilterax" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="3fc7-0944-edae-b0f3" name="Le Faucheur d'Obliterax" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with lash whip and bonesword or lash whip and monstrous bonesword only. Add the following to that weapon’s Abilities: &apos;On a wound roll of 6+, this weapon inflicts double damage.&apos;"/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine avec épée d&apos;os et bioknout ou épée d&apos;os et monstrueuse et bioknout uniquement. Ajouter ceci aux Aptitudes de l&apos;arme : &quot;Sur un jet de blessure de 6+, cette arme inflige des dégâts doublés.&quot;"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14776,15 +14776,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="595b-7c26-fcbb-a97e" name="Chameleonic Mutation" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="595b-7c26-fcbb-a97e" name="Mutation Caméléonique" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="5079-58ae-8691-fd5d" name="Chameleonic Mutation" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="5079-58ae-8691-fd5d" name="Mutation Caméléonique" book="Codex: Tyranids" page="122" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="KRAKEN model only. Your opponent must subtract 1 from all hit rolls for ranged weapons that target this model."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine KRAKEN uniquement.Votre adversaire doit soustraire 1 aux jets de touche pour les armes de tir qui ciblent cette figurine."/>
               </characteristics>
             </profile>
           </profiles>
@@ -14817,29 +14817,29 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4cd2-d56c-29e1-796d" name="Slayer Sabres" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4cd2-d56c-29e1-796d" name="Sabres Tueurs" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="afdb-65ca-f277-17c7" name="Slayer Sabres" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="afdb-65ca-f277-17c7" name="Sabres Tueurs" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+                <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+                <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
                 <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
                 <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A model armed with the Slayer Sabres can make 1 additional attack with them in the Fight phase. In addition, if an INFANTRY or BIKER model suffers damage from this weapon but is not slain, roll a D3 at the end of the Fight phase. If the result is greater than that model&apos;s remaining number of wounds, it is slain."/>
+                <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Une figurine armée des Sabres Tueurs peut effectuer 1 attaque supplémentaire avec eux en phase de Combat. De plus, si une figurine d&apos;INFANTERIE ou de MOTARDS subit des dégâts causés par cette arme mais n&apos;est pas tuée, jetez un D3 à la fin de la phase de Combat. Si le résultat est supérieur au nombre de PV restant à la figurine, elle est tuée."/>
               </characteristics>
             </profile>
-            <profile id="f4a5-b4e2-ee2a-2d85" name="Slayer Sabres" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="f4a5-b4e2-ee2a-2d85" name="Sabres Tueurs" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="LEVIATHAN model with monstrous boneswords only. The Slayer Sabres replace the model&apos;s monstrous boneswords."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurine LEVIATHAN avec épées d&apos;os monstrueuses uniquement. Les Sabres Tueurs remplacent les épées d&apos;os monstrueuses de la figurine et ont le profil suivant :"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14889,15 +14889,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b3c9-1518-d0bd-68a8" name="The Maw-claws of Thyrax" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b3c9-1518-d0bd-68a8" name="Les Mandigriffes de Thyrax" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="ee51-8d00-7384-df48" name="The Maw-claws of Thyrax" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="ee51-8d00-7384-df48" name="Les Mandigriffes de Thyrax" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with rending claws or monstrous rending claws only. When this model slays an enemy model in the Fight phase, you can re-roll failed hit rolls in all subsequent Fight phases for this model."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Figurines avec serres perforantes ou serres perforantes monstrueuses uniquement. Lorsque cette figurine tue une figurine ennemie en phase de Combat, vous pouvez relancer les jets de touche ratés lors des phases de Combat subséquentes pour cette figurine."/>
               </characteristics>
             </profile>
           </profiles>
@@ -14932,15 +14932,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e309-529f-1605-f21a" name="The Norn Crown" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e309-529f-1605-f21a" name="La couronne Norne" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="3a51-ee1a-ed84-43ef" name="The Norn Crown" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="3a51-ee1a-ed84-43ef" name="La couronne Norne" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Friendly &lt;HIVE FLEET&gt; units do not suffer the penalties to their hit rolls and charge rolls incurred from the Instinctive Behaviour ability whilst they are within 30&quot; of this model."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités &lt;FLOTTE-RUCHE&gt; ne subissent pas les pénalités à leurs jets de touche et charge dues à l&apos;aptitude Comportement Instinctif tant qu&apos;elles sont à 30&quot; ou moins de cette figurine."/>
               </characteristics>
             </profile>
           </profiles>
@@ -14959,15 +14959,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7604-aeae-261b-ed20" name="Infrasonic Roar" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7604-aeae-261b-ed20" name="Rugissement Infrasonique" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="f167-4a01-47e1-fcf0" name="Infrasonic Roar" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="f167-4a01-47e1-fcf0" name="Rugissement Infrasonique" book="Codex: Tyranids" page="123" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="JORMUNGANDR MONSTER only. Enemy units within 6&quot; of this model must subtract 1 from their Leadership."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="MONSTRE JORMUNGANDR uniquement. Les unités ennemies à 6&quot; ou moins de cette figurine doivent soustraire 1 à leur Commandement."/>
               </characteristics>
             </profile>
           </profiles>
@@ -15873,7 +15873,7 @@
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2D6"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
@@ -15900,7 +15900,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 6"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 6"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -15928,7 +15928,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16012,7 +16012,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 6"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 6"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="6"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16055,7 +16055,7 @@
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can be fired within 1&quot; of an enemy unit, and can target enemy units within 1&quot; of friendly units."/>
@@ -16110,7 +16110,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="9"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
@@ -16139,7 +16139,7 @@
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can be fired within 1&quot; of an enemy unit, and can target enemy units within 1&quot; of friendly units. You can re-roll all failed wound rolls for this weapon."/>
@@ -16166,7 +16166,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -16264,7 +16264,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16293,7 +16293,7 @@
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can be fired within 1&quot; of an enemy unit, and can target enemy units within 1&quot; of friendly units. In addition, you can re-roll failed wound rolls for this weapon."/>
@@ -16306,7 +16306,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -16319,8 +16319,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -16333,9 +16333,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
@@ -16347,9 +16347,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, it can make one (and only one) attack with this weapon. This is in addition to the bearer&apos;s attacks. If a unit suffers any unsaved wounds from this weapon, add 1 to any Morale tests they take until the end of the turn."/>
@@ -16361,8 +16361,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16375,8 +16375,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -16389,9 +16389,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you make a wound roll of 6+ for this weapon, the target suffers a mortal wound in addition to any other damage."/>
@@ -16403,9 +16403,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A model armed with boneswords can make 1 additional attack with them in the Fight phase."/>
@@ -16417,9 +16417,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
@@ -16431,8 +16431,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -16445,9 +16445,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, one (and only one) of its attacks must be made with this weapon."/>
@@ -16459,9 +16459,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
@@ -16473,9 +16473,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the bearer is slain in the Fight phase before it makes it attacks, leave it where it is. When its unit is chosen to fight in that phase, the bearer can do so as normal before being removed from the battlefield."/>
@@ -16487,9 +16487,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the bearer is slain in the Fight phase before it makes it attacks, leave it where it is. When its unit is chosen to fight in that phase, the bearer can do so as normal before being removed from the battlefield."/>
@@ -16501,9 +16501,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A model armed with monstrous boneswords can make 1 additional attack with them in the Fight phase."/>
@@ -16515,8 +16515,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
@@ -16529,8 +16529,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
@@ -16557,9 +16557,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll hit rolls of 1 when attacking with this weapon. If the bearer has more than one pair of massive scything talons, it can make 1 additional attack with this weapon each time it fights."/>
@@ -16571,9 +16571,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll hit rolls of 1 when attacking with this weapon. If the bearer has more than one pair of monstrous scything talons, it can make 1 additional attack with this weapon each time it fights."/>
@@ -16585,9 +16585,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon. A model armed with this weapon always attacks first in the Fight phase, even if it didn&apos;t charge. If the enemy has units that have charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place."/>
@@ -16599,9 +16599,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
@@ -16613,9 +16613,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, make one (and only one) attack with this weapon. This is in addition to the bearer&apos;s attacks."/>
@@ -16627,9 +16627,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Make D3 hit rolls for each attack made with this weapon, instead of 1."/>
@@ -16641,9 +16641,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4."/>
@@ -16655,8 +16655,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
@@ -16669,9 +16669,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll hit rolls of 1 when attacking with this weapon. If the bearer has more than one pair of scything talons, it can make 1 additional attack with this weapon each time it fights."/>
@@ -16683,9 +16683,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll hit rolls of 1 when attacking with this weapon."/>
@@ -16697,8 +16697,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16711,9 +16711,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon. A model armed with this weapon always attacks first in the Fight phase, even if it didn&apos;t charge. If the enemy has units that have charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place."/>
@@ -16725,8 +16725,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="1"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -16938,9 +16938,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time the bearer fights, one (and only one) of its attacks can be made with this weapon. When the bearer fights with this weapon, make a number of hit rolls against one target unit equal to the number of models that the target unit has within 2&quot; of the bearer."/>
@@ -16952,8 +16952,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
@@ -16966,9 +16966,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
@@ -16980,8 +16980,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16994,9 +16994,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Make 3 hit rolls for each attack with this weapon."/>
@@ -17008,8 +17008,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="10"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
@@ -17022,8 +17022,8 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-5"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2D6"/>
@@ -17162,7 +17162,7 @@
         <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Fly, Spore Mines"/>
       </characteristics>
     </profile>
-    <profile id="f587-afe6-7bbe-4eac" name="Shadow in the Warp" book="Codex: Tyranids" page="82" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="f587-afe6-7bbe-4eac" name="L&apos;Ombre dans le WARP" book="Codex: Tyranids" page="82" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17242,9 +17242,9 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+        <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Mêlée"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Mêlée"/>
+        <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-5"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>

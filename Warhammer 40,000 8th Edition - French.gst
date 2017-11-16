@@ -6356,11 +6356,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03fd-db47-5333-1e1f" name="Smite" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="03fd-db47-5333-1e1f" name="Châtiment" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="72f4-48ff-fafb-c876" name="Smite" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile">
+        <infoLink id="72f4-48ff-fafb-c876" name="Châtiment" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11096,7 +11096,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets."/>
       </characteristics>
     </profile>
-    <profile id="5821-6c45-8572-7e0e" name="Smite" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="5821-6c45-8572-7e0e" name="Châtiment" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11104,7 +11104,7 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="L&apos;unité ennemie visible la plus proche à 18&quot; ou moins du Psyker subit D3 blessures mortelles. Si le résultat du test Psychique est supérieur à 10, la cible subit D6 blessures mortelles à la place."/>
       </characteristics>
     </profile>
     <profile id="1797-9367-d9a5-1014" name="Condemnor Boltgun" book="Index: Imperium 2" page="157" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">

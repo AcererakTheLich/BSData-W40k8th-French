@@ -473,7 +473,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="294d-d93e-0bcb-a955" name="Power: Smite" hidden="false" targetId="ac8a-fb61-d587-36fb" type="selectionEntry">
+    <entryLink id="294d-d93e-0bcb-a955" name="Pouvoir : Châtiment" hidden="false" targetId="ac8a-fb61-d587-36fb" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -907,7 +907,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="91f4-1f30-a288-c31d" name="Hive Mind Discipline" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
+        <entryLink id="91f4-1f30-a288-c31d" name="Discipline de l&apos;Esprit-Ruche" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3776,7 +3776,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="687e-5f64-52e1-b0df" name="Hive Mind Discipline" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
+        <entryLink id="687e-5f64-52e1-b0df" name="Discipline de l&apos;Esprit-Ruche" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8014,7 +8014,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="c9c8-ad34-e2fc-07b5" name="Hive Mind Discipline" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
+        <entryLink id="c9c8-ad34-e2fc-07b5" name="Discipline de l&apos;Esprit-Ruche" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8761,7 +8761,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="43b6-ed50-f239-0f65" name="Hive Mind Discipline" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
+        <entryLink id="43b6-ed50-f239-0f65" name="Discipline de l&apos;Esprit-Ruche" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10823,72 +10823,72 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="162e-b14c-566c-6073" name="Catalyst" hidden="false" targetId="0e28-706e-4fd4-3e50" type="profile">
+        <infoLink id="162e-b14c-566c-6073" name="Catalyseur" hidden="false" targetId="0e28-706e-4fd4-3e50" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="2. Catalyst">
+            <modifier type="set" field="name" value="2. Catalyseur">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="6ec3-2ee1-ab51-4a5c" name="The Horror" hidden="false" targetId="b5f8-3114-151d-1286" type="profile">
+        <infoLink id="6ec3-2ee1-ab51-4a5c" name="L&apos;Horreur" hidden="false" targetId="b5f8-3114-151d-1286" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="3. The Horror">
+            <modifier type="set" field="name" value="3. L&apos;Horreur">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="1be9-3435-baf0-bcb6" name="Onslaught" hidden="false" targetId="1e3b-eeef-c059-088a" type="profile">
+        <infoLink id="1be9-3435-baf0-bcb6" name="Déferlante" hidden="false" targetId="1e3b-eeef-c059-088a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="4. Onslaught">
+            <modifier type="set" field="name" value="4. Déferlante">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="252e-f02d-0b8c-e492" name="Psychic Scream" hidden="false" targetId="80e2-63ea-dc79-e5c7" type="profile">
+        <infoLink id="252e-f02d-0b8c-e492" name="Hurlement Psychique" hidden="false" targetId="80e2-63ea-dc79-e5c7" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="6. Psychic Scream">
+            <modifier type="set" field="name" value="6. Hurlement Psychique">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="64aa-03f3-7ba2-82f2" name="Dominion" hidden="false" targetId="72b0-f729-0e42-d60b" type="profile">
+        <infoLink id="64aa-03f3-7ba2-82f2" name="Domination" hidden="false" targetId="72b0-f729-0e42-d60b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="1. Dominion">
+            <modifier type="set" field="name" value="1. Domination">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="c3ae-b2d6-54fb-a068" name="Paroxysm" hidden="false" targetId="7191-24ff-9f78-8bca" type="profile">
+        <infoLink id="c3ae-b2d6-54fb-a068" name="Paroxysme" hidden="false" targetId="7191-24ff-9f78-8bca" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="5. Paroxysm">
+            <modifier type="set" field="name" value="5. Paroxysme">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -10907,9 +10907,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac8a-fb61-d587-36fb" name="Power: Smite" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ac8a-fb61-d587-36fb" name="Pouvoir : Châtiment" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="de4f-b5b2-293e-3b56" name="Smite" book="Warhammer 40,000" page="178" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+        <profile id="de4f-b5b2-293e-3b56" name="Châtiment" book="Warhammer 40,000" page="178" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12729,11 +12729,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afd5-2e14-a36e-7887" name="3. The Horror" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="afd5-2e14-a36e-7887" name="3. L&apos;Horreur" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="0316-c01d-5aa8-76ab" name="The Horror" hidden="false" targetId="b5f8-3114-151d-1286" type="profile">
+        <infoLink id="0316-c01d-5aa8-76ab" name="L&apos;Horreur" hidden="false" targetId="b5f8-3114-151d-1286" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12741,7 +12741,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="name" value="Power: The Horror">
+        <modifier type="set" field="name" value="Pouvoir : L&apos;Horreur">
           <repeats/>
           <conditions/>
           <conditionGroups/>
@@ -12759,11 +12759,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="275e-be2c-2912-b825" name="2. Catalyst" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="275e-be2c-2912-b825" name="2. Catalyseur" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="dfa0-cd16-ff3f-e0f8" name="Catalyst" hidden="false" targetId="0e28-706e-4fd4-3e50" type="profile">
+        <infoLink id="dfa0-cd16-ff3f-e0f8" name="Catalyseur" hidden="false" targetId="0e28-706e-4fd4-3e50" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12771,7 +12771,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="name" value="Power: Catalyst">
+        <modifier type="set" field="name" value="Pouvoir : Catalyseur">
           <repeats/>
           <conditions/>
           <conditionGroups/>
@@ -12789,11 +12789,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6208-036c-2a57-caed" name="4. Onslaught" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6208-036c-2a57-caed" name="4. Déferlante" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="3395-ed94-438d-ab46" name="Onslaught" hidden="false" targetId="1e3b-eeef-c059-088a" type="profile">
+        <infoLink id="3395-ed94-438d-ab46" name="Déferlante" hidden="false" targetId="1e3b-eeef-c059-088a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12801,7 +12801,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="name" value="Power: Onslaught">
+        <modifier type="set" field="name" value="Pouvoir : Déferlante">
           <repeats/>
           <conditions/>
           <conditionGroups/>
@@ -13053,7 +13053,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time a unit with this adaption loses  a wound whilst it is within 6&quot; of a friendly Synapse unit from the same hive fleet. On a 6, the damage is ignored and the unit does not lose a wound. Ignore this adaption on a unit that is currently affected by the Catalyst psychic power."/>
+                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time a unit with this adaption loses  a wound whilst it is within 6&quot; of a friendly Synapse unit from the same hive fleet. On a 6, the damage is ignored and the unit does not lose a wound. Ignore this adaption on a unit that is currently affected by the Catalyseur psychic power."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13081,11 +13081,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="647c-8d7d-26ea-40bd" name="6. Psychic Scream" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="647c-8d7d-26ea-40bd" name="6. Hurlement Psychique" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="19f0-c91e-174f-0f71" name="Psychic Scream" hidden="false" targetId="80e2-63ea-dc79-e5c7" type="profile">
+        <infoLink id="19f0-c91e-174f-0f71" name="Hurlement Psychique" hidden="false" targetId="80e2-63ea-dc79-e5c7" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13093,7 +13093,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="name" value="Power: Psychic Scream">
+        <modifier type="set" field="name" value="Pouvoir : Hurlement Psychique">
           <repeats/>
           <conditions/>
           <conditionGroups/>
@@ -13329,11 +13329,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1469-304f-ef9e-7b75" name="1. Dominion" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1469-304f-ef9e-7b75" name="1. Domination" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="7a8c-5ba9-fd11-7cba" name="Dominion" hidden="false" targetId="72b0-f729-0e42-d60b" type="profile">
+        <infoLink id="7a8c-5ba9-fd11-7cba" name="Domination" hidden="false" targetId="72b0-f729-0e42-d60b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13341,7 +13341,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="name" value="Power: Dominion">
+        <modifier type="set" field="name" value="Pouvoir : Domination">
           <repeats/>
           <conditions/>
           <conditionGroups/>
@@ -13359,11 +13359,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d04-1d81-fb42-b2d4" name="5. Paroxysm" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0d04-1d81-fb42-b2d4" name="5. Paroxysme" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="9711-b8cd-d939-b1eb" name="Paroxysm" hidden="false" targetId="7191-24ff-9f78-8bca" type="profile">
+        <infoLink id="9711-b8cd-d939-b1eb" name="Paroxysme" hidden="false" targetId="7191-24ff-9f78-8bca" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13371,7 +13371,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="name" value="Power: Paroxysm">
+        <modifier type="set" field="name" value="Pouvoir : Paroxysme">
           <repeats/>
           <conditions/>
           <conditionGroups/>
@@ -13669,7 +13669,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9ba8-8fcd-52c6-3178" name="Hive Mind Discipline" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
+        <entryLink id="9ba8-8fcd-52c6-3178" name="Discipline de l&apos;Esprit-Ruche" hidden="false" targetId="c2f7-de12-e2e1-bb33" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14293,7 +14293,7 @@
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="c2f7-de12-e2e1-bb33" name="Hive Mind Discipline" hidden="false" collective="false">
+    <selectionEntryGroup id="c2f7-de12-e2e1-bb33" name="Discipline de l&apos;Esprit-Ruche" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14303,7 +14303,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1330-a88c-1350-6f71" name="3. The Horror" hidden="false" targetId="afd5-2e14-a36e-7887" type="selectionEntry">
+        <entryLink id="1330-a88c-1350-6f71" name="3. L&apos;Horreur" hidden="false" targetId="afd5-2e14-a36e-7887" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14311,7 +14311,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8515-1704-4442-19f7" name="2. Catalyst" hidden="false" targetId="275e-be2c-2912-b825" type="selectionEntry">
+        <entryLink id="8515-1704-4442-19f7" name="2. Catalyseur" hidden="false" targetId="275e-be2c-2912-b825" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14319,7 +14319,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="34e9-5d4b-7450-3bcd" name="4. Onslaught" hidden="false" targetId="6208-036c-2a57-caed" type="selectionEntry">
+        <entryLink id="34e9-5d4b-7450-3bcd" name="4. Déferlante" hidden="false" targetId="6208-036c-2a57-caed" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14327,7 +14327,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6a0b-819a-c0b8-3ec0" name="6. Psychic Scream" hidden="false" targetId="647c-8d7d-26ea-40bd" type="selectionEntry">
+        <entryLink id="6a0b-819a-c0b8-3ec0" name="6. Hurlement Psychique" hidden="false" targetId="647c-8d7d-26ea-40bd" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14335,7 +14335,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="81aa-f27f-839f-d401" name="1. Dominion" hidden="false" targetId="1469-304f-ef9e-7b75" type="selectionEntry">
+        <entryLink id="81aa-f27f-839f-d401" name="1. Domination" hidden="false" targetId="1469-304f-ef9e-7b75" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14343,7 +14343,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2e9c-48eb-6224-ef49" name="5. Paroxysm" hidden="false" targetId="0d04-1d81-fb42-b2d4" type="selectionEntry">
+        <entryLink id="2e9c-48eb-6224-ef49" name="5. Paroxysme" hidden="false" targetId="0d04-1d81-fb42-b2d4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17057,7 +17057,7 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield; on a 5+, it lashes out in its death throes, and each unit within 3&quot; suffers D3 mortal wounds."/>
       </characteristics>
     </profile>
-    <profile id="1e3b-eeef-c059-088a" name="Onslaught" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="1e3b-eeef-c059-088a" name="Déferlante" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17065,10 +17065,10 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="6"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Select a friendly TYRANIDS unit within 18&quot; of the psyker. That unit can shoot this turn (even if it Advanced) without suffering any penalties to its hit rolls for moving and shooting with Heavy weapons, or Advancing and shooting with Assault weapons. In addition, that unit can charge this turn even if it Advanced (though not if it Fell Back)."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choisissez une unité TYRANID amie à 18&quot; ou moins du Psyker. Cette unité peut tirer à ce tour (même si elle a Avancé) sans pénalité à ses jets de touche si elle se déplace et tire avec des armes lourdes, ou si elle Avance et tire avec des armes d&apos;Assaut. De plus, cette unité peut charger à ce tour même si elle avait Avancé (mais pas si elle avait Battu en Retraite)."/>
       </characteristics>
     </profile>
-    <profile id="0e28-706e-4fd4-3e50" name="Catalyst" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="0e28-706e-4fd4-3e50" name="Catalyseur" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17076,10 +17076,10 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="6"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Select a friendly TYRANIDS unit within 18&quot; of the psyker. Until the start of your next Psychic phase, each time that unit loses a wound, roll a D6; on a 5+, the damage is ignored and the unit does not lose that wound."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choisissez une unité TYRANID amie à 18&quot; ou moins du Psyker. jusqu&apos;au début de votre prochaine phase Psychique, chaque fois que cette unité perd un point de vie, jetez un D6; sur 5+, le dégât est ignoré et l&apos;unité ne perd pas ce PV."/>
       </characteristics>
     </profile>
-    <profile id="b5f8-3114-151d-1286" name="The Horror" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="b5f8-3114-151d-1286" name="L&apos;Horreur" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17087,7 +17087,7 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="6"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="24&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Select a unit within 24&quot; that is visible to the psyker. Until the start of your next Psychic phase, that unit must subtract 1 from their hit rolls and Leadership characteristic."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choisissez une unité à 24&quot; ou moins et visible du Pskyker. jusqu&apos;au début de votre prochaine phase Psychique, cette unité doit soustraire 1 à ses jets de touche et à sa caractéristique de Commandement. "/>
       </characteristics>
     </profile>
     <profile id="19af-ab35-5929-e624" name="Spore Mine" book="Codex: Tyranids" page="99" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -17189,7 +17189,7 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Unless a &lt;HIVE FLEET&gt; unit with this ability is within 24&quot; of any friendly &lt;HIVE FLEET&gt; Synapse unit, you must subtract 1 from any hit rolls made for it when shooting any target other than the nearest visible enemy unit, and you must subtract 2 from its charge roll if it declares a charge against any unit other than the nearest enemy unit."/>
       </characteristics>
     </profile>
-    <profile id="80e2-63ea-dc79-e5c7" name="Psychic Scream" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="80e2-63ea-dc79-e5c7" name="Hurlement Psychique" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17197,10 +17197,10 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="The nearest enemy unit within 18&quot; suffers D3 mortal wounds. In addition, if that unit is a PSYKER, roll two dice. If the result is higher than their Leadership characteristic, randomly select one of their psychic powers. They can no longer use that psychic power."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="L&apos;unité ennemie la plus proche à moins à 18&quot; ou moins subit D3 blessures mortelles. De plus, si cette unité est un psyker, jetez deux dés. Si le résultat est supérieur à sa caractéristique de Commandement, sélectionnez au hasard un de ses pouvoirs psychiques. Elle ne peut plus utiliser ce pouvoir psychique."/>
       </characteristics>
     </profile>
-    <profile id="72b0-f729-0e42-d60b" name="Dominion" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="72b0-f729-0e42-d60b" name="Domination" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17208,10 +17208,10 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="36&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Select a freindly TYRANIDS unit within 36&quot; of the psyker that has the Instinctive Behavious ability. Until the end of your next Psychic phase, that unit ignoires its Instinctive Behaviour ability and automatically passes Morale tests."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choisissez une unité TYRANID amie à 36&quot; ou moins du Psyker et qui a l&apos;aptitude Comportement Instinctif. jusqu&apos;à la fin de votre prochaine phase Psychique, cette unité ignore son aptitude Comportement Instinctif et réussit automatiquement les tests de moral."/>
       </characteristics>
     </profile>
-    <profile id="7191-24ff-9f78-8bca" name="Paroxysm" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+    <profile id="7191-24ff-9f78-8bca" name="     " book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17219,7 +17219,7 @@
       <characteristics>
         <characteristic name="Charge Warp" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
         <characteristic name="Portée" characteristicTypeId="fd64-cbc4-94de-24cc" value="18&quot;"/>
-        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choose an enemy unit within 18&quot; of the psyker. Until your next Psychic phase, that unit cannot fight in the Fight phase until all other units that are able to have done so. If the target has an ability that allows it to fight first in the Fight phase, it instead fights as if it didn&apos;t have this ability. If both players have units that cannot fight until all other units have done so, then alternate choosing which of those units to fight with, starting with the player whose turn is taking place."/>
+        <characteristic name="Détails" characteristicTypeId="ad96-dfa4-b4ed-656d" value="Choisissez une unité ennemie à 18&quot; ou moins du Psyker. Jusqu&apos;à votre prochaine phase psychique, cette unité ne peut pas combattre en phase de Combat avant que toutes les autres unités ne l&apos;aient fait. Si l&apos;unité ciblée a une aptityde lui permettant de combattre en premier en phase de Combat, elle combat à la place comme si elle n&apos;avait pas cette aptitude. Si les deux joueurs ont des unités qui ne peuvent pas combattre avant que toutes les autres unités ne l&apos;aient fait, choisissez à tour de rôlr lesquelles de ces unités combattent, en commençant par le joueur dont c&apos;est le tour."/>
       </characteristics>
     </profile>
     <profile id="9b08-a400-abd0-cee7" name="Spine Banks" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

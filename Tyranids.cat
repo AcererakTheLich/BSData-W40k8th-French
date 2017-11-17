@@ -5301,20 +5301,20 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;Hive Fleet&gt;"/>
-            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infantry, Termagants"/>
+            <characteristic name="Mots-clés de faction" characteristicTypeId="6b92-2d97-5144-62bc" value="Tyranids, &lt;FLOTTE-RUCHE&gt;"/>
+            <characteristic name="Mots-clés" characteristicTypeId="ce6c-4765-4bb8-bd49" value="Infanterie, Termagants"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="c6e3-fe23-15be-c661" name="Instinctive Behaviour" hidden="false" targetId="b830-920a-231b-073d" type="profile">
+        <infoLink id="c6e3-fe23-15be-c661" name="Comportement Instinctif" hidden="false" targetId="b830-920a-231b-073d" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="91f1-22c4-9ef7-5be1" name="Hail of Living Ammunition" hidden="false" targetId="d1fe-35b9-7009-518f" type="profile">
+        <infoLink id="91f1-22c4-9ef7-5be1" name="Grêle de Munitions Vivantes" hidden="false" targetId="d1fe-35b9-7009-518f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5381,7 +5381,7 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="9b89-fdb1-c35e-a671" name="Termagant (Devourer)" hidden="false" collective="false" type="model">
+            <selectionEntry id="9b89-fdb1-c35e-a671" name="Termagant (Dévoreur)" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -5398,11 +5398,11 @@
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="dc6a-3bfa-212d-08d6" name="Devourer" hidden="false" collective="true" type="upgrade">
+                <selectionEntry id="dc6a-3bfa-212d-08d6" name="Dévoreur" hidden="false" collective="true" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="6aab-ac51-e1cc-e41b" name="Devourer" hidden="false" targetId="3491-c732-c485-8732" type="profile">
+                    <infoLink id="6aab-ac51-e1cc-e41b" name="Dévoreur" hidden="false" targetId="3491-c732-c485-8732" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5431,7 +5431,7 @@
                 <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8d26-77af-ee8e-cf53" name="Termagant (Fleshborer)" hidden="false" collective="false" type="model">
+            <selectionEntry id="8d26-77af-ee8e-cf53" name="Termagant (Ecorcheur)" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -5450,7 +5450,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="eb99-b7fb-1201-f9e9" name="Fleshborer" hidden="false" targetId="b888-86b7-cb7a-866f" type="selectionEntry">
+                <entryLink id="eb99-b7fb-1201-f9e9" name="Ecorcheur" hidden="false" targetId="b888-86b7-cb7a-866f" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5467,7 +5467,7 @@
                 <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a040-b49e-fa48-42bf" name="Termagant (Spinefists)" hidden="false" collective="false" type="model">
+            <selectionEntry id="a040-b49e-fa48-42bf" name="Termagant (Poings-épineux)" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -5484,11 +5484,11 @@
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="e909-4dac-5c8c-a3ea" name="Spinefists" hidden="false" collective="true" type="upgrade">
+                <selectionEntry id="e909-4dac-5c8c-a3ea" name="Poings-épineux" hidden="false" collective="true" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="8518-8c4c-9efc-8308" name="Spinefists" hidden="false" targetId="369b-bd36-14b2-e698" type="profile">
+                    <infoLink id="8518-8c4c-9efc-8308" name="Poings-épineux" hidden="false" targetId="369b-bd36-14b2-e698" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5603,7 +5603,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5aad-ab67-9561-aaac" name="Adrenal Glands" hidden="false" targetId="9837-af87-3cfd-a48c" type="selectionEntry">
+        <entryLink id="5aad-ab67-9561-aaac" name="Glandes surrénales" hidden="false" targetId="9837-af87-3cfd-a48c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5626,7 +5626,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3468-350d-b093-4f73" name="Toxin Sacs" hidden="false" targetId="0ad6-5e03-5112-d194" type="selectionEntry">
+        <entryLink id="3468-350d-b093-4f73" name="Sacs à toxines" hidden="false" targetId="0ad6-5e03-5112-d194" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9378,11 +9378,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b888-86b7-cb7a-866f" name="Fleshborer" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="b888-86b7-cb7a-866f" name="Ecorcheur" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="f955-b96d-1fec-5009" name="Fleshborer" hidden="false" targetId="13f1-8d6c-769e-fc63" type="profile">
+        <infoLink id="f955-b96d-1fec-5009" name="Ecorcheur" hidden="false" targetId="13f1-8d6c-769e-fc63" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10555,11 +10555,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ad6-5e03-5112-d194" name="Toxin Sacs" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0ad6-5e03-5112-d194" name="Sacs à toxines" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="bae0-0b83-b907-1d1c" name="Toxin Sacs" hidden="false" targetId="b36f-7549-f9e1-336c" type="profile">
+        <infoLink id="bae0-0b83-b907-1d1c" name="Sacs à toxines" hidden="false" targetId="b36f-7549-f9e1-336c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16061,14 +16061,14 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Cette arme peut tirer à 1&quot; ou moins d&apos;une unité ennemie, et cibler des unités ennemies à 1&quot; ou moins d&apos;unités amies."/>
       </characteristics>
     </profile>
-    <profile id="13f1-8d6c-769e-fc63" name="Fleshborer" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="13f1-8d6c-769e-fc63" name="Ecorcheur" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 1"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16867,13 +16867,13 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up this unit underground instead of placing it on the battlefield. At the end of any of your Movement phases, the unit can burrow to the surface - set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models."/>
       </characteristics>
     </profile>
-    <profile id="d1fe-35b9-7009-518f" name="Hail of Living Ammunition" book="Codex: Tyranids" page="90" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="d1fe-35b9-7009-518f" name="Grêle de Munitions Vivantes" book="Codex: Tyranids" page="90" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this unit contains 20 or more models, you can re-roll wound rolls of 1 when it shoots."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Si cette unité contient 20 figurines ou plus, vous pouvez relancer les jets de blessure de 1 lorsqu&apos;elle tire."/>
       </characteristics>
     </profile>
     <profile id="2e26-53a3-b827-cd3a" name="Bio-acid Spray" book="Imperial Armour - Index: Xenos" page="83" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17168,7 +17168,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Enemy PSKYERS must subtract 1 from any Psychic tests they make if they are within 18&quot; of any units with this ability. TYRANID PSYKERS are not affected."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les Psykers ennemis doivent soustrairent 1 aux tests Psychiques qu&apos;ils effectuent s&apos;ils se trouvent à 18&quot; ou moins d&apos;au moins une unité avec cette aptitude. Les PSYKERS TYRANIDS ne sont pas affectés. "/>
       </characteristics>
     </profile>
     <profile id="1f08-bd8f-43a3-ce1b" name="Synapse" book="Codex: Tyranids" page="82" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -17180,13 +17180,13 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Les unités &lt;FLOTTE-RUCHE&gt; réussissent automatiquement leurs tests de moral si elles se trouvent à 12&quot; ou moins d&apos;au moins une unité &lt;FLOTTE-RUCHE&gt; amie avec cette aptitude."/>
       </characteristics>
     </profile>
-    <profile id="b830-920a-231b-073d" name="Instinctive Behaviour" book="Codex: Tyranids" page="82" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+    <profile id="b830-920a-231b-073d" name="Comportement Instinctif" book="Codex: Tyranids" page="82" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Unless a &lt;HIVE FLEET&gt; unit with this ability is within 24&quot; of any friendly &lt;HIVE FLEET&gt; Synapse unit, you must subtract 1 from any hit rolls made for it when shooting any target other than the nearest visible enemy unit, and you must subtract 2 from its charge roll if it declares a charge against any unit other than the nearest enemy unit."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A moins qu&apos;une unité &lt;FLOTTE-RUCHE&gt; avec cette aptitude soit à 24&quot; ou moins d&apos;une ou plusieurs unités Synapse &lt;FLOTTE-RUCHE&gt; amies, vous devez soustraire 1 à ses jets de touche lorsqu&apos;elle cible une unité autre que l&apos;unité ennemie visible la plus proche, et vous devez soustraire 2 à ses jets de charge si elle déclare une charge contre une unité autre que l&apos;unité ennemie visible la plus proche."/>
       </characteristics>
     </profile>
     <profile id="80e2-63ea-dc79-e5c7" name="Hurlement Psychique" book="Codex: Tyranids" page="121" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">

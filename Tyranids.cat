@@ -9214,11 +9214,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7af8-70de-cfec-20d3" name="Deathspitter" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7af8-70de-cfec-20d3" name="Crache-mort" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="91c5-32ca-6bd0-9f6d" name="Deathspitter" hidden="false" targetId="c7bc-14dc-e5c8-0345" type="profile">
+        <infoLink id="91c5-32ca-6bd0-9f6d" name="Crache-mort" hidden="false" targetId="c7bc-14dc-e5c8-0345" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9236,11 +9236,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e67-78b4-1c50-05bd" name="Deathspitter with Slimer Maggots" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5e67-78b4-1c50-05bd" name="Crache-mort à visco-larves" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="2ee5-bc16-c832-a3e2" name="Deathspitter with Slimer Maggots" hidden="false" targetId="c1cd-1f39-699b-cf5a" type="profile">
+        <infoLink id="2ee5-bc16-c832-a3e2" name="Crache-mort à visco-larves" hidden="false" targetId="c1cd-1f39-699b-cf5a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9290,11 +9290,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9376-4ab0-2043-a0e2" name="Devourer with Brainleech Worms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9376-4ab0-2043-a0e2" name="Dévoreurs à neuro-sangsues" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="c538-09ca-22d1-934e" name="Devourer with Brainleech Worms" hidden="false" targetId="8150-8c94-ee82-58d6" type="profile">
+        <infoLink id="c538-09ca-22d1-934e" name="Dévoreurs à neuro-sangsues" hidden="false" targetId="8150-8c94-ee82-58d6" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9444,11 +9444,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7616-cf27-58d6-0899" name="Heavy Venom Cannon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7616-cf27-58d6-0899" name="Canon venin lourd" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="b471-aae2-bb3b-b790" name="Heavy Venom Cannon" hidden="false" targetId="49df-0729-d7b0-9418" type="profile">
+        <infoLink id="b471-aae2-bb3b-b790" name="Canon venin lourd" hidden="false" targetId="49df-0729-d7b0-9418" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9592,11 +9592,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42fd-353d-bc2a-ef69" name="Spinefists" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="42fd-353d-bc2a-ef69" name="Poings-épineux" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="ba6e-7bdf-8ed7-3326" name="Spinefists" hidden="false" targetId="369b-bd36-14b2-e698" type="profile">
+        <infoLink id="ba6e-7bdf-8ed7-3326" name="Poings-épineux" hidden="false" targetId="369b-bd36-14b2-e698" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9711,11 +9711,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d1b-6f84-2224-a225" name="Stranglethorn Cannon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0d1b-6f84-2224-a225" name="Canon étrangleur" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="08b3-86fa-691d-c46a" name="Stranglethorn Cannon" hidden="false" targetId="1c15-bcdd-cb30-6a84" type="profile">
+        <infoLink id="08b3-86fa-691d-c46a" name="Canon étrangleur" hidden="false" targetId="1c15-bcdd-cb30-6a84" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9925,11 +9925,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="506e-1334-6b64-53db" name="Boneswords" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="506e-1334-6b64-53db" name="Epées d&apos;os" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="58d8-22e8-dc3f-0d5d" name="Boneswords" hidden="false" targetId="678e-d28c-b67c-b4a4" type="profile">
+        <infoLink id="58d8-22e8-dc3f-0d5d" name="Epées d&apos;os" hidden="false" targetId="678e-d28c-b67c-b4a4" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10035,11 +10035,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="591b-c551-1088-230b" name="Lash Whip and Bonesword" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="591b-c551-1088-230b" name="Bioknout et épée d&apos;os" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="b97d-3597-60fb-9624" name="Lash Whip and Bonesword" hidden="false" targetId="09d5-7601-82df-77c8" type="profile">
+        <infoLink id="b97d-3597-60fb-9624" name="Bioknout et épée d&apos;os" hidden="false" targetId="09d5-7601-82df-77c8" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10073,11 +10073,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eda8-1541-116e-f6aa" name="Lash Whip and Monstrous Bonesword" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eda8-1541-116e-f6aa" name="Bioknout et épée d&apos;os monstrueuse" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="25b2-44cc-a0ce-7ef4" name="Lash Whip and Monstrous Bonesword" hidden="false" targetId="bce8-e4ba-2bb1-ae19" type="profile">
+        <infoLink id="25b2-44cc-a0ce-7ef4" name="Bioknout et épée d&apos;os monstrueuse" hidden="false" targetId="bce8-e4ba-2bb1-ae19" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10155,11 +10155,11 @@
         <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b03-dbb8-885e-42e6" name="Monstrous Boneswords" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8b03-dbb8-885e-42e6" name="Epées d&apos;os monstrueuses" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="6654-e2f8-5207-260b" name="Monstrous Boneswords" hidden="false" targetId="3c08-32c2-5ee8-e424" type="profile">
+        <infoLink id="6654-e2f8-5207-260b" name="Epées d&apos;os monstrueuses" hidden="false" targetId="3c08-32c2-5ee8-e424" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10631,11 +10631,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a50e-4043-d535-0f3a" name="Rending Claws" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a50e-4043-d535-0f3a" name="Serres perforantes" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="f450-599f-a903-4bcb" name="Rending Claws" hidden="false" targetId="0693-a634-e549-a0f7" type="profile">
+        <infoLink id="f450-599f-a903-4bcb" name="Serres perforantes" hidden="false" targetId="0693-a634-e549-a0f7" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14039,7 +14039,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="cd23-77c8-2669-4196" name="Basic Bio-weapons" hidden="false" collective="false">
+    <selectionEntryGroup id="cd23-77c8-2669-4196" name="Bio-armes de base" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14047,11 +14047,11 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="21ef-1c96-dfff-4032" name="Scything Talons" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="21ef-1c96-dfff-4032" name="Griffes tranchantes" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="406f-b820-1dc6-a613" name="Scything Talons" hidden="false" targetId="57c8-5ab6-1d28-8433" type="profile">
+            <infoLink id="406f-b820-1dc6-a613" name="Griffes tranchantes" hidden="false" targetId="57c8-5ab6-1d28-8433" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14072,7 +14072,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="02ca-6071-40d0-e0b0" name="Spinefists" hidden="false" targetId="42fd-353d-bc2a-ef69" type="selectionEntry">
+        <entryLink id="02ca-6071-40d0-e0b0" name="Poings-épineux" hidden="false" targetId="42fd-353d-bc2a-ef69" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14080,7 +14080,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3d1c-962d-e1ef-b166" name="Deathspitter" hidden="false" targetId="7af8-70de-cfec-20d3" type="selectionEntry">
+        <entryLink id="3d1c-962d-e1ef-b166" name="Crache-mort" hidden="false" targetId="7af8-70de-cfec-20d3" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14118,7 +14118,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1b6c-58cb-f6eb-2c24" name="Melee Bio-weapons" hidden="false" collective="false">
+    <selectionEntryGroup id="1b6c-58cb-f6eb-2c24" name="Bio-armes de mêlée" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14128,7 +14128,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1462-55fc-d8a5-309e" name="Rending Claws" hidden="false" targetId="a50e-4043-d535-0f3a" type="selectionEntry">
+        <entryLink id="1462-55fc-d8a5-309e" name="Serres perforantes" hidden="false" targetId="a50e-4043-d535-0f3a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14138,7 +14138,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8f74-d24a-607e-1d3f" name="Boneswords" hidden="false" targetId="506e-1334-6b64-53db" type="selectionEntry">
+        <entryLink id="8f74-d24a-607e-1d3f" name="Epées d&apos;os" hidden="false" targetId="506e-1334-6b64-53db" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14148,7 +14148,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ed2a-4808-750e-2adc" name="Lash Whip and Bonesword" hidden="false" targetId="591b-c551-1088-230b" type="selectionEntry">
+        <entryLink id="ed2a-4808-750e-2adc" name="Bioknout et épée d&apos;os" hidden="false" targetId="591b-c551-1088-230b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14160,7 +14160,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3e96-f405-4fe6-eb45" name="Monstrous Bio-weapons" hidden="false" collective="false">
+    <selectionEntryGroup id="3e96-f405-4fe6-eb45" name="Bio-armes monstrueuses" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14170,7 +14170,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a74f-5d82-a022-2c7c" name="Monstrous Boneswords" hidden="false" targetId="8b03-dbb8-885e-42e6" type="selectionEntry">
+        <entryLink id="a74f-5d82-a022-2c7c" name="Epées d&apos;os monstrueuses" hidden="false" targetId="8b03-dbb8-885e-42e6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14190,7 +14190,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="20a1-59a1-bcfd-a149" name="Lash Whip and Monstrous Bonesword" hidden="false" targetId="eda8-1541-116e-f6aa" type="selectionEntry">
+        <entryLink id="20a1-59a1-bcfd-a149" name="Bioknout et épée d&apos;os monstrueuse" hidden="false" targetId="eda8-1541-116e-f6aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14202,7 +14202,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b4ba-418e-b4d8-e76b" name="Monstrous Bio-cannons" hidden="false" collective="false">
+    <selectionEntryGroup id="b4ba-418e-b4d8-e76b" name="Biocanons monstrueux" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14210,11 +14210,11 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="70be-343f-f882-bf14" name="Two Deathspitters with Slimer Maggots" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="70be-343f-f882-bf14" name="Deux Crache-mort à visco-larves" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="01f3-9047-98df-1971" name="Deathspitter with Slimer Maggots" hidden="false" targetId="c1cd-1f39-699b-cf5a" type="profile">
+            <infoLink id="01f3-9047-98df-1971" name="Crache-mort à visco-larves" hidden="false" targetId="c1cd-1f39-699b-cf5a" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14234,11 +14234,11 @@
             <cost name="RP" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="20ea-e945-2233-72bc" name="Two Devourers with Brainleech Worms" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="20ea-e945-2233-72bc" name="Deux Dévoreurs à neuro-sangsues" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="d64f-1110-3406-48ea" name="Devourer with Brainleech Worms" hidden="false" targetId="8150-8c94-ee82-58d6" type="profile">
+            <infoLink id="d64f-1110-3406-48ea" name="Dévoreurs à neuro-sangsues" hidden="false" targetId="8150-8c94-ee82-58d6" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14260,7 +14260,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9fe3-e452-4db6-8b4e" name="Cannons" hidden="false" collective="false">
+        <selectionEntryGroup id="9fe3-e452-4db6-8b4e" name="Canons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14272,7 +14272,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="cec0-f828-021e-d72f" name="Heavy Venom Cannon" hidden="false" targetId="7616-cf27-58d6-0899" type="selectionEntry">
+            <entryLink id="cec0-f828-021e-d72f" name="Canon venin lourd" hidden="false" targetId="7616-cf27-58d6-0899" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14280,7 +14280,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="4b2b-aa3e-97dd-c5cf" name="Stranglethorn Cannon" hidden="false" targetId="0d1b-6f84-2224-a225" type="selectionEntry">
+            <entryLink id="4b2b-aa3e-97dd-c5cf" name="Canon étrangleur" hidden="false" targetId="0d1b-6f84-2224-a225" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15963,28 +15963,28 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can re-roll failed wound rolls for this weapon. In addition, units attacked by this weapon do not gain any bonus to their saving throws for being in cover."/>
       </characteristics>
     </profile>
-    <profile id="c7bc-14dc-e5c8-0345" name="Deathspitter" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="c7bc-14dc-e5c8-0345" name="Crache-mort" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="c1cd-1f39-699b-cf5a" name="Deathspitter with Slimer Maggots" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="c1cd-1f39-699b-cf5a" name="Crache-mort à visco-larves" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut 3"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
@@ -16005,7 +16005,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="8150-8c94-ee82-58d6" name="Devourer with Brainleech Worms" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="8150-8c94-ee82-58d6" name="Dévoreurs à neuro-sangsues" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16103,7 +16103,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can be fired within 1&quot; of an enemy unit, and can target enemy units within 1&quot; of friendly units. In addition, when a model is slain by this weapon, its bearer regains 1 lost wound."/>
       </characteristics>
     </profile>
-    <profile id="49df-0729-d7b0-9418" name="Heavy Venom Cannon" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="49df-0729-d7b0-9418" name="Canon venin lourd" book="Codex: Tyranids" page="112" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16187,18 +16187,18 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="369b-bd36-14b2-e698" name="Spinefists" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="369b-bd36-14b2-e698" name="Poings-épineux" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol *"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistolet *"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="3"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="0"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="When a model fires this weapon, it makes a number of shots equal to its Attacks characteristic."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Lorsqu&apos;une figurine tire avec cette arme, elle effectue un nombre de tirs égal à sa caractéristique d&apos;Attaques."/>
       </characteristics>
     </profile>
     <profile id="8d15-5815-db35-48e8" name="Spinemaws" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16243,18 +16243,18 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="1c15-bcdd-cb30-6a84" name="Stranglethorn Cannon" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="1c15-bcdd-cb30-6a84" name="Canon étrangleur" book="Codex: Tyranids" page="113" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Portée" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D6"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assaut D6"/>
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="You can add 1 to hit rolls for this weapon when attacking a unit with 10 or more models."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Vous pouvez ajouter 1 aux jets de touche de cette arme lorsqu&apos;elle attaque une unité de 10 figurines ou plus."/>
       </characteristics>
     </profile>
     <profile id="c230-0f5b-edb8-1b60" name="Strangleweb" book="Index: Xenos 2" page="140" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16397,7 +16397,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Each time you make a wound roll of 6+ for this weapon, the target suffers a mortal wound in addition to any other damage."/>
       </characteristics>
     </profile>
-    <profile id="678e-d28c-b67c-b4a4" name="Boneswords" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="678e-d28c-b67c-b4a4" name="Epées d&apos;os" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16408,7 +16408,7 @@
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A model armed with boneswords can make 1 additional attack with them in the Fight phase."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Une figurine armée d&apos;épées d&apos;os monstrueuses peut effectuer 1 attaque supplémentaire avec elle en phase de Combat."/>
       </characteristics>
     </profile>
     <profile id="ae8c-f20e-8126-d222" name="Claws and Teeth" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16467,7 +16467,7 @@
         <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
       </characteristics>
     </profile>
-    <profile id="09d5-7601-82df-77c8" name="Lash Whip and Bonesword" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="09d5-7601-82df-77c8" name="Bioknout et épée d&apos;os" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16478,10 +16478,10 @@
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the bearer is slain in the Fight phase before it makes it attacks, leave it where it is. When its unit is chosen to fight in that phase, the bearer can do so as normal before being removed from the battlefield."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Si le porteur est tué en phase de Combat avant d&apos;avoir effectué ses attaques, laissez-le où il est. Lorsque son unité est choisie pour combattre à cette phase, le porteur peut le faire normalement avant d&apos;être retiré du champ de bataille."/>
       </characteristics>
     </profile>
-    <profile id="bce8-e4ba-2bb1-ae19" name="Lash Whip and Monstrous Bonesword" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="bce8-e4ba-2bb1-ae19" name="Bioknout et épée d&apos;os monstrueuse" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16492,10 +16492,10 @@
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="If the bearer is slain in the Fight phase before it makes it attacks, leave it where it is. When its unit is chosen to fight in that phase, the bearer can do so as normal before being removed from the battlefield."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Si le porteur est tué en phase de Combat avant d&apos;avoir effectué ses attaques, laissez-le où il est. Lorsque son unité est choisie pour combattre à cette phase, le porteur peut le faire normalement avant d&apos;être retiré du champ de bataille."/>
       </characteristics>
     </profile>
-    <profile id="3c08-32c2-5ee8-e424" name="Monstrous Boneswords" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="3c08-32c2-5ee8-e424" name="Epées d&apos;os monstrueuses" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16506,7 +16506,7 @@
         <characteristic name="F" characteristicTypeId="59b1-319e-ec13-d466" value="Util."/>
         <characteristic name="PA" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="A model armed with monstrous boneswords can make 1 additional attack with them in the Fight phase."/>
+        <characteristic name="Aptitudes" characteristicTypeId="837d-5e63-aeb7-1410" value="Une figurine armée d&apos;épées d&apos;os monstrueuses peut effectuer 1 attaque supplémentaire avec elle en phase de Combat."/>
       </characteristics>
     </profile>
     <profile id="72ae-43d5-e675-3de8" name="Massive Crushing Claws" book="Codex: Tyranids" page="111" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

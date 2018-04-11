@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11b5-77b9-31bf-7b74" name="Orks" book="Index: Xenos 2" revision="7" battleScribeVersion="2.01" authorName="tag8833" authorContact="Github" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11b5-77b9-31bf-7b74" name="Orks" book="Index: Xenos 2" revision="15" battleScribeVersion="2.01" authorName="tag8833" authorContact="Github" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -54,14 +54,14 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="1c58-037f-7b58-1223" name="Faction: Orks" hidden="false">
+    <categoryEntry id="1c58-037f-7b58-1223" name="Faction: Ork" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="2ab6-8d0f-494d-38e2" name="Faction: (Clan)" hidden="false">
+    <categoryEntry id="2ab6-8d0f-494d-38e2" name="Faction: &lt;Clan&gt;" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -159,7 +159,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="6997-d0c2-680e-fe18" name="Ammo Runts" hidden="false">
+    <categoryEntry id="6997-d0c2-680e-fe18" name="Ammo Runt" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -292,7 +292,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="602a-ef1c-0fa0-1e8d" name="Wartrakk" hidden="false">
+    <categoryEntry id="602a-ef1c-0fa0-1e8d" name="Wartrakks" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -474,7 +474,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="609c-77e8-7913-3713" name="Battlewagon w/ Supa-Kannnon" hidden="false">
+    <categoryEntry id="609c-77e8-7913-3713" name="Battlewagon with Supa-Kannnon" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1129,7 +1129,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="0378-433b-7369-09a0" name="New EntryLink" hidden="false" targetId="3511-0070-0667-abf2" type="selectionEntry">
+            <entryLink id="0378-433b-7369-09a0" name="Kombi-Rokkit" hidden="false" targetId="3511-0070-0667-abf2" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1145,7 +1145,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="6089-edca-9879-1569" name="New EntryLink" hidden="false" targetId="df47-a9ec-a22e-a2b6" type="selectionEntry">
+            <entryLink id="6089-edca-9879-1569" name="Kustom Shoota" hidden="false" targetId="df47-a9ec-a22e-a2b6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1161,7 +1161,15 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="59d7-52ee-f5ee-73d5" name="New EntryLink" hidden="false" targetId="fe00-451f-6735-6fd9" type="selectionEntry">
+            <entryLink id="59d7-52ee-f5ee-73d5" name="Power Klaw" hidden="false" targetId="fe00-451f-6735-6fd9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c4ad-c0bf-8dfe-a61f" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1173,7 +1181,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="640b-c5f1-0479-818d" name="New EntryLink" hidden="false" targetId="57f6-c88c-bcaa-1f50" type="selectionEntryGroup">
+        <entryLink id="640b-c5f1-0479-818d" name="Choppy Weapons" hidden="false" targetId="57f6-c88c-bcaa-1f50" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1192,6 +1200,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="d844-46ed-5bff-dc2c" name="New EntryLink" hidden="false" targetId="63f8-210a-c55a-c4c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="61ef-9873-4917-6ce4" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b8f3-eede-0912-b2d9" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1261,7 +1285,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="651a-3b5f-ca9e-7efc" name="New InfoLink" hidden="false" targetId="fa68-4aa1-f708-5aed" type="profile">
+        <infoLink id="651a-3b5f-ca9e-7efc" name="Rokkit Launcha" hidden="false" targetId="fa68-4aa1-f708-5aed" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1305,7 +1329,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="9.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1335,7 +1359,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" costTypeId="points" value="13.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1395,7 +1419,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="pts" costTypeId="points" value="14.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1546,9 +1570,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a49-f7e4-4c4b-3548" name="Warboss in MA" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6a49-f7e4-4c4b-3548" name="Warboss in Mega Armour" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="c7a3-9368-b6b2-56d1" name="Warboss in MA" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+        <profile id="c7a3-9368-b6b2-56d1" name="Warboss in Mega Armour" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1709,6 +1733,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="3d71-a01b-8c99-b220" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1724,15 +1756,31 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d4b1-b761-0d35-d68c" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="664d-9ebc-02b3-bbed" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="107.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa39-9f9d-0e78-2f8a" name="Warboss on Bike" hidden="false" collective="false" type="unit">
+    <selectionEntry id="aa39-9f9d-0e78-2f8a" name="Warboss on Warbike" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="6a5c-967d-cd1d-83ce" name="Warboss on Bike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+        <profile id="6a5c-967d-cd1d-83ce" name="Warboss on Warbike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1764,7 +1812,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="165d-6321-321b-7062" name="New InfoLink" hidden="false" targetId="e5b1-5297-5794-d878" type="profile">
+        <infoLink id="165d-6321-321b-7062" name="Breakin&apos; Heads" hidden="false" targetId="e5b1-5297-5794-d878" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1844,7 +1892,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0321-840b-7360-101c" name="New EntryLink" hidden="false" targetId="63f8-210a-c55a-c4c0" type="selectionEntry">
+        <entryLink id="0321-840b-7360-101c" name="Attack Squig" hidden="false" targetId="63f8-210a-c55a-c4c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1864,6 +1912,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="8aa0-a7f3-cdd0-3d20" name="New EntryLink" hidden="false" targetId="d117-f3ce-54e8-75ba" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d2b7-0983-afc6-02ec" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6fa4-cd62-6406-b23f" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2067,6 +2131,22 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="b429-edd0-11d9-b9d5" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="931b-47e8-2ecc-bb51" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="62.0"/>
@@ -2255,6 +2335,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="e412-178b-2195-dfb7" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="c280-f16e-1174-d2d3" name="Choppa Arm" hidden="false" collective="false" defaultSelectionEntryId="ddfc-3d81-7858-305d">
@@ -2342,6 +2430,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="6624-8d75-97ad-7e48" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2362,6 +2458,22 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facd-54e5-736e-b459" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b68-cc95-980e-d273" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="45aa-c748-54d2-c0e9" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2400,7 +2512,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is equipped with a KFF, friendly ORK units that are entirely within 9&quot; have a 5+ invul save against ranged weapons.  If the Big Mek is embarked, the vehicle transporting it has a 5+ invul against ranged weapons instead."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is equipped with a kustom force field, friendly ORK units that are entirely within 9&quot; have a 5+ invul save against ranged weapons.  If the Big Mek is embarked, the vehicle transporting it has a 5+ invul against ranged weapons instead."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2443,7 +2555,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="25.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2487,7 +2599,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="28.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2569,9 +2681,9 @@
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f517-6aa6-7d19-13c2" name="Big Mek in MA" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f517-6aa6-7d19-13c2" name="Big Mek in Mega Armour" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="0161-7a1d-d101-2bd6" name="Big Mek in MA" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+        <profile id="0161-7a1d-d101-2bd6" name="Big Mek in Mega Armour" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2603,7 +2715,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6d21-bd0d-dddd-84de" name="New InfoLink" hidden="false" targetId="0a24-5217-fb9c-c81c" type="profile">
+        <infoLink id="6d21-bd0d-dddd-84de" name="Big Mekaniak" hidden="false" targetId="0a24-5217-fb9c-c81c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2785,6 +2897,22 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="cad1-5d82-3c96-0400" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dfda-d217-7058-9cf7" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="77.0"/>
@@ -2821,7 +2949,7 @@
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1387-57d0-6d81-dbcb" name="Big Mek on Bike" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1387-57d0-6d81-dbcb" name="Big Mek on Warbike" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="9a66-28d9-c157-edc5" name="Big Mek on Bike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
@@ -3003,6 +3131,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="eecc-787b-300b-edc0" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="404e-5f74-6f84-adbe" name="Choppa Arm" hidden="false" collective="false" defaultSelectionEntryId="0077-9340-8a0e-efcf">
@@ -3090,6 +3226,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="68c4-0733-cc35-99fe" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3111,6 +3255,22 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ff-9be3-ab62-a30a" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc8-d5ed-35b7-64d7" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a910-f814-5210-388e" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7de7-b272-0d8c-b860" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -3283,6 +3443,22 @@
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="1fad-12dc-5665-cd0c" name="New EntryLink" hidden="false" targetId="6df7-0ee7-7e6d-b182" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b215-131c-5719-f656" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ac38-5e6f-6208-13fe" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3499,6 +3675,22 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e70b-a4ed-ee22-e5f1" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ccc9-fd25-0714-9cc2" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="22.0"/>
@@ -3554,13 +3746,13 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="1ffd-2d16-f0d9-cc92" name="Grot Oiler" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+        <profile id="1ffd-2d16-f0d9-cc92" name="Grot Orderly" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, when the Painboy is attempting to heal a model using Dok&apos;s tolls, you may re-roll the dice, either when determining if the surgery is successful, or when calculating the number of wounds regained.  When rolling to wound this unit, always use the Painboy&apos;s Toughness (While it is on the battlefield).  The death of a Grot Orderly is ignored for the purposes of morale.  the Grot Oiler is considered to have the CHARACTER keyword for the purposes of shooting attacks."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, when the Painboy is attempting to heal a model using Dok&apos;s Tools, you may re-roll the dice, either when determining if the surgery is successful, or when calculating the number of wounds regained.  When rolling to wound this unit, always use the Painboy&apos;s Toughness (while it is on the battlefield).  The death of a Grot Orderly is ignored for the purposes of morale.  the Grot Oiler is considered to have the CHARACTER keyword for the purposes of shooting attacks."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3735,7 +3927,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5970-b0a2-e387-7824" name="New EntryLink" hidden="false" targetId="1228-3bad-65e7-7add" type="selectionEntry">
+        <entryLink id="5970-b0a2-e387-7824" name="Grot Orderly" hidden="false" targetId="1228-3bad-65e7-7add" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3756,15 +3948,31 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fc95-5c63-0d64-307c" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1234-e26a-3837-a0ea" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f08-a7c2-fdc2-9565" name="Painboy on Bike" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6f08-a7c2-fdc2-9565" name="Painboy on Warbike" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="dd95-a4dc-95fd-6c7e" name="Painboy on Bike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+        <profile id="dd95-a4dc-95fd-6c7e" name="Painboy on Warbike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3796,7 +4004,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4b28-f7e1-52a0-6827" name="New InfoLink" hidden="false" targetId="1b10-4a6f-f6d0-3a91" type="profile">
+        <infoLink id="4b28-f7e1-52a0-6827" name="Biker Dok&apos;s Tools" hidden="false" targetId="1b10-4a6f-f6d0-3a91" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3904,6 +4112,22 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10cf-f5a4-4b47-e7ce" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6090-b18a-e883-a199" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d172-089c-9dcf-808c" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="13bb-c362-d9cc-d402" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4105,6 +4329,22 @@
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="084c-33c6-25f9-d85d" name="New EntryLink" hidden="false" targetId="6df7-0ee7-7e6d-b182" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5d74-022e-9217-72bc" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="75d6-f247-518e-0ae8" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4377,6 +4617,22 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="85fe-aa52-95ff-bd24" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d214-f9f1-f40b-8b93" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="84.0"/>
@@ -4584,6 +4840,22 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f6ae-b8c8-c71b-1f30" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a554-d9ab-5bf0-a1d8" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="88.0"/>
@@ -4609,37 +4881,43 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
           </characteristics>
         </profile>
+        <profile id="21f9-2377-1494-e691" name="One Scalpel Short of a Medpak" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If, at the start of the Charge phase, there are no friendly ORK INFANTRY units within 3&quot; of Mad Dok, he will attempt to charge the nearest enemy unit, if there is one within 12&quot;.  He will do this even if he Advanced or Fell Back this turn, but not if he is already within 1&quot; of an Enemy."/>
+          </characteristics>
+        </profile>
+        <profile id="9377-38d5-4071-8484" name="Super Cybork Body" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time this model loses a wound, roll a D6;  on a roll of 5 or 6 that wound is not lost."/>
+          </characteristics>
+        </profile>
+        <profile id="94a9-1292-4402-857b" name="Dok&apos;s Tools" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time an ORK INFANTRY or ORK BIKER unit loses a wound whilst within 3&quot; of Mad Dok Grotsnik. On a 6, that unit does not lose that wound. This is not cumulative with other Dok&apos;s Tools or Biker Dok&apos;s Tools. In addition, at the end of your Movement phase, mad Dok Grotsnik can attempt to heal a single ORK INFANTRY or ORK BIKER model within 1&quot;. Roll a D6; on a 1, the model you were attempting to heal loses a wound, but on any other result that model regains D3 wounds lost earlier in the battle.  You can only make one attempt to heal a given model with the Dok&apos;s Tools or Biker Dok&apos;s Tools ability in each turn."/>
+          </characteristics>
+        </profile>
       </profiles>
-      <rules>
-        <rule id="def5-92b2-6899-e9af" name="Super Cybork Body" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each time this model loses a wound, roll a D6;  on a roll of 5 or 6 that wound is not lost	</description>
-        </rule>
-        <rule id="0b37-b5d3-de15-d8f8" name="One Scalpel Short of a Medpak" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If, at the start of the Charge phase, there are no friendly ORK INFANTRY units within 3&quot; of Mad Dok, he will attempt to charge the nearest enemy unit, if there is one within 12&quot;.  He will do this even if he Advanced or Fell Back this turn, but not if he is already within 1&quot; of an Enemy.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="6795-dd28-b156-fcec" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="6795-dd28-b156-fcec" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
         <infoLink id="84aa-9cb0-02af-78c6" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0814-fef5-2dde-cf1c" name="New InfoLink" hidden="false" targetId="b5ee-945a-576f-ad0a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4741,6 +5019,22 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a052-f51c-05dc-e45d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3490-ab5f-2925-78fa" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6dfe-e3df-ad40-fa88" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b0ce-e406-7d72-eb80" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5522,7 +5816,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3d97-d5d5-72df-f029" name="New EntryLink" hidden="false" targetId="6df7-0ee7-7e6d-b182" type="selectionEntry">
+        <entryLink id="3d97-d5d5-72df-f029" name="Stikkbombs" hidden="false" targetId="6df7-0ee7-7e6d-b182" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5539,6 +5833,22 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2b5-5660-bcef-750c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edd0-eb6d-adb0-3fcc" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4a9e-834f-395c-a841" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="80cc-76e8-0699-53f5" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5563,7 +5873,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="43e7-ca42-c248-f0ac" name="New InfoLink" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
+        <infoLink id="43e7-ca42-c248-f0ac" name="Keepin&apos; Order" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6081,9 +6391,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d134-3bdb-4db3-203e" name="Nob w/ Waaagh! Banner" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d134-3bdb-4db3-203e" name="Nob with Waaagh! Banner" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="8a6b-c1c8-4426-3a6a" name="Nob w/ Waaagh! Banner" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+        <profile id="8a6b-c1c8-4426-3a6a" name="Nob with Waaagh! Banner" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6115,7 +6425,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b5d8-6711-968f-b3b6" name="New InfoLink" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
+        <infoLink id="b5d8-6711-968f-b3b6" name="Keepin&apos; Order" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6233,13 +6543,29 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6ddc-7334-cc85-ac1b" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d368-affd-c577-b150" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="75.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50bb-821a-aaac-4b0f" name="Nobz on Bike" hidden="false" collective="false" type="unit">
+    <selectionEntry id="50bb-821a-aaac-4b0f" name="Nobz on Warbikes" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -6255,7 +6581,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="db9b-558b-4490-b403" name="New InfoLink" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
+        <infoLink id="db9b-558b-4490-b403" name="Keepin&apos; Order" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6317,7 +6643,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2233-8fb9-8e15-cb48" name="Boss Nob on Bike" hidden="false" collective="false" type="model">
+        <selectionEntry id="2233-8fb9-8e15-cb48" name="Boss Nob on Warbike" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="c80a-7a05-389b-22b7" name="Boss Nob on Bike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
               <profiles/>
@@ -6481,9 +6807,9 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="04ed-04b2-3590-ad29" name="Nob" hidden="false" collective="false" type="model">
+            <selectionEntry id="04ed-04b2-3590-ad29" name="Nob on Warbike" hidden="false" collective="false" type="model">
               <profiles>
-                <profile id="1153-f861-a007-2e5d" name="Nob on Bike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+                <profile id="1153-f861-a007-2e5d" name="Nob on Warbike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6698,7 +7024,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f058-0c3f-bb31-f967" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="f058-0c3f-bb31-f967" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7014,7 +7340,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="38.0"/>
+        <cost name="pts" costTypeId="points" value="23.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7034,7 +7360,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0eb5-c7c9-f26c-efe0" name="New InfoLink" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
+        <infoLink id="0eb5-c7c9-f26c-efe0" name="Keepin&apos; Order" hidden="false" targetId="3202-2878-7cb1-93a2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7897,7 +8223,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4fe9-b160-fbe1-72ff" name="New InfoLink" hidden="false" targetId="b66c-48f7-6cfc-8217" type="profile">
+        <infoLink id="4fe9-b160-fbe1-72ff" name="Explodes (6+/6&quot;/D3)" hidden="false" targetId="56f0-3891-61a7-c830" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8180,7 +8506,7 @@
             </selectionEntry>
             <selectionEntry id="6192-d02e-3e9e-6f3a" name="Boss Nob" hidden="false" collective="false" type="model">
               <profiles>
-                <profile id="7c72-43db-1144-c628" name="Stormboy Nob" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+                <profile id="7c72-43db-1144-c628" name="Boss Nob" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8485,7 +8811,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="28.0"/>
+                        <cost name="pts" costTypeId="points" value="24.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -8575,7 +8901,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="14.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9086,7 +9412,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When a Burna-bommer attacks with its twin big shoota, add 1 to its hit rolls."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When a Blitza-bommer attacks with its big shoota, add 1 to its hit rolls."/>
           </characteristics>
         </profile>
       </profiles>
@@ -9225,7 +9551,7 @@
     </selectionEntry>
     <selectionEntry id="0cd2-fd7c-2b53-78f0" name="Wazbom Blastajet" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="3868-d323-9a4c-dac6" name="Blitza-bommer" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+        <profile id="3868-d323-9a4c-dac6" name="Wazbom Blastajet" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9308,7 +9634,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0849-6d48-3aca-98a8" name="New InfoLink" hidden="false" targetId="f3c6-3481-fb47-95a1" type="rule">
+        <infoLink id="0849-6d48-3aca-98a8" name="Crash and Burn" hidden="false" targetId="f3c6-3481-fb47-95a1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9526,13 +9852,13 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="4c83-2c1f-4e33-f6eb" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="4c83-2c1f-4e33-f6eb" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="45d4-7ee9-e085-d2ec" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
+        <infoLink id="45d4-7ee9-e085-d2ec" name="Mob Rule" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9713,9 +10039,9 @@
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8684-f400-5f0c-321e" name="Boss Nob on Bike" hidden="false" collective="false" type="model">
+            <selectionEntry id="8684-f400-5f0c-321e" name="Boss Nob" hidden="false" collective="false" type="model">
               <profiles>
-                <profile id="f350-68e0-6fd1-192f" name="Boss Nob on Bike" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+                <profile id="f350-68e0-6fd1-192f" name="Boss Nob" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -9850,7 +10176,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="da75-e6c4-f328-f6d6" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="da75-e6c4-f328-f6d6" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9985,7 +10311,7 @@
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="49.0"/>
+                <cost name="pts" costTypeId="points" value="37.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -10026,11 +10352,11 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="28.0"/>
+        <cost name="pts" costTypeId="points" value="24.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5f1-6fff-d11b-0091" name="Skorcha Buggy" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d5f1-6fff-d11b-0091" name="Skorchas" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="8e47-5368-0170-63a5" name="Outriders" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
@@ -10038,19 +10364,19 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up a unit of Wartrakks on the army&apos;s flanks instead of on the battlefield. At the end of any of your Movement phases, the Wartrakks can race in to encircle the foe - set them up so that each model is touching a battlefield edge and is more than 9&quot; away from any enemy models."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up a unit of Skorchas on the army&apos;s flanks instead of on the battlefield. At the end of any of your Movement phases, the Skorchas can race in to encircle the foe - set them up so that each model is touching a battlefield edge and is more than 9&quot; away from any enemy models."/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="7712-2b2e-e243-9451" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
+        <infoLink id="7712-2b2e-e243-9451" name="Mob Rule" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4856-0b5a-6a17-9540" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="4856-0b5a-6a17-9540" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10113,7 +10439,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6d3d-6016-23c8-b959" name="Mob" hidden="false" collective="false" defaultSelectionEntryId="9e60-5bb2-a31f-a764">
+        <selectionEntryGroup id="6d3d-6016-23c8-b959" name="1 - 5 Skorchas" hidden="false" collective="false" defaultSelectionEntryId="9e60-5bb2-a31f-a764">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10154,7 +10480,7 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="6ebf-1543-3fa8-693b" name="New InfoLink" hidden="false" targetId="1123-0b30-9f1f-ca82" type="profile">
+                    <infoLink id="6ebf-1543-3fa8-693b" name="Skorcha" hidden="false" targetId="1123-0b30-9f1f-ca82" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10179,7 +10505,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="49.0"/>
+                <cost name="pts" costTypeId="points" value="37.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -10202,19 +10528,19 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up a unit of Wartrakks on the army&apos;s flanks instead of on the battlefield. At the end of any of your Movement phases, the Wartrakks can race in to encircle the foe - set them up so that each model is touching a battlefield edge and is more than 9&quot; away from any enemy models."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up a unit of Warbuggies on the army&apos;s flanks instead of on the battlefield. At the end of any of your Movement phases, the Warbuggies can race in to encircle the foe - set them up so that each model is touching a battlefield edge and is more than 9&quot; away from any enemy models."/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="7604-18cf-da8f-7a9b" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
+        <infoLink id="7604-18cf-da8f-7a9b" name="Mob Rule" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="29fb-3393-361d-47fa" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="29fb-3393-361d-47fa" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10349,7 +10675,7 @@
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="44.0"/>
+                <cost name="pts" costTypeId="points" value="33.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -10545,7 +10871,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="d020-5dcb-911d-1baa" name="New InfoLink" hidden="false" targetId="0358-d920-32c7-3e8c" type="profile">
+        <infoLink id="d020-5dcb-911d-1baa" name="Artillery" hidden="false" targetId="0358-d920-32c7-3e8c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10699,7 +11025,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="02ef-7555-91e5-c258" name="New InfoLink" hidden="false" targetId="0358-d920-32c7-3e8c" type="profile">
+        <infoLink id="02ef-7555-91e5-c258" name="Artillery" hidden="false" targetId="0358-d920-32c7-3e8c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11004,15 +11330,6 @@
             <characteristic name="Attacks" characteristicTypeId="511e-cd8e-e9cd-db92" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="4585-8275-8daf-5bb1" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 6&quot; suffer D6 mortal wounds."/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks>
@@ -11031,6 +11348,12 @@
           </modifiers>
         </infoLink>
         <infoLink id="8dd5-501d-52f6-337c" name="Mobile Fortress" hidden="false" targetId="4984-fddb-b1ad-d7a3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c774-e7fe-822b-4111" name="Explodes (6+/6&quot;/D6)" hidden="false" targetId="8159-a610-444f-d93c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11315,19 +11638,16 @@
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A unit of Deff Dreads must be deployed as a single group, with each model within 6&quot; of at least one other model from the unit.  From that point on, each Deff Dread acts as a single unit."/>
           </characteristics>
         </profile>
-        <profile id="9f60-a131-70ff-5ee5" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 3&quot; suffer D3 mortal wounds."/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="72de-5112-a28c-cc5a" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0ccb-594a-e733-d016" name="Explodes (6+/3&quot;/D3)" hidden="false" targetId="2f33-34ac-7209-6d7c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11643,19 +11963,16 @@
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="While a unit of killa Kans contains 3 or more models, add 1 to their Attacks characteristic"/>
           </characteristics>
         </profile>
-        <profile id="3fdc-1a3a-2daa-0a54" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 3&quot; suffer1 mortal wounds."/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="b612-eb91-61a2-8391" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3ba8-3f93-8bbf-1ac2" name="Explodes (6+/3&quot;/1)" hidden="false" targetId="a590-a0e8-a3ed-ffbb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11874,15 +12191,6 @@
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model can Fall Back in your Movement phase and still shoot and/or charge during its turn.  In addition, it can move and fire Heavy weapons without suffering the penalty to its hit rolls.  This model only gains a bonus to its saving throws for being in cover if at least half of the model is obscured from the firer."/>
           </characteristics>
         </profile>
-        <profile id="7b54-ba85-521b-7f7c" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 9&quot; suffer D6 mortal wounds."/>
-          </characteristics>
-        </profile>
         <profile id="c74e-0b84-feff-2392" name="Morkanaut" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
@@ -11954,6 +12262,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="0cb6-f599-0e4f-11ec" name="Explodes (6+/9&quot;/D6)" hidden="false" targetId="25fa-64ad-bee1-8725" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -12014,7 +12328,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d604-0a67-1dd4-541c" name="New EntryLink" hidden="false" targetId="6d70-25a8-b496-2457" type="selectionEntry">
+        <entryLink id="d604-0a67-1dd4-541c" name="Kustom Mega-blasta" hidden="false" targetId="6d70-25a8-b496-2457" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12072,7 +12386,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="18.0"/>
-        <cost name="pts" costTypeId="points" value="270.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b37c-86e3-6303-3825" name="Kustom Mega Kannon" hidden="false" collective="false" type="upgrade">
@@ -12101,7 +12415,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="23.0"/>
+        <cost name="pts" costTypeId="points" value="17.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12158,15 +12472,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model can Fall Back in your Movement phase and still shoot and/or charge during its turn.  In addition, it can move and fire Heavy weapons without suffering the penalty to its hit rolls.  This model only gains a bonus to its saving throws for being in cover if at least half of the model is obscured from the firer."/>
-          </characteristics>
-        </profile>
-        <profile id="662e-b398-3b20-f83f" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 9&quot; suffer D6 mortal wounds."/>
           </characteristics>
         </profile>
         <profile id="7651-b43a-3f21-64f1" name="Gorkanaut" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -12235,6 +12540,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="f66b-09c0-5ae4-b6ca" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5adb-d578-83dd-b8a9" name="Explodes (6+/9&quot;/D6)" hidden="false" targetId="25fa-64ad-bee1-8725" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12378,7 +12689,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="4f16-e8d1-209c-6e44" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+        <infoLink id="4f16-e8d1-209c-6e44" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12986,15 +13297,6 @@
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model can Fall Back in your Movement phase and still shoot and/or charge during its turn.  When a Stompa Falls Back, it can move over enemy INFANTRY models, though at the end of its move it must be more than 1&quot; from any enemy models.  A Stompa doesn&apos;t suffer the penalty for moving and firing Heavy weapons.  This model only gains a bonus to its saving throws for being in cover if at least half of the model is obscured from the firer."/>
           </characteristics>
         </profile>
-        <profile id="c871-17de-7d3f-86d9" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 2D6&quot; suffer D6 mortal wounds."/>
-          </characteristics>
-        </profile>
         <profile id="b0fb-121e-923e-aea1" name="Stompa" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
           <rules/>
@@ -13082,6 +13384,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="bf23-3075-9826-db0c" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ad6f-632f-c7c4-ac3d" name="Explodes (6+/2D6&quot;/D6)" hidden="false" targetId="a320-4ef6-ad10-fe0c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13300,7 +13608,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="c58e-c755-0506-e4e5" name="New EntryLink" hidden="false" targetId="a4f1-6ccb-1c50-405b" type="selectionEntry">
+        <entryLink id="c58e-c755-0506-e4e5" name="Twin Big Shoota" hidden="false" targetId="a4f1-6ccb-1c50-405b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13359,7 +13667,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="43d8-edc6-16cb-eeb1" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
+        <infoLink id="43d8-edc6-16cb-eeb1" name="Mob Rule" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14162,6 +14470,22 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7b8a-1907-15eb-d677" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bb4f-6a3c-3da9-acda" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
@@ -14202,7 +14526,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b67f-b706-6bb1-e669" name="New InfoLink" hidden="false" targetId="0a24-5217-fb9c-c81c" type="profile">
+        <infoLink id="b67f-b706-6bb1-e669" name="Big Mekaniak" hidden="false" targetId="0a24-5217-fb9c-c81c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14334,6 +14658,20 @@
               <modifiers/>
               <constraints/>
             </categoryLink>
+            <categoryLink id="7dfb-314c-6ddb-9dbe" name="New CategoryLink" hidden="false" targetId="ec81-3194-7f8e-d2d1" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="10c6-8593-5d36-8c29" name="New CategoryLink" hidden="false" targetId="1c58-037f-7b58-1223" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
           </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -14415,7 +14753,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d870-295a-8704-7fe1" name="Kustom Force Field [RAW PROBLEMATIC]" hidden="false" targetId="1372-bf69-8b62-fe4b" type="selectionEntry">
+        <entryLink id="d870-295a-8704-7fe1" name="Kustom Force Field" hidden="false" targetId="886c-c494-3fbb-e1ec" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14423,6 +14761,22 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a9-8ce3-cd0d-cead" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3201-1cb2-3509-76f8" name="Warlord Traits" hidden="false" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="da1f-7a2e-85aa-a64a" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -14812,18 +15166,16 @@
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of the Shooting phase, roll a D6.  On a 1, none of this model&apos;s weapons may be fired this turn as a fight breaks out inside the tank.  On a 6, the Grot crew fall in line and follow the Kommanda&apos;s orders too literally and the model&apos;s weapons must all be fired at the same target, but add 1 to the hit rolls."/>
           </characteristics>
         </profile>
-        <profile id="b77f-264a-528c-3a87" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3eaa-7974-850b-7ed7" name="Explodes (6+/3&quot;/D3)" hidden="false" targetId="2f33-34ac-7209-6d7c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a d6 before removing it from the battlefield.  On a 6 it explodes, and each unit within 3&quot; suffers D3 mortal wounds."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -15278,10 +15630,22 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6879-7ecb-c51c-1bfc" name="Gorin&apos; Horns" hidden="false" targetId="945e-f882-56b2-3f7e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bbe-6b36-cd5e-d716" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc14-433b-7f81-5e1f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="pts" costTypeId="points" value="190.0"/>
+        <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1254-ab58-4b43-66ab" name="Meka-Dread" hidden="false" collective="false" type="unit">
@@ -15357,19 +15721,16 @@
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time a Meka-Dread loses a wound from any weapon, roll a D6 - on a roll of 4+, the wound is ignored.  The 1st time this roll is failed, the result needed is reduced to a 5+, and so on unti the roll fails on a 6+ and this ability may no longer be used."/>
           </characteristics>
         </profile>
-        <profile id="331d-841f-e2f3-db21" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a d6 before removing it from the battlefield.  On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds."/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="f03d-e28e-3bb3-9a4d" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f0b7-6fd8-e29c-73a8" name="Explodes (6+/6&quot;/D3)" hidden="false" targetId="56f0-3891-61a7-c830" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15907,28 +16268,19 @@
             <characteristic name="Attacks" characteristicTypeId="511e-cd8e-e9cd-db92" value="4"/>
           </characteristics>
         </profile>
-        <profile id="6a58-0fe8-604a-e368" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 6&quot; suffer D6 mortal wounds."/>
-          </characteristics>
-        </profile>
         <profile id="1462-6c8f-4a9f-d217" name="Big Trakk" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="15aa-1916-a38b-d223" value="None">
+            <modifier type="set" field="15aa-1916-a38b-d223" value="None.">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="9576-6195-fe16-dab7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f7f-9cf3-1ccb-2aca" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="15aa-1916-a38b-d223" value="6 ORK INFANTRY models.  Each MEGA ARMOUR or JUMP PACK model takes the space of 2.  ">
+            <modifier type="set" field="15aa-1916-a38b-d223" value="6 ORK INFANTRY models.  Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 other models.">
               <repeats/>
               <conditions/>
               <conditionGroups>
@@ -15941,7 +16293,7 @@
                     <condition field="selections" scope="9576-6195-fe16-dab7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96f1-b87e-cd88-fc54" type="equalTo"/>
                     <condition field="selections" scope="9576-6195-fe16-dab7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b511-c196-5539-4383" type="equalTo"/>
                     <condition field="selections" scope="9576-6195-fe16-dab7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9ff-9d4f-c918-9cd3" type="equalTo"/>
-                    <condition field="selections" scope="9576-6195-fe16-dab7" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="04b9-2bee-8969-672f" type="equalTo"/>
+                    <condition field="selections" scope="9576-6195-fe16-dab7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="04b9-2bee-8969-672f" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -15949,7 +16301,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="12 ORK INFANTRY models.  Each MEGA ARMOUR or JUMP PACK model takes the space of 2.  "/>
+            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="12 ORK INFANTRY models.  Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 other models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -15962,6 +16314,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="9f81-4c72-3d6c-f961" name="Mobile Fortress" hidden="false" targetId="4984-fddb-b1ad-d7a3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04e3-9222-eec9-9f50" name="Explodes (6+/6&quot;/D6)" hidden="false" targetId="8159-a610-444f-d93c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16308,6 +16666,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb35-307b-7705-77ca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bba-7dae-3d8e-802d" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -16353,7 +16712,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="27.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16561,7 +16920,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="83bd-01d2-82f5-1e73" name="Battlewagon W/ Supa-Kannon" hidden="false" collective="false" type="unit">
+    <selectionEntry id="83bd-01d2-82f5-1e73" name="Battlewagon with Supa-Kannon" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="a49a-7616-d4b1-5597" name="Battlewagon" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
           <profiles/>
@@ -16905,15 +17264,6 @@
             <characteristic name="BS" characteristicTypeId="7700-05f4-4b88-ca85" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="19a4-bcd5-c243-ee88" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 6&quot; suffer D6 mortal wounds."/>
-          </characteristics>
-        </profile>
         <profile id="2a01-5ca8-2013-b49d" name="Hang On!" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
@@ -16927,6 +17277,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="25dd-72cb-67bb-2f6a" name="Mobile Fortress" hidden="false" targetId="4984-fddb-b1ad-d7a3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="779f-5230-1a2e-74ed" name="Explodes (6+/6&quot;/D6)" hidden="false" targetId="8159-a610-444f-d93c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17158,7 +17514,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="15.0"/>
-        <cost name="pts" costTypeId="points" value="215.0"/>
+        <cost name="pts" costTypeId="points" value="365.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d382-287a-3c10-6596" name="&apos;Chinork&apos; Warkopta" hidden="false" collective="false" type="unit">
@@ -17179,15 +17535,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="During deployment, you can set up a Warkopta behind enemy lines instead of placing it on the battlefield.  At the end of any of your Movement phases, the Warkopta can swoop around to ambush the foe - set it  up anywhere on the battlefield that is more than 9&quot; away from any enemy models."/>
-          </characteristics>
-        </profile>
-        <profile id="de6d-1a3e-7aca-03bf" name="Explodes!" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield.  On a 6 it explodes, and each unit within 6&quot; suffers D6 mortal wounds."/>
           </characteristics>
         </profile>
         <profile id="906d-de98-b3ed-7dec" name="&apos;Chinork&apos; Warkopta" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -17220,6 +17567,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="202d-1d7d-a81c-145e" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="33b6-b9fa-ffac-86ea" name="Explodes (6+/6&quot;/D6)" hidden="false" targetId="8159-a610-444f-d93c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17402,7 +17755,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
-        <cost name="pts" costTypeId="points" value="155.0"/>
+        <cost name="pts" costTypeId="points" value="74.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e75a-217f-2d54-09e1" name="Kustom Stompa" hidden="false" collective="false" type="unit">
@@ -17414,15 +17767,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model can Fall Back in your Movement phase and still shoot and/or charge during its turn.  When a Stompa Falls Back, it can move over enemy INFANTRY models, though at the end of its move it must be more than 1&quot; from any enemy models.  A Stompa doesn&apos;t suffer the penalty for moving and firing Heavy weapons.  This model only gains a bonus to its saving throws for being in cover if at least half of the model is obscured from the firer."/>
-          </characteristics>
-        </profile>
-        <profile id="fcb2-3172-a09e-a141" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 2D6&quot; suffer 2D6 mortal wounds."/>
           </characteristics>
         </profile>
         <profile id="0504-15bb-9ff3-7777" name="Kustom Stompa" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -17529,6 +17873,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="bdf0-e9dd-233c-45f5" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2df0-0a64-aa0b-96cc" name="Explodes (6+/2D6&quot;/2D6)" hidden="false" targetId="251e-c04f-873e-60a9" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17771,7 +18121,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="7af2-3bed-0055-4e41" name="Mega Klaw" hidden="false" targetId="25f1-0bfe-4c1f-db68" type="selectionEntry">
+            <entryLink id="7af2-3bed-0055-4e41" name="Mega Klaw" hidden="false" targetId="46b2-df57-7c2f-80d7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -17794,7 +18144,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="b217-a7be-d61c-32a3" name="Mega Klaw" hidden="false" targetId="25f1-0bfe-4c1f-db68" type="selectionEntry">
+            <entryLink id="b217-a7be-d61c-32a3" name="Mega Klaw" hidden="false" targetId="46b2-df57-7c2f-80d7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -17807,9 +18157,7 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="171c-9e1e-51e7-9956" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
             <entryLink id="cca3-0763-f2ae-c882" name="Lifta-Droppa" hidden="false" targetId="ea50-a127-aba6-dfc4" type="selectionEntry">
@@ -17899,40 +18247,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="39.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="25f1-0bfe-4c1f-db68" name="Mega Klaw" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="4922-11a7-6728-56fa" name="Mega-Choppa (Slash)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-5"/>
-            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="4"/>
-            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If a Kustom Stompa is equipped with 2 mega klaws, increase its Attacks characteristic by 4."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c23-56a4-c6ff-7c0b" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="51.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8f4-86e5-a97d-2817" name="Gargantuan Squiggoth" hidden="false" collective="false" type="unit">
@@ -18275,31 +18591,6 @@
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1372-bf69-8b62-fe4b" name="Kustom Force Field [RAW PROBLEMATIC]" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="d925-17b3-7d7f-ed49" name="Kustom Force Field" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is equipped with a KFF, friendly ORK units that are entirely within 9&quot; have a 5+ invul save against ranged weapons.  If the Big Mek is embarked, the vehicle transporting it has a 5+ invul against ranged weapons instead."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2efd-be89-30eb-f182" name="Grot Sponson" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5a66-860a-d2c7-d0a7" name="Grot Sponson" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18328,6 +18619,107 @@
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="945e-f882-56b2-3f7e" name="Gorin&apos; Horns" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="cced-5445-7426-1a59" name="Gorin&apos; Horns" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="User"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D6"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fef2-fa8e-71d8-7a03" name="Headwoppa&apos;s Killchoppa" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0155-79ab-6054-2492" name="Headwoppa&apos;s Killchoppa" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Wound rolls of 6+ made for this weapon inflict D3 mortal wounds instead of the normal damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61ef-9873-4917-6ce4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c341-3d52-0bbb-9520" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84a7-1f82-b9c3-8173" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46b2-df57-7c2f-80d7" name="Mega Klaw" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4d60-0aec-2f6a-59d4" name="Mega-Choppa (Slash)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-5"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="4"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="If a Kustom Stompa is equipped with 2 mega klaws, increase its Attacks characteristic by 4."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="51.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -18573,7 +18965,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="7bbf-963a-631c-7a00" name="New EntryLink" hidden="false" targetId="0470-1b47-489b-14c9" type="selectionEntry">
+        <entryLink id="7bbf-963a-631c-7a00" name="Big Choppa" hidden="false" targetId="0470-1b47-489b-14c9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18582,6 +18974,80 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="b322-f65a-2207-734a" name="New EntryLink" hidden="false" targetId="fe00-451f-6735-6fd9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e89d-d597-57ac-0505" name="Headwoppa&apos;s Killchoppa" hidden="false" targetId="fef2-fa8e-71d8-7a03" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c2ce-6759-e009-8c11" name="Warlord Traits" hidden="true" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="33f6-60da-7b70-5fee" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c14a-024c-55a7-1e35" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="e285-1047-afd6-7217" name="Might is Right" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4590-f365-4ba0-0fc9" name="Might is Right" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 1 to this Warlord&apos;s Strength characteristic."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29af-5606-4c0b-bc5a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="84b5-e7e1-1873-7cb8" name="Warlord Traits (BRB)" hidden="false" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a8f3-34c5-1693-8046" name="Warlord Traits (CA)" hidden="false" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18641,7 +19107,7 @@
         <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
         <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Automatically Hits"/>
+        <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon automatically hits its target."/>
       </characteristics>
     </profile>
     <profile id="fa68-4aa1-f708-5aed" name="Rokkit Launcha" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18678,7 +19144,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time a (Clan); INFANTRY or (Clan); BIKER unit loses a wound whilst within 3&quot; of any friendly (Clan); PAINBOYZ.  On a 6, that unit does not lose that wound.  In Addition, at the end of your Movement phase, a Painboy can Attempt to heal a single (Clan); INFANTRY or (Clan); BIKER model within 1&quot;.  Roll a D6; on a 1, the model you were attempting to heal loses a wound, but an any other result that model regains D3 wounds lost earlier in the battle.  You can only make one attempt to heal a given model with the Dok&apos;s Tolls in each turn."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time a &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER unit loses a wound whilst within 3&quot; of any friendly &lt;CLAN&gt; PAINBOYZ.  On a 6, that unit does not lose that wound. In addition, at the end of your Movement phase, a Painboy can attempt to heal a single &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER model within 1&quot;. Roll a D6; on a 1, the model you were attempting to heal loses a wound, but on any other result that model regains D3 wounds lost earlier in the battle.  You can only make one attempt to heal a given model with the Dok&apos;s Tools or Biker Dok&apos;s Tools ability in each turn."/>
       </characteristics>
     </profile>
     <profile id="1b10-4a6f-f6d0-3a91" name="Biker Dok&apos;s Tools" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -18687,7 +19153,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time a (Clan); INFANTRY or (Clan); BIKER unit loses a wound whilst within 3&quot; of any friendly (Clan); PAINBOYZ.  On a 6, that unit does not lose that wound.  In Addition, at the end of your Movement phase, if it didn&apos;t move more than 5&quot;, a Painboy can Attempt to heal a single (Clan); INFANTRY or (Clan); BIKER model within 1&quot;.  Roll a D6; on a 1, the model you were attempting to heal loses a wound, but an any other result that model regains D3 wounds lost earlier in the battle.  You can only make one attempt to heal a given model with the Dok&apos;s Tolls in each turn."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time a &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER unit loses a wound whilst within 3&quot; of any friendly &lt;CLAN&gt; PAINBOYZ.  On a 6, that unit does not lose that wound. In addition, at the end of your Movement phase, if it didn&apos;t move more than 5&quot; this model can attempt to heal a single &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER model within 1&quot;. Roll a D6; on a 1, the model you were attempting to heal loses a wound, but an any other result, that model regains D3 wounds lost earlier in the battle. You can only make one attempt to heal a given model with the Dok&apos;s Tools or Biker Dok&apos;s Tools ability in each turn."/>
       </characteristics>
     </profile>
     <profile id="6a6c-07a0-01b0-89eb" name="Stikkbombs" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18775,15 +19241,6 @@
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on this model.  When they do so, any restrictions or modifiers that apply to this model also apply to its passengers; for example, the passengers cannot shoot if this model has Fallen Back in the same turn, cannot shoot (except with Pistols) if this model is within 1&quot; of an enemy unit, and so on."/>
       </characteristics>
     </profile>
-    <profile id="b66c-48f7-6cfc-8217" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 6&quot; suffer D3 mortal wounds."/>
-      </characteristics>
-    </profile>
     <profile id="869f-1549-caf7-29d3" name="Supersonic" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
@@ -18808,7 +19265,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase, this model can repair a single friendly (Clan); VEHICLE (other than models that can FLY) within 1&quot;.  That model regains 1 wound lost earlier in the battle.  A vehicle can only be repaired once each turn."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase, this model can repair a single friendly &lt;CLAN&gt; VEHICLE (other than models that can FLY) within 1&quot;.  That model regains 1 wound lost earlier in the battle.  A vehicle can only be repaired once each turn."/>
       </characteristics>
     </profile>
     <profile id="0a24-5217-fb9c-c81c" name="Big Mekaniak" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -18817,7 +19274,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase, this model can repair a single friendly (Clan); VEHICLE (other than models that can FLY) within 3&quot;.  That model regains D3 wounds lost earlier in the battle.  A vehicle can only be repaired once each turn."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase, this model can repair a single friendly &lt;CLAN&gt; VEHICLE (other than models that can FLY) within 3&quot;.  That model regains D3 wounds lost earlier in the battle.  A vehicle can only be repaired once each turn."/>
       </characteristics>
     </profile>
     <profile id="e5b1-5297-5794-d878" name="Breakin&apos; Heads" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -18826,7 +19283,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a (Clan); unit fails a Morale test within 3&quot; of a friendly (Clan); WARBOSS, they can restore order with a brutal display of violence.  If they do, the unit suffers D3 mortal wounds, but the Morale test is then considered to have been passed."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a &lt;CLAN&gt; unit fails a Morale test within 3&quot; of a friendly &lt;CLAN&gt; WARBOSS, they can restore order with a brutal display of violence.  If they do, the unit suffers D3 mortal wounds, but the Morale test is then considered to have been passed."/>
       </characteristics>
     </profile>
     <profile id="3202-2878-7cb1-93a2" name="Keepin&apos; Order" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -18835,7 +19292,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 for each model that flees from a (Clan); unit that is within 3&quot; of any friendly (Clan); unit with this ability.  On a 6, that model doesn&apos;t flee."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 for each model that flees from a &lt;CLAN&gt; unit that is within 3&quot; of any friendly &lt;CLAN&gt; unit with this ability. On a 6, that model doesn&apos;t flee."/>
       </characteristics>
     </profile>
     <profile id="5dbe-c4d8-6c28-07fa" name="Waaagh!" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -18942,6 +19399,111 @@
         <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
         <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
         <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When a unit fires its deffguns, roll once for the number of attacks and use this for all deffguns fired by the unit in this phase."/>
+      </characteristics>
+    </profile>
+    <profile id="a320-4ef6-ad10-fe0c" name="Explodes (6+/2D6&quot;/D6)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 2D6&quot; suffer D6 mortal wounds."/>
+      </characteristics>
+    </profile>
+    <profile id="56f0-3891-61a7-c830" name="Explodes (6+/6&quot;/D3)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds."/>
+      </characteristics>
+    </profile>
+    <profile id="8159-a610-444f-d93c" name="Explodes (6+/6&quot;/D6)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6&quot; suffers D6 mortal wounds."/>
+      </characteristics>
+    </profile>
+    <profile id="a590-a0e8-a3ed-ffbb" name="Explodes (6+/3&quot;/1)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 3&quot; suffers 1 mortal wound."/>
+      </characteristics>
+    </profile>
+    <profile id="25fa-64ad-bee1-8725" name="Explodes (6+/9&quot;/D6)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield. On a 6 it explodes, and each unit within 9&quot; suffers D6 mortal wounds."/>
+      </characteristics>
+    </profile>
+    <profile id="251e-c04f-873e-60a9" name="Explodes (6+/2D6&quot;/2D6)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it explodes and each unit within 2D6&quot; suffer 2D6 mortal wounds."/>
+      </characteristics>
+    </profile>
+    <profile id="2f33-34ac-7209-6d7c" name="Explodes (6+/3&quot;/D3)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 3&quot; suffers D3 mortal wound."/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebe8-544e-1fe8-fcde" name="Imperium - Adeptus Mechanicus" book="Index: Imperium 2" revision="16" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebe8-544e-1fe8-fcde" name="Imperium - Adeptus Mechanicus" book="Codex: Adeptus Mechanicus 2017" revision="26" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="202b-8774-27b2-ff54" name="Canticles of the Omnissiah" hidden="false">
@@ -86,7 +86,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <conditionGroups/>
         </modifier>
       </modifiers>
-      <description>Your opponent must substract 1 from their hit rolls when shooting at units with this dogma if they are more than 12&quot; away</description>
+      <description>Your opponent must subtract 1 from their hit rolls when shooting at units with this dogma if they are more than 12&quot; away</description>
     </rule>
     <rule id="abce-c0d7-146c-27a7" name="Dogma: Relentless March" hidden="true">
       <profiles/>
@@ -332,7 +332,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="fb5a-2f31-b730-9b32" name="New EntryLink" hidden="false" targetId="0895-13ad-3ba1-0952" type="selectionEntry">
+    <entryLink id="fb5a-2f31-b730-9b32" name="Tech-Priest Dominus" hidden="false" targetId="0895-13ad-3ba1-0952" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -468,7 +468,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="4fdc-b9a7-3fe7-9e84" name="New EntryLink" hidden="false" targetId="0dbb-e7cd-4b8e-92aa" type="selectionEntry">
+    <entryLink id="4fdc-b9a7-3fe7-9e84" name="Forge World" hidden="false" targetId="0dbb-e7cd-4b8e-92aa" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -476,7 +476,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="c08d-1048-26bf-b1c8" name="New EntryLink" hidden="false" targetId="8803-a6b9-42b0-0c21" type="selectionEntry">
+    <entryLink id="c08d-1048-26bf-b1c8" name="Archeotech Specialist (1 Relic)" hidden="false" targetId="8803-a6b9-42b0-0c21" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -519,7 +519,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="While Belisarius Cawl is on the battlefield, you can add or substract 1 when rolling on the Canticles of the Omnissiah table."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="While Belisarius Cawl is on the battlefield, you can add or subtract 1 when rolling on the Canticles of the Omnissiah table."/>
           </characteristics>
         </profile>
         <profile id="5db0-14b5-d2cf-3ae0" name="Self-repair Mechanisms" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -556,7 +556,15 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dfab-6c94-20f8-dd88" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f923-9336-b8d2-e7e9" type="max"/>
       </constraints>
@@ -757,7 +765,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="pts" costTypeId="points" value="240.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="13.0"/>
       </costs>
     </selectionEntry>
@@ -950,7 +958,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="14.0"/>
+                <cost name="pts" costTypeId="points" value="10.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1040,7 +1048,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1a59-e14a-b02c-b631" name="New EntryLink" hidden="false" targetId="d4fa-d036-f5dd-f91d" type="selectionEntry">
+        <entryLink id="1a59-e14a-b02c-b631" name="Warlord" hidden="false" targetId="d4fa-d036-f5dd-f91d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1050,7 +1058,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="pts" costTypeId="points" value="115.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
       </costs>
     </selectionEntry>
@@ -1079,7 +1087,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase this model can repair a single friendly FORGE WORLD or ASTRA MILITARUM VEHICLE within 3&quot; (but not himself). That model regains D3 lost wounds. A model may not be the target of Master of machines ability more than once per turn, regardless of the source"/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase this model can repair a single friendly &lt;FORGE WORLD&gt; VEHICLE, ASTRA MILITARUM VEHICLE or QUESTOR MECHANICUS model within 3&quot;. If the model being repaired is a &lt;FORGE WORLD&gt; or ASTRA MILITARUM model, it regains D3 lost wounds; if it is a QUESTOR MECHANICUS model, it regains 1 lost wound. A model may not be the target of the Master of Machines ability more than once per turn."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1213,7 +1221,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="pts" costTypeId="points" value="35.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
       </costs>
     </selectionEntry>
@@ -1269,7 +1277,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="6.0"/>
+        <cost name="pts" costTypeId="points" value="4.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1419,7 +1427,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="8.0"/>
+                <cost name="pts" costTypeId="points" value="6.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1451,7 +1459,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="22.0"/>
+                <cost name="pts" costTypeId="points" value="20.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1541,7 +1549,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1870,7 +1878,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="8.0"/>
+                <cost name="pts" costTypeId="points" value="6.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1881,7 +1889,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2086,7 +2094,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="17.0"/>
+        <cost name="pts" costTypeId="points" value="16.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2656,7 +2664,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All models in this unit have a 5+ invulerable save against shooting attacks. In addition, each time you roll a 6 (after rerolls, but before modifiers) for a repulsor grid&apos;s invulnerable saving throw, the unit that made that attack suffers a mortal wound."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All models in this unit have a 5+ invulnerable save against shooting attacks. In addition, each time you roll a 6 (after re-rolls, but before modifiers) for a repulsor grid&apos;s invulnerable saving throw, the unit that made that attack suffers a mortal wound."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2913,6 +2921,14 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <categoryLinks/>
         </entryLink>
         <entryLink id="85b1-3d15-acfa-263c" name="New EntryLink" hidden="false" targetId="b285-f58a-7d5b-a5ef" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="46ff-c914-2f67-c596" name="Warlord" hidden="false" targetId="d4fa-d036-f5dd-f91d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3290,7 +3306,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="8.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3384,7 +3400,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="8.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba77-6fd9-7474-7095" name="Skitarii Rangers" hidden="false" collective="false" type="unit">
@@ -3459,8 +3475,8 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="930b-b472-a74b-bd7f" type="min"/>
-            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927e-e57a-8e7d-8c7d" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="930b-b472-a74b-bd7f" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="927e-e57a-8e7d-8c7d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -3485,14 +3501,14 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                 </modifier>
                 <modifier type="decrement" field="677f-408a-c24b-1b8a" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="678a-124b-83c1-e04a" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="678a-124b-83c1-e04a" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="677f-408a-c24b-1b8a" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a2c2-8360-caaf-71e9" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2c2-8360-caaf-71e9" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3519,7 +3535,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               </entryLinks>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="8.0"/>
+                <cost name="pts" costTypeId="points" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a2c2-8360-caaf-71e9" name="Ranger (Plasma caliver)" hidden="false" collective="false" type="model">
@@ -3543,14 +3559,14 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                 </modifier>
                 <modifier type="decrement" field="027f-3e6d-f2c1-33a0" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="678a-124b-83c1-e04a" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="678a-124b-83c1-e04a" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="027f-3e6d-f2c1-33a0" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="5899-dec4-7136-a1b9" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5899-dec4-7136-a1b9" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3577,7 +3593,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               </entryLinks>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="8.0"/>
+                <cost name="pts" costTypeId="points" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="678a-124b-83c1-e04a" name="Ranger (Arc Rifle)" hidden="false" collective="false" type="model">
@@ -3608,7 +3624,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                 </modifier>
                 <modifier type="decrement" field="5167-fe48-9fdd-8d7f" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a2c2-8360-caaf-71e9" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2c2-8360-caaf-71e9" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3635,7 +3651,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               </entryLinks>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="8.0"/>
+                <cost name="pts" costTypeId="points" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3788,14 +3804,14 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                 </modifier>
                 <modifier type="decrement" field="1f76-9459-0843-1e34" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="db66-bd9d-fdb7-6490" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db66-bd9d-fdb7-6490" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="1f76-9459-0843-1e34" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b296-e5e5-6da5-0670" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b296-e5e5-6da5-0670" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3822,7 +3838,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               </entryLinks>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="9.0"/>
+                <cost name="pts" costTypeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b296-e5e5-6da5-0670" name="Vanguard (Plasma caliver)" hidden="false" collective="false" type="model">
@@ -3846,14 +3862,14 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                 </modifier>
                 <modifier type="decrement" field="2b10-3c7b-2d1c-cb44" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="db66-bd9d-fdb7-6490" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db66-bd9d-fdb7-6490" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="2b10-3c7b-2d1c-cb44" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="919f-776c-8799-6367" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="919f-776c-8799-6367" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3880,7 +3896,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               </entryLinks>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="9.0"/>
+                <cost name="pts" costTypeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db66-bd9d-fdb7-6490" name="Vanguard (Arc Rifle)" hidden="false" collective="false" type="model">
@@ -3904,14 +3920,14 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                 </modifier>
                 <modifier type="decrement" field="324b-46e0-157f-7615" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="919f-776c-8799-6367" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="919f-776c-8799-6367" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
                 <modifier type="decrement" field="324b-46e0-157f-7615" value="1">
                   <repeats>
-                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b296-e5e5-6da5-0670" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b296-e5e5-6da5-0670" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3938,7 +3954,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               </entryLinks>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="9.0"/>
+                <cost name="pts" costTypeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4075,7 +4091,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="9.0"/>
+        <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edf3-2fdc-a678-95e4" name="Skitarii Vanguard" hidden="false" collective="false" type="model">
@@ -4123,7 +4139,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="9.0"/>
+        <cost name="pts" costTypeId="points" value="8.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4225,7 +4241,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="18.0"/>
+        <cost name="pts" costTypeId="points" value="16.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4268,7 +4284,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="18.0"/>
+        <cost name="pts" costTypeId="points" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="606f-d3f0-0649-c4e8" name="Sicarian Infiltrators" hidden="false" collective="false" type="unit">
@@ -5260,7 +5276,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="pts" costTypeId="points" value="25.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -5522,7 +5538,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="6.0"/>
+        <cost name="pts" costTypeId="points" value="4.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5935,6 +5951,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>Each time you randomly determine which Canticle of the Omnissiah (pg 73) is being canted, roll two dice instead of one. All  units with this dogma receive the benefit of both results, instead of just the result of the first dice (if a duplicate is rolled, no additional Canticle is canted this turn).</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -5959,6 +5976,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>If a unit with this dogma Advances, it can ignore the penalty for firing Assault weapons and treats all Rapid Fire weapons it is armed with as Assault weapons until the end of the turn (e.g. a Rapid Fire 1 weapon is treated as an Assault 1 weapon).</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -5983,6 +6001,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>When making saving throws, units with this dogma treat enemy attacks with an Armour Penetration characteristic of -1 as having an Armour Penetration of 0 instead.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -6007,6 +6026,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>When firing Overwatch, units with this dogma hit on a roll on 5+, instead of only 6, irrespective of modifiers.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -6031,6 +6051,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>Your opponent must subtract 1 from their hit rolls when shooting at units with this dogma if they are more than 12&quot; away.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -6055,6 +6076,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>You can re-roll wound rolls of 1 in the Fight phase for units with this dogma.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -6079,6 +6101,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>Roll a D6 each time a model with this dogma is slain or flees – on a 6 that model refuses to yield; either the wound that slew it is ignored or the model does not flee. However, &lt;FORGE WORLD&gt; units with this dogma cannot Fall Back unless there is a friendly &lt;FORGE WORLD&gt; CHARACTER on the battlefield.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -6136,6 +6159,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de96-f647-9ce9-4f9c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9879-8960-e6eb-5300" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6177,6 +6201,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a9-e980-1221-c0df" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6672-6ce2-0d31-e75c" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6201,23 +6226,36 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="6c34-4c49-8895-51e8" value="2">
+        <modifier type="increment" field="6c34-4c49-8895-51e8" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8803-a6b9-42b0-0c21" type="atLeast"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cdc6-137c-f002-39d6" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="6c34-4c49-8895-51e8" value="2">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8803-a6b9-42b0-0c21" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdc6-137c-f002-39d6" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="set" field="6c34-4c49-8895-51e8" value="3">
+        <modifier type="increment" field="6c34-4c49-8895-51e8" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdc6-137c-f002-39d6" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d4fa-d036-f5dd-f91d" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c34-4c49-8895-51e8" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c34-4c49-8895-51e8" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c87-96e0-5393-42f4" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f282-94b8-747a-b7f1" type="max"/>
       </constraints>
@@ -6243,7 +6281,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
             <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
             <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapoin you must substract 1 from the hit roll. Each time you successfully wound an emey VEHILE with this weapon, the target suffers 1 mortal wound in addition to any other damage."/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="When attacking with this weapon you must subtract 1 from the hit roll. Each time you successfully wound an enemy VEHICLE with this weapon, the target suffers 1 mortal wound in addition to any other damage."/>
           </characteristics>
         </profile>
       </profiles>
@@ -6252,6 +6290,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa5-e9ef-e7fa-8bba" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5556-c32c-1265-ca1e" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6268,7 +6307,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="145a-da77-303d-34f7" name="Phosphoenix" hidden="false" collective="false" type="upgrade">
@@ -6284,14 +6323,16 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
             <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="5"/>
             <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
             <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Units attacked by this weapon do not gain any bonises to their saving throws for being in cover"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Units attacked by this weapon do not gain any bonus to their saving throws for being in cover"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76a1-b447-e193-5828" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6307,7 +6348,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="6.0"/>
+        <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6436-bcc2-bed9-11a8" name="Autocaduceus of Arkhan Land" hidden="false" collective="false" type="upgrade">
@@ -6318,7 +6359,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of each of your turns, thebearer of this relic heals 1 wound. In addition, when the bearer uses an ability to repair a friendly ADEPTUS MECHANICUS model (such as Master of the Machines), you may re-roll the dice to determine how many wounds are regained."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of each of your turns, the bearer of this relic heals 1 wound. In addition, when the bearer uses an ability to repair a friendly ADEPTUS MECHANICUS model (such as Master of the Machines), you may re-roll the dice to determine how many wounds are regained."/>
           </characteristics>
         </profile>
       </profiles>
@@ -6327,6 +6368,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3682-3261-c029-728b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1142-5707-79cc-6c13" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6368,6 +6410,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee52-7364-ad87-ff69" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7319-3fcc-0186-71ad" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6404,6 +6447,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b85-6fbb-92dd-76f9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="18ee-225b-89bf-5475" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6431,7 +6475,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, in your Shooting phase, the bearer an unleash the power bound within the Skul of Elder Nikola. Should the bearer do so, roll a dice for each enemy VEHICLE unit within 2D6&quot; of them; on a roll of 2+, that unit suffers a mortal wound."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, in your Shooting phase, the bearer can unleash the power bound within the Skull of Elder Nikola. Should the bearer do so, roll a dice for each enemy VEHICLE unit within 2D6&quot; of them; on a roll of 2+, that unit suffers a mortal wound."/>
           </characteristics>
         </profile>
       </profiles>
@@ -6440,12 +6484,13 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12f-cc42-d487-5b55" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7eb3-5e20-1c0c-30a1" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="d61e-8f7d-1b86-3c84" name="New EntryLink" hidden="false" targetId="b8c8-e91d-a869-dfdd" type="selectionEntry">
+        <entryLink id="d61e-8f7d-1b86-3c84" name="Relic" hidden="false" targetId="b8c8-e91d-a869-dfdd" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6490,6 +6535,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c79c-0e17-0c1d-1353" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2dbf-dfb3-21f7-e453" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6524,7 +6570,9 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4106-3781-dc92-e166" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6575,6 +6623,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c63-9c17-af86-88f9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74db-d800-44b9-ae38" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6602,7 +6651,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, at the end of any of your Movement phases, the bearer of the Solar Flare can teleport instead of moving normally. When they do so, remove them from the battlefield and then replacde them anywhere that is within 30&quot; of their starting position and more than 9&quot; from any enemy models."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, at the end of any of your Movement phases, the bearer of the Solar Flare can teleport instead of moving normally. When they do so, remove them from the battlefield and then replace them anywhere that is within 30&quot; of their starting position and more than 9&quot; from any enemy models."/>
           </characteristics>
         </profile>
       </profiles>
@@ -6619,6 +6668,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2a-fea7-d405-4feb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36ca-d6ed-4eaa-d1ee" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6663,6 +6713,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d2-0df8-9730-a227" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="49ec-4808-9a25-c0bb" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6703,6 +6754,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6634-bc5e-7bbd-0e31" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5fe3-e914-5b36-3003" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6777,6 +6829,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="396b-0bc4-0451-31c3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e0a-c1bb-3cfc-98e6" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6803,9 +6856,16 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9116-922e-ddab-d6b5" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a732-9e4b-1cd1-c392" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="6d6f-4d38-9ceb-4510" name="New CategoryLink" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -6862,10 +6922,17 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="767b-0eee-9633-f590" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cdc6-137c-f002-39d6" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4da-9348-a2e1-8a1a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="767b-0eee-9633-f590" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="767b-0eee-9633-f590" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -6892,8 +6959,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df6-b506-7aab-d402" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ed-665f-011f-fcee" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a0ed-665f-011f-fcee" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -7055,7 +7121,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="9.0"/>
+            <cost name="pts" costTypeId="points" value="5.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -7187,7 +7253,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="4.0"/>
+            <cost name="pts" costTypeId="points" value="3.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -7247,8 +7313,8 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7486,9 +7552,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0015-336e-ba0f-a878" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c89-8b67-1987-954a" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec28-0a28-fb7a-2f3f" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -7500,7 +7564,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per battle, you can re-roll a single hit, roll, wound roll or damage roll made for your warlord. In Addition, if oyur army is Battle-Forged and your Warlord is on the beattlefield, roll a D6 each time you or your opponent use a stratagem; on a 6, you gain a Command Point."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per battle, you can re-roll a single hit, roll, wound roll or damage roll made for your warlord. In Addition, if your army is Battle-Forged and your Warlord is on the battlefield, roll a D6 each time you or your opponent use a stratagem; on a 6, you gain a Command Point."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7527,7 +7591,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You can re-rollfailed wound rolls when attacking enemy INFANTRY, BEAST or MONSTER units with your Warlord."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You can re-roll failed wound rolls when attacking enemy INFANTRY, BEAST or MONSTER units with your Warlord."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7554,7 +7618,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Your opponent must substract 1 from hit rolls for any of their VEHICLES that target your Warlord"/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Your opponent must subtract 1 from hit rolls for any of their VEHICLES that target your Warlord"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7581,7 +7645,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time oyur Warlord uses an ability to repair a model, that model regains 1 additional wound."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each time your Warlord uses an ability to repair a model, that model regains 1 additional wound."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7608,7 +7672,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Whilst your Warlord ins on the battlefiled, you can re-rpöö the dice whenever you randomly select which Canticle of the Omnissiah is being canted. If your Warlord has the Glory of the Omnissiah Dogma, you can reroll only the first dice, not both."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Whilst your Warlord ins on the battlefield, you can re-roll the dice whenever you randomly select which Canticle of the Omnissiah is being canted. If your Warlord has the Glory of the Omnissiah Dogma, you can re-roll only the first dice, not both."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7662,7 +7726,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a friendly &lt;METALICA&gt; model is within 6&quot; of the warlord when it Falls Back, it can still shoot in its turn, but must substract 1 from that unit&apos;s to-hit rolls in the shooting phase."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a friendly &lt;METALICA&gt; model is within 6&quot; of the warlord when it Falls Back, it can still shoot in its turn, but must subtract 1 from that unit&apos;s to-hit rolls in the shooting phase."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7697,7 +7761,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models in friendly GRAIA units within 6&quot; of your Warlord can shoot with Assault and Rapid Fire weapons even if there are enemy units within 1&quot; of their own unit, but only if they taret the closest enemy unit. In such circumstances, the model can shoot even if other friendly units are within 1&quot; of the same unit."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models in friendly GRAIA units within 6&quot; of your Warlord can shoot with Assault and Rapid Fire weapons even if there are enemy units within 1&quot; of their own unit, but only if they target the closest enemy unit. In such circumstances, the model can shoot even if other friendly units are within 1&quot; of the same unit."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7726,7 +7790,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </selectionEntry>
         <selectionEntry id="0426-2f8f-476a-305e" name="Masterwork Bionics" hidden="true" collective="false" type="upgrade">
           <profiles>
-            <profile id="5bba-c4c2-0624-69f7" name="Masterwork Bionics" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+            <profile id="5bba-c4c2-0624-69f7" name="Lucius Masterwork Bionics" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7802,7 +7866,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 1 to any wound rolls made for your Warlord against units that do not have the CHAOS, IMPERIUM or UNALLIGNED Faction keywords."/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 1 to any wound rolls made for your Warlord against units that do not have the CHAOS, IMPERIUM or UNALIGNED Faction keywords."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7872,7 +7936,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 3&quot; to the range of any aura abilities on your Warlord&apos;s datasheet"/>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 3&quot; to the range of any aura abilities on your Warlord&apos;s datasheet (such as Lord of the Machine Cult)."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7915,7 +7979,24 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c675-b771-87f8-ba89" name="Warlord Traits (BRB)" hidden="false" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="460c-0487-3496-87c6" name="Warlord Traits (CA)" hidden="false" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8814-4317-d438-b1b0" name="Axe weapon" hidden="false" collective="false" defaultSelectionEntryId="559d-7d60-a987-43b2">
       <profiles/>
@@ -7968,7 +8049,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="ba46-1ee5-f3a4-ba39" name="New EntryLink" hidden="false" targetId="6436-bcc2-bed9-11a8" type="selectionEntry">
+        <entryLink id="ba46-1ee5-f3a4-ba39" name="Autocaduceus of Arkhan Land" hidden="false" targetId="6436-bcc2-bed9-11a8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7976,7 +8057,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8203-2fa6-59a6-0c3c" name="New EntryLink" hidden="false" targetId="432c-2858-e963-cd5a" type="selectionEntry">
+        <entryLink id="8203-2fa6-59a6-0c3c" name="Anzion&apos;s Pseudogenetor" hidden="false" targetId="432c-2858-e963-cd5a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7984,7 +8065,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9d4d-f5fc-bbf0-77d1" name="New EntryLink" hidden="false" targetId="fe7e-3167-b2b2-15bc" type="selectionEntry">
+        <entryLink id="9d4d-f5fc-bbf0-77d1" name="Raiment of the Technomartyr" hidden="false" targetId="fe7e-3167-b2b2-15bc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8000,7 +8081,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="372d-514d-47d5-dac4" name="New EntryLink" hidden="false" targetId="2248-ee9a-0817-5744" type="selectionEntry">
+        <entryLink id="372d-514d-47d5-dac4" name="The Omniscient Mask" hidden="false" targetId="2248-ee9a-0817-5744" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8008,7 +8089,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6271-7ab5-2674-e96a" name="New EntryLink" hidden="false" targetId="5d3f-2ee9-8d9c-919f" type="selectionEntry">
+        <entryLink id="6271-7ab5-2674-e96a" name="The Cerebral Techno-Mitre" hidden="false" targetId="5d3f-2ee9-8d9c-919f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8016,7 +8097,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7357-c8ec-6914-5613" name="New EntryLink" hidden="false" targetId="dd3a-1341-729a-c0a1" type="selectionEntry">
+        <entryLink id="7357-c8ec-6914-5613" name="The Adamantine Arm" hidden="false" targetId="dd3a-1341-729a-c0a1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8024,7 +8105,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6bfd-6603-be64-79e4" name="New EntryLink" hidden="false" targetId="66e3-838a-45fa-9c3d" type="selectionEntry">
+        <entryLink id="6bfd-6603-be64-79e4" name="The Solar Flare" hidden="false" targetId="66e3-838a-45fa-9c3d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8040,7 +8121,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b122-49ab-c8fa-1257" name="New EntryLink" hidden="false" targetId="4f83-44e8-24f2-36a0" type="selectionEntry">
+        <entryLink id="b122-49ab-c8fa-1257" name="The Eye of Xi-Lexum" hidden="false" targetId="4f83-44e8-24f2-36a0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8214,7 +8295,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase this model can repair a single friendly IMPERIUM model within 3&quot; (but not himself). The model being repaird regains 1 lost wound, unless it is an ADEPTUS MECHANICUS model, in which case it regains D3 lost wounds. A model may not be the target of Master of machines ability more than once per turn."/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the end of your Movement phase this model can repair a single friendly IMPERIUM model within 3&quot; (but not himself). The model being repaired regains 1 lost wound, unless it is an ADEPTUS MECHANICUS model, in which case it regains D3 lost wounds. A model may not be the target of Master of machines ability more than once per turn."/>
       </characteristics>
     </profile>
     <profile id="87f1-0379-8d18-19ae" name="Omnissian Axe" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0cc2-3545-6762-a3f7" name="Imperium - Grey Knights" book="Grey Knight 8th Edition Codex 2017" page="" revision="12" battleScribeVersion="2.01" authorName="tekton" authorContact="" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0cc2-3545-6762-a3f7" name="Imperium - Grey Knights" book="Grey Knight 8th Edition Codex 2017" page="" revision="18" battleScribeVersion="2.01" authorName="tekton" authorContact="" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -535,6 +535,22 @@
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="daf8-fa3b-af05-b261" name="Armoury of Titan" hidden="false" targetId="887a-2749-e111-629e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="57f8-03de-f1df-2a43" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -4104,7 +4120,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="46.0"/>
+                <cost name="pts" costTypeId="points" value="41.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4145,7 +4161,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="46.0"/>
+                <cost name="pts" costTypeId="points" value="41.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4186,7 +4202,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="46.0"/>
+                <cost name="pts" costTypeId="points" value="41.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4227,7 +4243,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="46.0"/>
+                <cost name="pts" costTypeId="points" value="41.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4268,7 +4284,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="46.0"/>
+                <cost name="pts" costTypeId="points" value="41.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4329,7 +4345,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="46.0"/>
+                    <cost name="pts" costTypeId="points" value="41.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4370,7 +4386,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="46.0"/>
+                    <cost name="pts" costTypeId="points" value="41.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4411,7 +4427,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="46.0"/>
+                    <cost name="pts" costTypeId="points" value="41.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4467,7 +4483,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="44.0"/>
+        <cost name="pts" costTypeId="points" value="41.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4520,7 +4536,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="46.0"/>
+        <cost name="pts" costTypeId="points" value="41.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4954,7 +4970,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="b989-5d62-a3c2-68d3" name="New EntryLink" hidden="false" targetId="6650-9429-ac09-255d" type="selectionEntry">
+                    <entryLink id="b989-5d62-a3c2-68d3" name="Incinerator" hidden="false" targetId="6650-9429-ac09-255d" type="selectionEntry">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5005,7 +5021,7 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="0985-b3b9-1935-dbf5" name="New InfoLink" hidden="false" targetId="0e74-2adc-df5c-ef69" type="profile">
+                    <infoLink id="0985-b3b9-1935-dbf5" name="Purifier" hidden="false" targetId="0e74-2adc-df5c-ef69" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5020,7 +5036,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="8eae-ce00-c87c-95da" name="New EntryLink" hidden="false" targetId="94c1-7cb5-a934-687a" type="selectionEntry">
+                    <entryLink id="8eae-ce00-c87c-95da" name="Psilencer" hidden="false" targetId="94c1-7cb5-a934-687a" type="selectionEntry">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5900,7 +5916,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="5d4a-6bd3-566e-05df" name="New EntryLink" hidden="false" targetId="2619-cbc9-7327-dc75" type="selectionEntryGroup">
+                    <entryLink id="5d4a-6bd3-566e-05df" name="Grey Knight Melee Weapons Single" hidden="false" targetId="2619-cbc9-7327-dc75" type="selectionEntryGroup">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5908,7 +5924,7 @@
                       <constraints/>
                       <categoryLinks/>
                     </entryLink>
-                    <entryLink id="22de-50b6-a816-2e9d" name="New EntryLink" hidden="false" targetId="0f19-21b9-e476-e5e7" type="selectionEntry">
+                    <entryLink id="22de-50b6-a816-2e9d" name="Psilencer (Terminator)" hidden="false" targetId="0f19-21b9-e476-e5e7" type="selectionEntry">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5926,7 +5942,7 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="e5de-7db8-a9f9-4a3d" name="New InfoLink" hidden="false" targetId="046b-995d-0d40-cc61" type="profile">
+                    <infoLink id="e5de-7db8-a9f9-4a3d" name="Paladin" hidden="false" targetId="046b-995d-0d40-cc61" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5941,7 +5957,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="79d6-0440-7130-9080" name="New EntryLink" hidden="false" targetId="2619-cbc9-7327-dc75" type="selectionEntryGroup">
+                    <entryLink id="79d6-0440-7130-9080" name="Grey Knight Melee Weapons Single" hidden="false" targetId="2619-cbc9-7327-dc75" type="selectionEntryGroup">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -5949,7 +5965,7 @@
                       <constraints/>
                       <categoryLinks/>
                     </entryLink>
-                    <entryLink id="577e-5c07-f8f1-99e7" name="New EntryLink" hidden="false" targetId="6358-e649-f74a-eb6c" type="selectionEntry">
+                    <entryLink id="577e-5c07-f8f1-99e7" name="Psycannon (Terminator)" hidden="false" targetId="6358-e649-f74a-eb6c" type="selectionEntry">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -6627,7 +6643,7 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="3655-8403-8b39-bd21" name="New InfoLink" hidden="false" targetId="4405-7328-bf03-8185" type="profile">
+                    <infoLink id="3655-8403-8b39-bd21" name="Purgator" hidden="false" targetId="4405-7328-bf03-8185" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -6642,7 +6658,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="a492-da55-8b97-d33d" name="New EntryLink" hidden="false" targetId="6650-9429-ac09-255d" type="selectionEntry">
+                    <entryLink id="a492-da55-8b97-d33d" name="Incinerator" hidden="false" targetId="6650-9429-ac09-255d" type="selectionEntry">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7068,7 +7084,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="5e42-131a-ff52-0f91" name="New InfoLink" hidden="false" targetId="a63a-ec88-3dc0-f3cd" type="profile">
+        <infoLink id="5e42-131a-ff52-0f91" name="Psycannon" hidden="false" targetId="a63a-ec88-3dc0-f3cd" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7555,7 +7571,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="4.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -7580,7 +7596,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="35.0"/>
+            <cost name="pts" costTypeId="points" value="44.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -7921,7 +7937,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="35.0"/>
+            <cost name="pts" costTypeId="points" value="44.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8114,7 +8130,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="8.0"/>
+            <cost name="pts" costTypeId="points" value="20.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -8244,7 +8260,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="35.0"/>
+                <cost name="pts" costTypeId="points" value="44.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8310,7 +8326,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="15.0"/>
-        <cost name="pts" costTypeId="points" value="172.0"/>
+        <cost name="pts" costTypeId="points" value="192.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38ba-4407-1cdf-bd8b" name="Dreadnought" hidden="false" collective="false" type="unit">
@@ -8348,6 +8364,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="d292-b32f-129a-2108" name="Smite (Rites of Banishment)" hidden="false" targetId="142a-cae9-795d-d610" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd3b-69e3-646f-31fd" name="Psyker (Sanctic 1)" hidden="false" targetId="100e-a5f5-4af4-8c40" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8408,99 +8430,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="627d-09bb-972d-9bf7" name="Psyker Profile" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d7-ba55-91ff-03b2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7242-a499-58fa-2ade" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="693e-ff9c-9c4b-f3d5" name="Psyker (Sanctic 1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="3393-fe0a-d18f-2272" name="Psyker (Sanctic 1)" hidden="false" targetId="100e-a5f5-4af4-8c40" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b98-b4fe-4ad6-7769" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9e1-597d-664b-2001" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="32b6-c261-1146-4eb5" name="Grey Knight Psyker 1" hidden="true" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="c8df-072f-166f-512d" name="Grey Knight Psyker 1" hidden="false" targetId="7451-6316-3cef-2ac9" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b98-b4fe-4ad6-7769" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9e1-597d-664b-2001" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="076c-e832-fe2e-3aa3" name="Dreadnought Left Arm" hidden="false" targetId="e10d-c14d-f074-b6e0" type="selectionEntryGroup">
           <profiles/>
@@ -8522,23 +8452,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b98-b4fe-4ad6-7769" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9e1-597d-664b-2001" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -8589,6 +8503,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="d794-fae9-02d2-9661" name="Smite (Rites of Banishment)" hidden="false" targetId="142a-cae9-795d-d610" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2d1f-0024-6599-b58c" name="Psyker (Sanctic 1)" hidden="false" targetId="100e-a5f5-4af4-8c40" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8649,99 +8569,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6558-dcc2-906b-76f5" name="Psyker Profile" hidden="false" collective="false" defaultSelectionEntryId="236b-b617-7641-6f8b">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bba2-656a-8ef4-8246" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943c-75b6-3e24-0aa9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="236b-b617-7641-6f8b" name="Psyker (Sanctic 1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="1ee0-5208-7d67-a26c" name="Psyker (Sanctic 1)" hidden="false" targetId="100e-a5f5-4af4-8c40" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b98-b4fe-4ad6-7769" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9e1-597d-664b-2001" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3a75-ebf6-f5e9-d64a" name="Grey Knight Psyker 1" hidden="true" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="2821-b397-db2f-ab4b" name="Grey Knight Psyker 1" hidden="false" targetId="7451-6316-3cef-2ac9" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b98-b4fe-4ad6-7769" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9e1-597d-664b-2001" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="6cc5-64cd-3cb9-2631" name="Dreadnought Left Arm" hidden="false" targetId="e10d-c14d-f074-b6e0" type="selectionEntryGroup">
           <profiles/>
@@ -8763,23 +8591,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b98-b4fe-4ad6-7769" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fb7-9fa2-0f8e-be63" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9e1-597d-664b-2001" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -9211,7 +9023,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="35.0"/>
+                <cost name="pts" costTypeId="points" value="44.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -9278,7 +9090,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="70.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
       </costs>
     </selectionEntry>
@@ -9628,7 +9440,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="00be-e7d1-12fb-367f" name="Smite" hidden="false" targetId="84d6-49a4-a9ff-162b" type="profile">
+        <infoLink id="00be-e7d1-12fb-367f" name="Smite (Rites of Banishment)" hidden="false" targetId="142a-cae9-795d-d610" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10259,7 +10071,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69da-4af0-445d-3e00" name="Twin psycannon" hidden="false" collective="false" type="upgrade">
@@ -10280,7 +10092,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="28.0"/>
+        <cost name="pts" costTypeId="points" value="50.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10934,7 +10746,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="c5d7-def4-69e0-4a25" name="Twin psycannon" hidden="false" targetId="c508-25d4-56aa-7784" type="profile">
+                <infoLink id="c5d7-def4-69e0-4a25" name="Twin Psycannon" hidden="false" targetId="c508-25d4-56aa-7784" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10949,7 +10761,7 @@
               <entryLinks/>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="112.0"/>
+                <cost name="pts" costTypeId="points" value="200.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11051,7 +10863,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="650.0"/>
+        <cost name="pts" costTypeId="points" value="1130.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="42.0"/>
       </costs>
     </selectionEntry>
@@ -11136,7 +10948,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f44a-478c-928f-a112" name="Executioner" hidden="false" targetId="2053-118c-c2b7-c8ac" type="rule">
+        <infoLink id="f44a-478c-928f-a112" name="Interceptor" hidden="false" targetId="2dcf-4662-7632-86a4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11208,7 +11020,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5f31-b62c-741c-b805" name="Two Assault Cannons" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5f31-b62c-741c-b805" name="Assault Cannons" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -11229,7 +11041,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="21.0"/>
+            <cost name="pts" costTypeId="points" value="22.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -11556,7 +11368,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="35.0"/>
+            <cost name="pts" costTypeId="points" value="44.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -11653,7 +11465,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="21.0"/>
+                <cost name="pts" costTypeId="points" value="24.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12386,8 +12198,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="1.0"/>
             <cost name="pts" costTypeId="points" value="28.0"/>
+            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="800a-a38e-f40a-8cb3" name="Servo-arm" hidden="false" collective="false" type="upgrade">
@@ -12523,11 +12335,82 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d053-d78e-f337-98da" name="Warlord" hidden="false" targetId="2516-dd30-d80e-f79a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="271a-b3d0-c6ba-1e27" name="Grey Knight Relics" hidden="false" targetId="c779-4f85-7bfa-aad3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4e42-cb07-e834-4648" name="Grey Knight Warlord Trait" hidden="false" targetId="87f6-76b7-a0d2-6b2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="91.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="b5e0-6bf3-54ef-19ce" name="* No Psychic Power Selected *" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="810a-39f3-3849-7c81" name="* No Psychic Power Selected *" hidden="false" targetId="f628-022b-4fbb-93b5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9750-182c-8c1b-e003" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="887a-2749-e111-629e" name="Armoury of Titan" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f06-4f3c-1ca6-a6ef" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="49df-9913-f078-7315" name="Armoury of Titan" hidden="false" targetId="0589-b86f-dfcf-4ea5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -13087,7 +12970,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="21.0"/>
+            <cost name="pts" costTypeId="points" value="22.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -13366,13 +13249,21 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1478-e181-f726-511c" name="Sanctic Powers (3)" hidden="false" collective="false">
+    <selectionEntryGroup id="1478-e181-f726-511c" name="Sanctic Powers (3)" hidden="false" collective="false" defaultSelectionEntryId="3ff4-6dd1-2c01-bf61">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="9208-5ff6-17ec-02f1" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c242-0f91-54d8-3ab6" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3f-87f4-c26f-412c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3f-87f4-c26f-412c" type="min"/>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9208-5ff6-17ec-02f1" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -13523,15 +13414,32 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3ff4-6dd1-2c01-bf61" name="* No Psychic Power Selected *" hidden="false" targetId="b5e0-6bf3-54ef-19ce" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2d57-457a-a8b6-9bc7" name="Sanctic Powers (2)" hidden="false" collective="false">
+    <selectionEntryGroup id="2d57-457a-a8b6-9bc7" name="Sanctic Powers (2)" hidden="false" collective="false" defaultSelectionEntryId="434a-f997-0868-6d91">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="40c6-7521-2993-4091" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c242-0f91-54d8-3ab6" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="305f-4d8d-e897-38dc" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="305f-4d8d-e897-38dc" type="min"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c6-7521-2993-4091" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -13682,13 +13590,30 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="434a-f997-0868-6d91" name="* No Psychic Power *" hidden="false" targetId="b5e0-6bf3-54ef-19ce" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8b6c-c5c4-89ac-574e" name="Sanctic Powers (1)" hidden="false" collective="false">
+    <selectionEntryGroup id="8b6c-c5c4-89ac-574e" name="Sanctic Powers (1)" book="" hidden="false" collective="false" defaultSelectionEntryId="9654-1027-5976-992d">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="efa0-16b8-3f25-8c5f" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c242-0f91-54d8-3ab6" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb1-a307-62e0-50a6" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa0-16b8-3f25-8c5f" type="max"/>
@@ -13841,7 +13766,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9654-1027-5976-992d" name="* No Psychic Power Selected *" hidden="false" targetId="b5e0-6bf3-54ef-19ce" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8710-419d-9a5f-5f4c" name="Apothecary Weapon" hidden="false" collective="false" defaultSelectionEntryId="82b9-ddc7-9f3c-f185">
       <profiles/>
@@ -14547,7 +14481,24 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ab0e-21db-79d2-631c" name="Warlord Traits (BRB)" hidden="false" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="433e-e4c0-7d98-3f4c" name="Warlord Traits (CA)" hidden="false" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c779-4f85-7bfa-aad3" name="Grey Knight Relics" hidden="true" collective="false">
       <profiles/>
@@ -14558,6 +14509,20 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1757-2792-13ae-afa5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="fabd-ffad-5620-3496" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38af-c298-4b17-90a7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="fabd-ffad-5620-3496" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="efd1-09f0-1f59-f538" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -14640,10 +14605,16 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0abf-b3fb-43c9-08d2" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0abf-b3fb-43c9-08d2" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e15c-3096-8468-aa26" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -14778,6 +14749,45 @@
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0589-b86f-dfcf-4ea5" name="Armoury of Titan" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ecd-61ce-20af-8310" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2b-9331-85d2-05da" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="38af-c298-4b17-90a7" name="Single (1CP)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="efd1-09f0-1f59-f538" name="Double (3CP)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -14986,7 +14996,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When manifesting of denying a psychic power, first select a model in the unit - measure range, visibility, etc. from this model. If the unit suffers Perils of the Warp, it suffers D3 mortal wounds as described in the core rules, but units within 6&quot; with only suffer damage if the Perils of the Warp cause the last model in the manifesting unit to be slain.</description>
+      <description>When manifesting or denying a psychic power, first select a model in the unit - measure range, visibility, etc. from this model. If the unit suffers Perils of the Warp, it suffers D3 mortal wounds as described in the core rules, but units within 6&quot; with only suffer damage if the Perils of the Warp cause the last model in the manifesting unit to be slain.</description>
     </rule>
     <rule id="5a9b-93d7-3e90-9672" name="Brotherhood of Psykers" hidden="false">
       <profiles/>
@@ -15064,6 +15074,13 @@
       <infoLinks/>
       <modifiers/>
       <description>(Infantry) model only. Roll a D6 each time the bearer loses a wound. On a 5+, the damage is ignored and the bearer does not lose a wound.</description>
+    </rule>
+    <rule id="2dcf-4662-7632-86a4" name="Interceptor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You can add 1 to hit rolls for this model when targeting an enemy in the Shooting phase that can FLY.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -15581,7 +15598,7 @@
         <characteristic name="Cast" characteristicTypeId="5afb-9914-904b-d3b3" value="1"/>
         <characteristic name="Deny" characteristicTypeId="b5ac-9c20-5d5a-6f9b" value="1"/>
         <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="1"/>
-        <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b" value="When manifesting of denying a psychic power, first select a model in the unit - measure range, visibility, etc. from this model. If the unit suffers Perils of the Warp, is suffers D3 mortal wounds as described in the core rules, but units within 6&quot; with only suffer damage if the Perils of the Warp cause the last model in the manifesting unit to be slain."/>
+        <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b" value="When manifesting or denying a psychic power, first select a model in the unit - measure range, visibility, etc. from this model. If the unit suffers Perils of the Warp, is suffers D3 mortal wounds as described in the core rules, but units within 6&quot; with only suffer damage if the Perils of the Warp cause the last model in the manifesting unit to be slain."/>
       </characteristics>
     </profile>
     <profile id="0e74-2adc-df5c-ef69" name="Purifier" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -15601,7 +15618,7 @@
         <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
       </characteristics>
     </profile>
-    <profile id="c508-25d4-56aa-7784" name="Twin psycannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="c508-25d4-56aa-7784" name="Twin Psycannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15833,6 +15850,17 @@
         <characteristic name="Deny" characteristicTypeId="b5ac-9c20-5d5a-6f9b" value="1"/>
         <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="Smite, +1"/>
         <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b" value="Sanctic"/>
+      </characteristics>
+    </profile>
+    <profile id="f628-022b-4fbb-93b5" name="* No Psychic Power Selected *" hidden="false" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Warp Charge" characteristicTypeId="5ffd-b800-c317-532a" value="-"/>
+        <characteristic name="Range" characteristicTypeId="fd64-cbc4-94de-24cc" value="-"/>
+        <characteristic name="Details" characteristicTypeId="ad96-dfa4-b4ed-656d" value="-"/>
       </characteristics>
     </profile>
   </sharedProfiles>
